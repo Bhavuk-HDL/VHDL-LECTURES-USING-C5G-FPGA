@@ -1,0 +1,64 @@
+--Library
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+--Entity
+entity top is
+port(
+		CLK		: in std_logic;	--50MHz
+		
+		VGA_HS	: out std_logic;	--31.5KHz	--GPIO[0]
+		VGA_VS	: out std_logic;	--60Hz		--GPIO[1]
+		
+		VGA_R		: out std_logic;			--GPIO[2]
+		VGA_G		: out std_logic;			--GPIO[3]
+		VGA_B		: out std_logic;			--GPIO[4]
+		
+		START		: in std_logic	--SW[0]
+	);
+end entity top;
+
+--Architecture
+architecture logic of top is
+constant countx		: positive := 1535;
+constant county		: positive := 1023;
+signal counterx		: integer range 0 to countx := 0;
+signal countery		: integer range 0 to county := 0;
+begin
+
+process(CLK)
+begin
+	if rising_edge(CLK) then
+		if (START = '0') then
+			counterx <= 0;
+			countery <= 0;
+		else
+			counterx <= counterx + 1;
+			if (counterx = countx) then
+				counterx <= 0;
+				countery <= countery + 1;
+			end if;
+			if (countery = county) then
+				countery <= 0;
+			end if;
+			
+			if (counterx < 16) then
+				VGA_HS <= '0';
+			else
+				VGA_HS <= '1';
+			end if;
+			if (countery = 0) then
+				VGA_HS <= '0';
+			else
+				VGA_HS <= '1';
+			end if;
+			
+			VGA_R <= '1';
+			VGA_G <= '1';
+			VGA_B <= '0';
+		end if;
+	end if;
+end process;
+
+end architecture logic;

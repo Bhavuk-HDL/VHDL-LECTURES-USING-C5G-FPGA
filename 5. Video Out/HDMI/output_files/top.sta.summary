@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -12.384
+TNS   : -185.523
+
+Type  : Slow 1100mV 85C Model Setup 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 18.154
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -4.775
+TNS   : -196.772
+
+Type  : Slow 1100mV 85C Model Removal 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 2.353
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.122
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 2.590
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clkhdmi50'
+Slack : 9.731
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk50'
+Slack : 9.949
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 11.745
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -12.037
+TNS   : -174.032
+
+Type  : Slow 1100mV 0C Model Setup 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 18.339
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.272
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -4.645
+TNS   : -191.509
+
+Type  : Slow 1100mV 0C Model Removal 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 2.384
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.122
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 2.503
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clkhdmi50'
+Slack : 9.741
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.980
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 11.657
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -8.098
+TNS   : -95.940
+
+Type  : Fast 1100mV 85C Model Setup 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 21.745
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -3.750
+TNS   : -155.934
+
+Type  : Fast 1100mV 85C Model Removal 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 2.702
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.122
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 2.902
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clkhdmi50'
+Slack : 9.336
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk50'
+Slack : 9.643
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 12.049
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -7.759
+TNS   : -93.053
+
+Type  : Fast 1100mV 0C Model Setup 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 22.013
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -3.699
+TNS   : -153.881
+
+Type  : Fast 1100mV 0C Model Removal 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.122
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pllhdmi:hdmipll|pllhdmi_0002:pllhdmi_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 2.898
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clkhdmi50'
+Slack : 9.286
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.632
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pll:pll_inst|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 12.043
+TNS   : 0.000
+
+------------------------------------------------------------

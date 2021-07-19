@@ -1,0 +1,106 @@
+--Library
+Library IEEE;
+Use IEEE.std_logic_1164.all;
+Use IEEE.numeric_std.all;
+
+--Entity
+entity ADC_test is
+port(
+	SDI		:	out	std_logic;
+	SDO		:	in	std_logic;
+	SCK		:	out	std_logic;
+	CONVST	:	out	std_logic;
+	
+	clk		:	in	std_logic;	--40MHz
+	
+	led_data		:	out	std_logic_vector(11 downto 0);
+	led_channel	:	out	std_logic_vector(3 downto 0);
+	led_blink	:	out	std_logic;
+	
+	channel_select : in	std_logic_vector(3 downto 0);
+	
+	start		:	in std_logic;
+	reset_all:	in std_logic
+
+	);
+end entity;
+
+--Architecture
+architecture logic of ADC_test is
+signal data		: std_logic_vector(11 downto 0);
+signal command	: std_logic_vector(5 downto 0);
+signal ready	: std_logic;
+
+----------------------------------------------
+
+component ADC
+port(
+	-- With ADC Chip
+	SDI		:	out	std_logic;
+	SDO		:	in		std_logic;
+	SCK		:	out	std_logic;
+	CONVST	:	out	std_logic;
+	
+	-- With External
+	clk	:	in	std_logic;	--40MHz
+	start	:	in	std_logic;
+	reset_all	:	in	std_logic;
+
+	data	:	out	std_logic_vector(11 downto 0);
+	command	:	in	std_logic_vector(5 downto 0);
+	blink	:	out std_logic
+	);
+end component;
+
+----------------------------------------------
+	
+begin
+
+----------------------------------------------
+
+ADC_inst :  ADC
+port map(
+	SDI			=> SDI,
+	SDO			=> SDO,
+	SCK			=> SCK,
+	CONVST		=> CONVST,
+	clk			=> clk,
+	start			=> start,
+	reset_all	=> reset_all,
+	data			=> data,
+	command		=> command,
+	blink			=> ready
+	);
+
+----------------------------------------------
+
+	process(clk)
+	begin
+		if (reset = '0') then
+			command <= x"00";
+			led_data <= (others => '0');
+			led_channel <= (others => '0');
+			led_blink <= '0';
+		elsif (rising_edge(clk)) then
+			case(channel_select) is
+			
+				when "000" =>
+				
+				when "001" =>
+				
+				when "010" =>
+				
+				when "011" =>
+				
+				when "100" =>
+				
+				when "101" =>
+				
+				when "110" =>
+				
+				when "111" =>
+				
+			end case;
+		end if;
+	end process;
+end logic;

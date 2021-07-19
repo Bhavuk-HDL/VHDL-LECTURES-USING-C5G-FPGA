@@ -1,0 +1,54 @@
+
+State Machine - |top|LPDDR2:LPDDR2_inst|LPDDR2_0002:lpddr2_inst|LPDDR2_s0:s0|sequencer_trk_mgr:sequencer_trk_mgr_inst|avl_state
+Name avl_state.TRK_MGR_STATE_DONE avl_state.TRK_MGR_STATE_RELEASE avl_state.TRK_MGR_STATE_UPDATE avl_state.TRK_MGR_STATE_PAR_SCAN_2 avl_state.TRK_MGR_STATE_PAR_SCAN_1 avl_state.TRK_MGR_STATE_SER_SCAN avl_state.TRK_MGR_STATE_DECR_VFIFO avl_state.TRK_MGR_STATE_INCR_VFIFO avl_state.TRK_MGR_STATE_WR_PHASE avl_state.TRK_MGR_STATE_WR_DELAY avl_state.TRK_MGR_STATE_RD_PHASE avl_state.TRK_MGR_STATE_RD_DELAY avl_state.TRK_MGR_STATE_CLR_SAMPLE avl_state.TRK_MGR_STATE_CLR_ALL_SMPL avl_state.TRK_MGR_STATE_RD_SAMPLE avl_state.TRK_MGR_STATE_DO_SAMPLE avl_state.TRK_MGR_STATE_PRECHARGE avl_state.TRK_MGR_STATE_READ avl_state.TRK_MGR_STATE_ACTIVATE avl_state.TRK_MGR_STATE_REFRESH avl_state.TRK_MGR_STATE_INIT avl_state.TRK_MGR_STATE_JMPADDR avl_state.TRK_MGR_STATE_JMPCOUNT avl_state.TRK_MGR_STATE_IDLE 
+avl_state.TRK_MGR_STATE_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+avl_state.TRK_MGR_STATE_JMPCOUNT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+avl_state.TRK_MGR_STATE_JMPADDR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+avl_state.TRK_MGR_STATE_INIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+avl_state.TRK_MGR_STATE_REFRESH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+avl_state.TRK_MGR_STATE_ACTIVATE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_READ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_PRECHARGE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_DO_SAMPLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_RD_SAMPLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_CLR_ALL_SMPL 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_CLR_SAMPLE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_RD_DELAY 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_RD_PHASE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_WR_DELAY 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_WR_PHASE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_INCR_VFIFO 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_DECR_VFIFO 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_SER_SCAN 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_PAR_SCAN_1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_PAR_SCAN_2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_UPDATE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_RELEASE 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+avl_state.TRK_MGR_STATE_DONE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top|LPDDR2:LPDDR2_inst|LPDDR2_0002:lpddr2_inst|LPDDR2_s0:s0|sequencer_reg_file:sequencer_reg_file_inst|state
+Name state.READ4 state.READ3 state.READ2 state.WRITE2 state.IDLE state.INIT 
+state.INIT 0 0 0 0 0 0 
+state.IDLE 0 0 0 0 1 1 
+state.WRITE2 0 0 0 1 0 1 
+state.READ2 0 0 1 0 0 1 
+state.READ3 0 1 0 0 0 1 
+state.READ4 1 0 0 0 0 1 
+
+State Machine - |top|LPDDR2:LPDDR2_inst|LPDDR2_0002:lpddr2_inst|LPDDR2_s0:s0|sequencer_scc_mgr:sequencer_scc_mgr_inst|scc_state_curr
+Name scc_state_curr.STATE_SCC_IDLE scc_state_curr.STATE_SCC_DONE scc_state_curr.STATE_SCC_LOAD 
+scc_state_curr.STATE_SCC_IDLE 0 0 0 
+scc_state_curr.STATE_SCC_LOAD 1 0 1 
+scc_state_curr.STATE_SCC_DONE 1 1 0 
+
+State Machine - |top|Pulse_gen:Pulse_gen_rd_sdram|stat
+Name stat.ONE stat.ZERO stat.WAIT0 
+stat.WAIT0 0 0 0 
+stat.ZERO 0 1 1 
+stat.ONE 1 0 1 
+
+State Machine - |top|Pulse_gen:Pulse_gen_st_sdram|stat
+Name stat.ONE stat.ZERO stat.WAIT0 
+stat.WAIT0 0 0 0 
+stat.ZERO 0 1 1 
+stat.ONE 1 0 1 

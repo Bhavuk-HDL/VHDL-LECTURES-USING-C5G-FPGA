@@ -1,0 +1,213 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/ADC_test/simulation/modelsim
+Eadc
+Z1 w1614346466
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/intelFPGA_lite/Workspace/ADC_test/ADC.vhd
+Z6 FD:/intelFPGA_lite/Workspace/ADC_test/ADC.vhd
+l0
+L7
+VEG[n]gJ3KC54Ufd0;K>U^2
+!s100 MS5F55b2a=SJO<FW9E67O3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1616391437
+!i10b 1
+Z9 !s108 1616391437.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/ADC_test/ADC.vhd|
+Z11 !s107 D:/intelFPGA_lite/Workspace/ADC_test/ADC.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Alogic
+R2
+R3
+R4
+DEx4 work 3 adc 0 22 EG[n]gJ3KC54Ufd0;K>U^2
+l51
+L27
+V0z;NWi6j?]>F3fI_NYGeJ3
+!s100 AN6kP>a:fH8D@F9VTPEU`2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadc_test
+Z14 w1616391188
+R2
+R3
+R4
+R0
+Z15 8D:/intelFPGA_lite/Workspace/ADC_test/ADC_test.vhd
+Z16 FD:/intelFPGA_lite/Workspace/ADC_test/ADC_test.vhd
+l0
+L7
+VlS8JfdgTdU_A=SVGS^GJk0
+!s100 :FlRnD]77^MS_ZPlha@Ga1
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/ADC_test/ADC_test.vhd|
+Z18 !s107 D:/intelFPGA_lite/Workspace/ADC_test/ADC_test.vhd|
+!i113 1
+R12
+R13
+Alogic
+R2
+R3
+R4
+DEx4 work 8 adc_test 0 22 lS8JfdgTdU_A=SVGS^GJk0
+l115
+L30
+VVHPh0dB9c[WRDL5DSkE>E2
+!s100 9<oz<a7oBX?BYLjmf?f0B2
+R7
+31
+Z19 !s110 1616391438
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Epll
+Z20 w1614337587
+R3
+R4
+Z21 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3L]34bNSPL@[RD2AeKH]S3
+R0
+Z22 8D:/intelFPGA_lite/Workspace/ADC_test/pll_sim/pll.vho
+Z23 FD:/intelFPGA_lite/Workspace/ADC_test/pll_sim/pll.vho
+l0
+L34
+VJ1TPO1`1ZfkUeeM;FegRk3
+!s100 Ih438?S?_^dXGB:8feaPk2
+R7
+32
+R8
+!i10b 1
+Z24 !s108 1616391435.000000
+Z25 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/ADC_test/pll_sim/pll.vho|
+Z26 !s107 D:/intelFPGA_lite/Workspace/ADC_test/pll_sim/pll.vho|
+!i113 1
+R13
+Artl
+R3
+R4
+R21
+DEx4 work 3 pll 0 22 J1TPO1`1ZfkUeeM;FegRk3
+l51
+L44
+Vke312zcjnfzC^L51Ng7g`3
+!s100 b556AVf0]oVBaOHRh<Fa<0
+R7
+32
+R8
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+Erx
+Z27 w1615439876
+R2
+R3
+R4
+R0
+Z28 8D:/intelFPGA_lite/Workspace/ADC_test/Rx.vhd
+Z29 FD:/intelFPGA_lite/Workspace/ADC_test/Rx.vhd
+l0
+L7
+VOTM8^VEca=ze@`YZYJeI72
+!s100 ^>fllDER2@4:GzZ=N[8e73
+R7
+31
+R19
+!i10b 1
+Z30 !s108 1616391438.000000
+Z31 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/ADC_test/Rx.vhd|
+Z32 !s107 D:/intelFPGA_lite/Workspace/ADC_test/Rx.vhd|
+!i113 1
+R12
+R13
+Amain
+R2
+R3
+R4
+DEx4 work 2 rx 0 22 OTM8^VEca=ze@`YZYJeI72
+l25
+L18
+VXRF0gLf0XHf@WBjZ2LHgR2
+!s100 f4meXSIY9a47;QWKAI^zR3
+R7
+31
+R19
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13
+Etx
+Z33 w1616391046
+R2
+R3
+R4
+R0
+Z34 8D:/intelFPGA_lite/Workspace/ADC_test/output_files/Tx.vhd
+Z35 FD:/intelFPGA_lite/Workspace/ADC_test/output_files/Tx.vhd
+l0
+L7
+VVX>G@1Whjh]?YkzUZej350
+!s100 U5<ZP5TUJd>eIfa7[lNzb2
+R7
+31
+R19
+!i10b 1
+R30
+Z36 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/ADC_test/output_files/Tx.vhd|
+Z37 !s107 D:/intelFPGA_lite/Workspace/ADC_test/output_files/Tx.vhd|
+!i113 1
+R12
+R13
+Amain
+R2
+R3
+R4
+DEx4 work 2 tx 0 22 VX>G@1Whjh]?YkzUZej350
+l25
+L18
+VXU<i:nTPi5iKd[Cme^g5;3
+!s100 z_b9aWgPi?zz<WC4@`;?Q3
+R7
+31
+R19
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R12
+R13

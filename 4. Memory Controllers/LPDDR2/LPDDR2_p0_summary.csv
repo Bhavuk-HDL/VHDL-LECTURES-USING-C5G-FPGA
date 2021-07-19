@@ -1,0 +1,30 @@
+Core: LPDDR2_p0 - Instance: LPDDR2_inst|lpddr2_inst
+Path, Setup Margin, Hold Margin
+"Address Command (Slow 1100mV 85C Model)",0.351,0.357
+"Bus Turnaround Time (Slow 1100mV 85C Model)",5.356,--
+"Core (Slow 1100mV 85C Model)",0.204,0.16
+"Core Recovery/Removal (Slow 1100mV 85C Model)",9.404,0.022
+"DQS vs CK (Slow 1100mV 85C Model)",0.789,0.633
+"Read Capture (Slow 1100mV 85C Model)",0.276,0.228
+"Write (Slow 1100mV 85C Model)",0.211,0.248
+"Address Command (Slow 1100mV 0C Model)",0.335,0.352
+"Bus Turnaround Time (Slow 1100mV 0C Model)",5.397,--
+"Core (Slow 1100mV 0C Model)",0.273,0.21
+"Core Recovery/Removal (Slow 1100mV 0C Model)",9.672,0.078
+"DQS vs CK (Slow 1100mV 0C Model)",0.823,0.673
+"Read Capture (Slow 1100mV 0C Model)",0.286,0.239
+"Write (Slow 1100mV 0C Model)",0.23,0.258
+"Address Command (Fast 1100mV 85C Model)",0.225,0.219
+"Bus Turnaround Time (Fast 1100mV 85C Model)",5.774,--
+"Core (Fast 1100mV 85C Model)",1.45,0.143
+"Core Recovery/Removal (Fast 1100mV 85C Model)",11.771,0.307
+"DQS vs CK (Fast 1100mV 85C Model)",1.153,1.084
+"Read Capture (Fast 1100mV 85C Model)",0.449,0.402
+"Write (Fast 1100mV 85C Model)",0.304,0.304
+"Address Command (Fast 1100mV 0C Model)",0.195,0.236
+"Bus Turnaround Time (Fast 1100mV 0C Model)",5.768,--
+"Core (Fast 1100mV 0C Model)",1.536,0.131
+"Core Recovery/Removal (Fast 1100mV 0C Model)",12.237,0.288
+"DQS vs CK (Fast 1100mV 0C Model)",1.144,1.096
+"Read Capture (Fast 1100mV 0C Model)",0.453,0.406
+"Write (Fast 1100mV 0C Model)",0.306,0.306

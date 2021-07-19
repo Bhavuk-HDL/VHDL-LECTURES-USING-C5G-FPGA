@@ -1,0 +1,157 @@
+--Library
+library IEEE;
+Use IEEE.std_logic_1164.all;
+Use IEEE.numeric_std.all;
+
+--Entity
+entity SRAM_test is
+port(
+		clock		:	in		std_logic;
+		rst_all	:	in		std_logic;
+		
+		adr		:	out	std_logic_vector(17 downto 0);
+		dq			:	inout	std_logic_vector(15 downto 0);
+		ce			:	out	std_logic;
+		oe			:	out	std_logic;
+		we			:	out	std_logic;
+		ub			:	out	std_logic;
+		lb			:	out	std_logic;
+		
+		UART_Tx	:	out	std_logic;
+		UART_Rx	:	in		std_logic;
+		
+		led_read	:	out	std_logic;
+		led_wte	:	out	std_logic;
+		led_addr	:	out	std_logic;
+		led_data	:	out	std_logic;
+		led_rst	:	out	std_logic;
+		led_snd	:	out	std_logic;
+		
+		sw_read	:	in		std_logic;
+		sw_write	:	in		std_logic;
+		sw_addr	:	in		std_logic;
+		sw_data	:	in		std_logic;
+		sw_snd	:	in		std_logic
+	);
+end entity;
+
+--Architecture
+architecture logic of SRAM_test is
+
+signal sram_data_in : std_logic_vector(15 downto 0);
+signal sram_data_out : std_logic_vector(15 downto 0);
+signal sram_addr_in	: std_logic_vector(17 downto 0);
+signal sram_action : std_logic;
+
+signal Tx_data : std_logic_vector(7 downto 0);
+signal Tx_start : std_logic := '0';
+signal Tx_busy : std_logic;
+
+signal Rx_data : std_logic_vector(7 downto 0);
+signal Rx_busy : std_logic;
+
+----------------------------------------------
+
+component Tx
+port(
+	clk : in std_logic;
+	start : in std_logic;
+	busy : out std_logic;
+	data : in std_logic_vector(7 downto 0);
+	Tx_line : out std_logic);
+end component Tx;
+
+----------------------------------------------
+
+component Rx
+port(
+	clk : in std_logic;
+	rx_line : in std_logic;
+	data : out std_logic_vector(7 downto 0);
+	busy : out std_logic);
+end component Rx;
+
+-----------------------------------------------------------
+
+component sram_cntrl
+port(
+		clk		:	in		std_logic;
+		reset		:	in		std_logic;
+		
+		data_in	:	in 	std_logic_vector(15 downto 0);
+		data_out	:	out 	std_logic_vector(15 downto 0);
+		addr_in	:	in 	std_logic_vector(17 downto 0);
+		
+		action	:	in		std_logic;
+		
+		sram_adr	:	out	std_logic_vector(17 downto 0);
+		sram_dq	:	inout	std_logic_vector(15 downto 0);
+		sram_ce	:	out	std_logic;
+		sram_oe	:	out	std_logic;
+		sram_we	:	out	std_logic;
+		sram_ub	:	out	std_logic;
+		sram_lb	:	out	std_logic
+	);
+end component;
+
+-------------------------------------------------------------
+
+begin
+C0 : sram_cntrl port map(clock, rst_all, sram_data_in, sram_data_out, sram_addr_in, sram_action, adr, dq, ce, oe, we, ub, lb);
+C1 : Tx port map(clock, Tx_start, Tx_busy, Tx_data, UART_TXD);
+C2 : Rx port map(clock, UART_RXD, Rx_data, Rx_busy);
+
+led_wte <= sw_write; --3
+led_addr <= sw_addr; --0
+led_data <= sw_data; --1
+led_read <= sw_read; --2
+led_snd <= sw_snd; --4
+led_rst <= reset_all;
+
+process(clock)
+begin
+	if rising_edge(clock) then
+		if reset_all = '0' then
+			reset <= '1';
+		else
+			reset <= '0';
+		end if;
+	end if;
+end process;
+
+process(Rx_busy)
+begin
+	if falling_edge(Rx_busy) then
+		if sw_addr = '1' then	--Rx is addr	--0
+			sram_addr_in <= "0000000000" & Rx_data;
+		elsif sw_data = '1' then	--Rx is data	--1
+			sram_data_in <= "00000000" & Rx_data;
+		end if;
+	end if;
+end process;
+
+process(clock)
+begin
+	if rising_edge(clock) then
+		sram_action <= 'Z';
+		if sw_read = '1' then	--2
+			sram_action <= '0';
+		elsif sw_write = '1' then	--3
+			sram_action <= '1';
+		end if;
+	end if;
+end process;
+
+process(clock_50)
+begin
+	if rising_edge(clock_50) then
+		if (sw_snd = '1' and Tx_busy = '0') then	--4
+			Tx_start <= '1';
+			Tx_data	<= sram_data_out(7 downto 0);
+		else
+			Tx_start <= '0';
+		end if;
+	end if;
+end process;
+
+end logic;

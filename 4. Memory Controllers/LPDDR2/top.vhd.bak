@@ -1,0 +1,153 @@
+--Library
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+--Entity
+entity top is
+port (
+	clk50         : in    std_logic;                                        -- ossc_clk
+	reset_n       : in    std_logic;                                        -- system_reset
+	
+	Uart_tx		  : out	 std_logic;                                        -- UART_Tx
+	Uart_rx		  : in	 std_logic;                                        -- UART_Rx
+	
+	LED_uart		  : out	 std_logic_vector(7 downto 0);							-- LED_Rx_data`(LEDR0 - LEDR7)
+	
+	sdram_st_bt	  : in	 std_logic;                                        -- Store_SDRAM_btn  (BTN0)
+	sdram_rd_bt	  : in	 std_logic;                                        -- Read_SDRAM_btn   (BTN1)
+	sdram_fl_led  : out	 std_logic                                         -- LED_SDRAM_FULL	  (LEDG7)
+	);
+end entity top;
+
+--Architecture
+architecture logic of top is 
+--Component Signals
+signal outclk_0		: std_logic := 'X';
+signal locked			: std_logic := 'X';
+signal pll_clk			: std_logic := 'X';
+signal clk160			: std_logic := 'X';
+
+constant CLKF			: positive := 160000000;	--160MHz
+constant UARTF			: positive := 1000000;		--1MHz
+
+signal rx_data		 	: std_logic_vector(7 downto 0);
+signal rx_new_data	: std_logic;
+
+signal tx_data		 	: std_logic_vector(7 downto 0);
+signal tx_new_data	: std_logic;
+
+signal tx_start_pls	: std_logic := '0';
+--Logic Signals
+
+component ALTCLK is
+port (
+	inclk  : in  std_logic := 'X'; -- inclk
+	outclk : out std_logic         -- outclk
+	);
+end component ALTCLK;
+
+component PLL is
+port (
+	refclk   : in  std_logic := 'X'; -- clk
+	rst      : in  std_logic := 'X'; -- reset
+	outclk_0 : out std_logic;        -- clk  (160MHz)
+	locked   : out std_logic         -- export
+	);
+end component PLL;
+
+component Pulse_gen is
+port (
+	Clk	: in std_logic;	--system_clk
+	Key	: in std_logic;	--input_sig
+	Align : out std_logic	--op_pulse
+	);
+end component Pulse_gen;
+
+component Rx is
+generic (
+	CLKF		 : positive := 320000000;	--160MHz
+	UARTF		 : positive := 1000000		--1MHz
+	);
+port (
+	clk		 : in std_logic;
+	rx_line	 : in std_logic;
+	data	 	 : out std_logic_vector(7 downto 0);
+	new_data  : out std_logic;
+	busy 		 : out std_logic
+	);
+end component Rx;
+
+component Tx is
+generic (
+	CLKF		 : positive := 320000000;	--160MHz
+	UARTF		 : positive := 1000000		--1MHz
+	);
+port(
+	clk 		: in std_logic;
+	new_data	: in std_logic;
+	data	   : in std_logic_vector(7 downto 0);
+	tx_line  : out std_logic;
+	busy		: out std_logic
+	);
+end component Tx;
+
+begin
+
+clk160 <= (locked) and (pll_clk);
+
+ALTCLK_inst : ALTCLK
+port map(
+	inclk  => clk50,
+	outclk => outclk_0
+	);
+
+PLL_inst : PLL
+port map(
+	refclk   => outclk_0,
+	rst      => (not reset_n),
+	outclk_0 => pll_clk,
+	locked   => locked
+	);
+
+Pulse_gen_st_sdram : Pulse_gen
+port map(
+	Clk	=> clk160,
+	Key	=> sdram_st_bt,
+	Align => store_sdram
+	);
+
+Pulse_gen_rd_sdram : Pulse_gen
+port map(
+	Clk	=> clk160,
+	Key	=> sdram_rd_bt,
+	Align => read_sdram
+	);
+
+Rx_inst : Rx
+generic map(
+	CLKF		 => CLKF,
+	UARTF		 => UARTF
+	)
+port map(
+	clk		 => clk160,
+	rx_line	 => Uart_rx,
+	data	 	 => rx_data,
+	new_data  => rx_new_data,
+	busy 		 => open
+	);
+
+Tx_inst : Tx
+generic map(
+	CLKF		 	=> CLKF,
+	UARTF		 	=> UARTF
+	)
+port map(
+	clk 			=> clk160,
+	new_data		=> tx_new_data,
+	data	   	=> tx_data,
+	tx_line  	=> Uart_tx,
+	busy			=> open
+	);
+
+end architecture logic;

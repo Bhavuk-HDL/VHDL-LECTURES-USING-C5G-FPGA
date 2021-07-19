@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+Elpddr2_pll0
+Z1 w1614854316
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3L]34bNSPL@[RD2AeKH]S3
+R0
+Z5 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_pll0.vho
+Z6 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_pll0.vho
+l0
+L34
+VMRYDUzQ0WC86h3f5W<5E:2
+!s100 ;AN`N[4Pzif1=NQXbMj9R3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1616748542
+!i10b 1
+Z9 !s108 1616748542.000000
+Z10 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_pll0.vho|-work|pll0|
+Z11 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_pll0.vho|
+!i113 1
+Z12 o-work pll0
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 11 lpddr2_pll0 0 22 MRYDUzQ0WC86h3f5W<5E:2
+l79
+L54
+VWM=JI<BEaR2BNzW9MHVO;1
+!s100 edf^FUA2L0k?zKUOHbhYz3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Elpddr2_pll0_sim_delay
+R1
+R2
+R3
+R0
+Z14 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_pll0_sim_delay.vhd
+Z15 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_pll0_sim_delay.vhd
+l0
+L18
+VEm5J`SZ2<95WO@eB>DE`_0
+!s100 OIIFd:h>ci5Bj0DoQ09Pe2
+R7
+32
+R8
+!i10b 1
+R9
+Z16 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_pll0_sim_delay.vhd|-work|pll0|
+Z17 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_pll0_sim_delay.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+Z18 DEx4 work 21 lpddr2_pll0_sim_delay 0 22 Em5J`SZ2<95WO@eB>DE`_0
+l28
+L27
+Z19 VWXEiLMJM@h3`RFLfOH<>n3
+Z20 !s100 o9TMkM;4YNXJj:<LCz@8`1
+R7
+32
+R8
+!i10b 1
+R9
+R16
+R17
+!i113 1
+R12
+R13

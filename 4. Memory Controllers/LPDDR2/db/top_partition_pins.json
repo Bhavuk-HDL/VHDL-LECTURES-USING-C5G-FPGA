@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Uart_tx",
+					"strict" : false
+				},
+				{
+					"name" : "LED_uart[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_uart[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_uart[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_uart[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_uart[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_uart[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_uart[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_uart[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_fl_led",
+					"strict" : false
+				},
+				{
+					"name" : "mem_dqs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_dqs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_dqs[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_dqs[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_dqs_n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_dqs_n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_dqs_n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_dqs_n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "Uart_rx",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_rd_bt",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_st_bt",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

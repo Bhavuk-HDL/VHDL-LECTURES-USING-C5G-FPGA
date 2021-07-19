@@ -1,0 +1,254 @@
+--Library
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+--Entity
+entity I2C_config is
+generic(
+		main_clk	: integer := 50000000;	--50MHz
+		i2c_clk	: integer := 20000		--20KHz
+		);
+port(
+		clk		: in std_logic;	--50MHz
+		reset		: in std_logic;
+		
+		scl		: out std_logic;
+		sda		: inout std_logic;
+		
+		config		: in std_logic;
+		config_ack	: out std_logic;
+	);
+end entity I2C_config;
+
+--Architecture
+architecture logic of I2C_config is
+constant default_addr : std_logic_vector(7 downto 0) := x"72";
+
+signal base_addr	 : std_logic_vector(7 downto 0);
+signal base_data	 : std_logic_vector(7 downto 0);
+
+signal start_seq : std_logic;
+signal end_seq	 : std_logic;
+
+type states is (idle, send, ack)
+signal state 	: states := idle;
+signal index	: integer 0 to 31 := 0;
+
+*****************
+component I2C is
+generic(
+		main_clk	: integer := 50000000;	--50MHz
+		i2c_clk	: integer := 20000		--20KHz
+		);
+port(
+		clk		: in std_logic;	--50MHz
+		reset		: in std_logic;
+		
+		scl		: out std_logic;
+		sda		: inout std_logic;
+		
+		base_addr	: in std_logic_vector(7 downto 0);
+		base_data	: in std_logic_vector(7 downto 0);
+		default_addr: in std_logic_vector(7 downto 0);
+		
+		start_seq	: in std_logic;
+		end_seq		: out std_logic
+	);
+end component I2C;
+*****************
+
+begin
+
+*****************
+I2C_inst : I2C
+generic map(
+		main_clk	=> main_clk,	--50MHz
+		i2c_clk	=>	i2c_clk		--20KHz
+		)
+port map(
+		clk		=> clk,	--50MHz
+		reset		=> reset,
+		
+		scl		=> scl,
+		sda		=> sda,
+		
+		base_addr	=> base_addr,
+		base_data	=> base_data,
+		default_addr=> default_addr,
+		
+		start_seq	=> start_seq,
+		end_seq		=> end_seq
+	);
+*****************
+
+	process(clk)
+	begin
+		if (reset = '0') then
+			state <= idle;
+		elsif (rising_edge(clk)) then
+			case(state) is
+			
+				when idle =>
+					base_addr <= (others => '0');
+					base_data <= (others -> '0');
+					start_seq <= '0';
+					index <= 0;
+					config_ack <= '0';
+					if (config = '1') then
+						state <= send;
+					end if;
+				
+				when send =>
+					start_seq <= '1';
+					index <= index + 1;
+					state <= ack;
+				
+				when ack =>
+					start_seq <= '0';
+					if (end_seq = '1') then
+						if (index > 30) then
+							config_ack <= '1';
+							state <= idle;
+						else
+							state <= send;
+						end if;
+					end if;
+					
+			end case;
+			
+			case(index) is
+				
+				when 0 =>
+					base_addr <= x"98";
+					base_data <= x"03";
+				
+				when 1 =>
+					base_addr <= x"01";
+					base_data <= x"00";
+				
+				when 2 =>
+					base_addr <= x"02";
+					base_data <= x"18";
+				
+				when 3 =>
+					base_addr <= x"03";
+					base_data <= x"00";
+				
+				when 4 =>
+					base_addr <= x"14";
+					base_data <= x"70";
+				
+				when 5 =>
+					base_addr <= x"15";
+					base_data <= x"20";
+				
+				when 6 =>
+					base_addr <= x"16";
+					base_data <= x"30";
+				
+				when 7 =>
+					base_addr <= x"18";
+					base_data <= x"46";
+				
+				when 8 =>
+					base_addr <= x"40";
+					base_data <= x"80";
+				
+				when 9 =>
+					base_addr <= x"41";
+					base_data <= x"10";
+				
+				when 10 =>
+					base_addr <= x"49";
+					base_data <= x"A8";
+				
+				when 11 =>
+					base_addr <= x"55";
+					base_data <= x"10";
+				
+				when 12 =>
+					base_addr <= x"56";
+					base_data <= x"08";
+				
+				when 13 =>
+					base_addr <= x"96";
+					base_data <= x"F6";
+				
+				when 14 =>
+					base_addr <= x"73";
+					base_data <= x"07";
+				
+				when 15 =>
+					base_addr <= x"76";
+					base_data <= x"1F";
+				
+				when 16 =>
+					base_addr <= x"98";
+					base_data <= x"03";
+				
+				when 17 =>
+					base_addr <= x"99";
+					base_data <= x"02";
+				
+				when 18 =>
+					base_addr <= x"9A";
+					base_data <= x"E0";
+				
+				when 19 =>
+					base_addr <= x"9C";
+					base_data <= x"30";
+				
+				when 20 =>
+					base_addr <= x"9D";
+					base_data <= x"61";
+				
+				when 21 =>
+					base_addr <= x"A2";
+					base_data <= x"A4";
+				
+				when 22 =>
+					base_addr <= x"A3";
+					base_data <= x"A4";
+				
+				when 23 =>
+					base_addr <= x"A5";
+					base_data <= x"04";
+				
+				when 24 =>
+					base_addr <= x"AB";
+					base_data <= x"40";
+				
+				when 25 =>
+					base_addr <= x"AF";
+					base_data <= x"16";
+				
+				when 26 =>
+					base_addr <= x"BA";
+					base_data <= x"60";
+				
+				when 27 =>
+					base_addr <= x"D1";
+					base_data <= x"FF";
+				
+				when 28 =>
+					base_addr <= x"DE";
+					base_data <= x"10";
+				
+				when 29 =>
+					base_addr <= x"E4";
+					base_data <= x"60";
+				
+				when 30 =>
+					base_addr <= x"FA";
+					base_data <= x"7D";
+				
+				when others =>
+					base_addr <= x"98";
+					base_data <= x"03";
+				
+			end case;
+		end if;
+	end process;
+
+end architecture logic;

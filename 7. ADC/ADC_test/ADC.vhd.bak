@@ -1,0 +1,133 @@
+--Library
+Library IEEE;
+Use IEEE.std_logic_1164.all;
+Use IEEE.numeric_std.all;
+
+--Entity
+Entity ADC is
+port(
+	-- With ADC Chip
+	SDI		:	out	std_logic;
+	SDO		:	in		std_logic;
+	SCK		:	out	std_logic;
+	CONVST	:	out	std_logic;
+	
+	-- With External
+	clk	:	in	std_logic;	--40MHz
+	start	:	in	std_logic;
+	reset	:	in	std_logic;
+	ready	:	out	std_logic;
+	data	:	out	std_logic_vector(11 downto 0);
+	command	:	in	std_logic_vector(5 downto 0);
+	led_status	:	out	std_logic_vector(4 downto 0)
+	);
+end entity;
+
+--Architecture
+architecture logic of ADC is
+
+constant data_w	:	integer := 12;
+constant pulse_w	:	integer := 12;
+constant	wait1_tm	:	integer := 64;
+constant	wait0_tm	:	integer := 5;
+constant cmd_w		:	integer := 6;
+
+signal	data_ind	:	integer := data_w - 1;
+signal	pulses	:	integer := pulse_w - 1;
+signal	cmd_ind	:	integer := cmd_w -1;
+signal	wait1_scl:	integer := wait1_tm - 1;
+signal	wait0_scl:	integer := wait0_tm - 1;
+
+signal	SCK_st	:	std_logic := '0';
+signal	con_st	:	std_logic := '0';
+
+signal	conv_pul	:	std_logic := '0';
+signal	wait0_pul:	std_logic := '0';
+signal	wait1_pul:	std_logic := '0';
+signal 	pulse_pul:	std_logic := '0';
+
+signal led_status_r	: std_logic_vector(4 downto 0);
+signal data_in			: std_logic_vector(11 downto 0);
+signal command_in		: std_logic_vector(5 downto 0);
+
+type ADC_mode is (idle, pulse, wait0, conv, wait1);
+signal current_mode: ADC_mode := idle;
+
+begin
+	process(reset, clk, start)
+	begin
+		if (reset = '1') then
+			current_mode <= idle;
+		elsif (rising_edge(clk)) then
+			case (current_mode) is
+			
+				when idle =>
+					current_mode <= idle;
+					led_status <= "00000";
+					data_in <= "000000000000";
+					command_in <= command;
+					conv_pul <= '0';
+					wait0_pul <= '0';
+					wait1_pul <= '0';
+					pulse_pul <= '0';
+					SCK_st <= '0';
+					con_st <= '0';
+					data_ind <= data_w - 1;
+					pulses <= pulse_w - 1;
+					cmd_ind <= cmd_w -1;
+					wait1_scl <= wait1_tm - 1;
+					wait0_scl <= wait0_tm - 1;
+					if (start = '1') then
+						current_mode <= pulse;
+						SDO <= command_in(cmd_ind);
+						cmd_ind <= cmd_ind - 1;
+						SCK_st <= '1';
+					end if;
+					
+				when pulse =>
+					data_in(data_ind) <= SDI;
+					SDO <= command_in(cmd_ind);
+					cmd_ind <= cmd_ind - 1;
+					data_ind <= data_in - 1;
+					pulses <= pulses - 1;
+					if (cmd_ind < 1) then
+						cmd_ind <= '0';
+					end if;
+					if (data_ind < 1) then
+						data_ind <= '0';
+					end if;
+					if (pulses < 1) then
+						data_ind <= data_w - 1;
+						pulses <= pulse_w - 1;
+						cmd_ind <= cmd_w -1;
+						SCK_st <= '0';
+						current_mode <= wait0;
+					end if;
+					
+				when wait0 =>
+					wait0_scl <= wait0_scl - 1;
+					if (wait0_scl < 1) then
+						wait0_scl <= wait0_tm - 1;
+						current_mode <= conv;
+						con_st <= '1';
+					end if;
+					
+				when conv =>
+					con_st <= '0';
+					current_mode <= wait1;
+					
+				when wait1 =>
+					wait1_scl <= wait1_scl - 1;
+					if (wait1_scl < 1) then
+						wait1_scl <= wait1_tm - 1;
+						current_mode <= idle;
+					end if;
+					
+			end case;
+		end if;
+	end process;
+
+	SCK <= (clk) and (SCK_st);
+	CONVST <= (clk) and (con_st);
+	
+end logic;

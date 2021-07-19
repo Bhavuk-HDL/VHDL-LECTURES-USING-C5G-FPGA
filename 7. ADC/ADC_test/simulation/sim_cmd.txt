@@ -1,0 +1,25 @@
+add wave -position end  sim:/adc/clk
+add wave -position end  sim:/adc/SCK
+add wave -position end  sim:/adc/SDO
+add wave -position end  sim:/adc/SDI
+add wave -position end  sim:/adc/CONVST
+add wave -position end  sim:/adc/start
+add wave -position end  sim:/adc/reset
+add wave -position end  sim:/adc/data_ind
+add wave -position end  sim:/adc/data_in
+add wave -position end  sim:/adc/data
+add wave -position end  sim:/adc/cmd_ind
+add wave -position end  sim:/adc/command_in
+add wave -position end  sim:/adc/command
+add wave -position end  sim:/adc/pulses
+add wave -position end  sim:/adc/wait1_scl
+add wave -position end  sim:/adc/wait0_scl
+add wave -position end  sim:/adc/SCK_st
+add wave -position end  sim:/adc/con_st
+add wave -position end  sim:/adc/current_mode
+force -freeze sim:/adc/clk 1 0, 0 {12500 ps} -r 25000
+force -freeze sim:/adc/SDO 1 0, 0 {22500 ps} -r 45000
+force -freeze sim:/adc/start 1 0
+force -freeze sim:/adc/reset 0 0
+force -freeze sim:/adc/command 100010 0
+run

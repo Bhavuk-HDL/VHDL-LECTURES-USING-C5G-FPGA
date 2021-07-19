@@ -1,0 +1,376 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'clk125'
+Slack : 1.174
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 2.128
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 15.181
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk125'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.514
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 9.404
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 11.128
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 20.233
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 0.831
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 1.316
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 0.805
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_dq_write_clk'
+Slack : 0.858
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|LPDDR2_p0_sampling_clock'
+Slack : 1.560
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk125'
+Slack : 3.056
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 6.420
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 7.778
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 22.487
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk125'
+Slack : 1.157
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 2.002
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 15.077
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk125'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.532
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 9.672
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 11.368
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 20.354
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.078
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 0.769
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 1.251
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 0.731
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_dq_write_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|LPDDR2_p0_sampling_clock'
+Slack : 1.558
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk125'
+Slack : 3.058
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 6.383
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 7.780
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 22.471
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 1.450
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 1.584
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk125'
+Slack : 4.240
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 8.574
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 19.122
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk125'
+Slack : 0.090
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 11.771
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 13.358
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 21.664
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 0.628
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 1.115
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_dq_write_clk'
+Slack : 1.197
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|LPDDR2_p0_sampling_clock'
+Slack : 1.561
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk125'
+Slack : 3.233
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 6.721
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 7.796
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 22.979
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 1.536
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 1.732
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk125'
+Slack : 4.564
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 9.223
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 19.518
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk125'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.280
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 12.237
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 13.503
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 21.861
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 0.573
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_afi_clk'
+Slack : 1.109
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_dq_write_clk'
+Slack : 1.195
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|LPDDR2_p0_sampling_clock'
+Slack : 1.560
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk125'
+Slack : 3.323
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_clk'
+Slack : 6.718
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_avl_phy_clk'
+Slack : 7.795
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LPDDR2_inst|lpddr2_inst|pll0|pll_config_clk'
+Slack : 22.986
+TNS   : 0.000
+
+------------------------------------------------------------
+Info: see the "DDR report" for DDR timing results
+------------------------------------------------------------
+------------------------------------------------------------

@@ -1,0 +1,117 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -1.761
+TNS   : -1.761
+
+Type  : Slow 1100mV 85C Model Hold 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.506
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 16.264
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 3.553
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.949
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 11.432
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -1.390
+TNS   : -1.390
+
+Type  : Slow 1100mV 0C Model Hold 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.478
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 13.031
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 6.672
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.980
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 11.488
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 4.196
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 15.651
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 4.972
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.643
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 11.850
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 4.709
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 18.126
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 3.092
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.632
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 11.888
+TNS   : 0.000
+
+------------------------------------------------------------

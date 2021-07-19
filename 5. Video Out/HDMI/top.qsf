@@ -1,0 +1,138 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+# Date created = 18:14:46  March 24, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		top_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CGXFC5C6F27C7
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.1.2
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:14:46  MARCH 24, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE stp_I2c.stp
+set_location_assignment PIN_V23 -to HDMIDATA[0]
+set_location_assignment PIN_AA26 -to HDMIDATA[1]
+set_location_assignment PIN_W25 -to HDMIDATA[2]
+set_location_assignment PIN_W26 -to HDMIDATA[3]
+set_location_assignment PIN_V24 -to HDMIDATA[4]
+set_location_assignment PIN_V25 -to HDMIDATA[5]
+set_location_assignment PIN_U24 -to HDMIDATA[6]
+set_location_assignment PIN_T23 -to HDMIDATA[7]
+set_location_assignment PIN_T24 -to HDMIDATA[8]
+set_location_assignment PIN_T26 -to HDMIDATA[9]
+set_location_assignment PIN_R23 -to HDMIDATA[10]
+set_location_assignment PIN_R25 -to HDMIDATA[11]
+set_location_assignment PIN_P22 -to HDMIDATA[12]
+set_location_assignment PIN_P23 -to HDMIDATA[13]
+set_location_assignment PIN_N25 -to HDMIDATA[14]
+set_location_assignment PIN_P26 -to HDMIDATA[15]
+set_location_assignment PIN_P21 -to HDMIDATA[16]
+set_location_assignment PIN_R24 -to HDMIDATA[17]
+set_location_assignment PIN_R26 -to HDMIDATA[18]
+set_location_assignment PIN_AB26 -to HDMIDATA[19]
+set_location_assignment PIN_AA24 -to HDMIDATA[20]
+set_location_assignment PIN_AB25 -to HDMIDATA[21]
+set_location_assignment PIN_AC25 -to HDMIDATA[22]
+set_location_assignment PIN_AD25 -to HDMIDATA[23]
+set_location_assignment PIN_Y25 -to HDMICLK
+set_location_assignment PIN_Y26 -to DATAENABLE
+set_location_assignment PIN_U26 -to HSYNC
+set_location_assignment PIN_U25 -to VSYNC
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VSYNC
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMICLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[18]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[19]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[20]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[21]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[22]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HDMIDATA[23]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to HSYNC
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to DATAENABLE
+set_global_assignment -name SDC_FILE top.sdc
+set_global_assignment -name VHDL_FILE pulse_gen.vhd
+set_global_assignment -name VHDL_FILE HDMI_cntrl.vhd
+set_global_assignment -name VHDL_FILE I2C_config.vhd
+set_global_assignment -name VHDL_FILE I2C.vhd
+set_global_assignment -name VHDL_FILE top.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name SIP_FILE pll.sip
+set_location_assignment PIN_R20 -to CLK
+set_location_assignment PIN_H12 -to CLK1
+set_location_assignment PIN_AB24 -to RESET
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to RESET
+set_location_assignment PIN_B7 -to SCL
+set_location_assignment PIN_G11 -to SDA
+set_location_assignment PIN_Y16 -to START
+set_instance_assignment -name IO_STANDARD "1.2 V" -to START
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name QIP_FILE pllhdmi.qip
+set_global_assignment -name SIP_FILE pllhdmi.sip
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to CLK
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SLD_FILE db/stp_I2c_auto_stripped.stp

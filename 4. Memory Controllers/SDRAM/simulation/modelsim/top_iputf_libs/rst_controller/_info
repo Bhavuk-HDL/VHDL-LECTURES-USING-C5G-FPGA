@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+vhFyYqIbSltzP58RSWwO33fIKd1VMxBJZWBDBL7xP9IY=
+Z1 !s110 1616748511
+!i10b 0
+!s100 >^G_OM[:Mo1j<3@8XNbbE3
+Iki?AeSjlh1mI0dHf<h6Dm1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 720325392
+R0
+Z3 w1616748511
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_reset_controller.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_reset_controller.v
+Z4 L0 38
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1616748510.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_reset_controller.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_reset_controller.v|-work|rst_controller|
+!i113 1
+Z6 o-work rst_controller
+Z7 tCvgOpt 0
+nf2f26c2
+vOXYXW5GPPs9nw/wzGTJf0d1QqdVOWQDhmezbgFoMtO0=
+R1
+!i10b 0
+!s100 Amgl[`9gJ>z5Y0356PHJb0
+IO[[4_8n?JiT9M2Q>@068O3
+R2
+!i8a 879823632
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_reset_synchronizer.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_reset_synchronizer.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1616748511.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_reset_synchronizer.v|-work|rst_controller|
+!i113 1
+R6
+R7
+n15f2da2

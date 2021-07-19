@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+valtera_avalon_packets_to_master
+Z1 !s110 1616748506
+!i10b 1
+!s100 lb8?6UKeHL0fO:A`Bb0Il1
+IhI3SiMBPV`^__TLkV>f[h2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1614854400
+Z4 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_packets_to_master.v
+Z5 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_packets_to_master.v
+L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1616748506.000000
+Z8 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_packets_to_master.v|
+Z9 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_packets_to_master.v|-work|transacto|
+!i113 1
+Z10 o-work transacto
+Z11 tCvgOpt 0
+vfifo_buffer
+R1
+!i10b 1
+!s100 DMV9zRnPjWDbzTRVo^2TT0
+In1700lMIN9eaCLJeSiP`l0
+R2
+R0
+R3
+R4
+R5
+L0 627
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfifo_buffer_scfifo_with_controls
+R1
+!i10b 1
+!s100 zmOh<:bil5=WKFX;=j_Af2
+IK038]ROJ9X5m[U1[GLLK=1
+R2
+R0
+R3
+R4
+R5
+L0 573
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfifo_buffer_single_clock_fifo
+R1
+!i10b 1
+!s100 l?APnUI8_=1IUOC<`QGGJ3
+I`NcN>Y^B0=WC6V6XPEQA<1
+R2
+R0
+R3
+R4
+R5
+L0 512
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfifo_to_packet
+R1
+!i10b 1
+!s100 TbDMFiLf3D=`0Ekh08_[C1
+IUPCZbBj1:iQ_mz11Sg@Xc3
+R2
+R0
+R3
+R4
+R5
+L0 697
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpackets_to_fifo
+R1
+!i10b 1
+!s100 ]MF>U8bo@HjJhzaW6aNB[2
+I]:oS3e=WU:ShRViPaHA_f2
+R2
+R0
+R3
+R4
+R5
+L0 142
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpackets_to_master
+R1
+!i10b 1
+!s100 m[YiF06PnnS]oE=1iCkXI1
+I[l=5Kh?9d@ea2@jc7;:Yn0
+R2
+R0
+R3
+R4
+R5
+L0 851
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

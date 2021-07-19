@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/UART_test/simulation/modelsim
+Erx
+Z1 w1625164112
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/intelFPGA_lite/Workspace/UART_test/Rx.vhd
+Z6 FD:/intelFPGA_lite/Workspace/UART_test/Rx.vhd
+l0
+L7
+V;OcGnDHk?HfklG[CEcdPn0
+!s100 o:>4<XTk=AfFd3fe?BiKE0
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1625227767
+!i10b 1
+Z9 !s108 1625227767.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/UART_test/Rx.vhd|
+Z11 !s107 D:/intelFPGA_lite/Workspace/UART_test/Rx.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Alogic
+R2
+R3
+R4
+DEx4 work 2 rx 0 22 ;OcGnDHk?HfklG[CEcdPn0
+l31
+L23
+VOjkmKz3n5oflM0XF7k?`a3
+!s100 ^hW5g7oKa4AnGbCHLb4FN2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etx
+Z14 w1625164706
+R2
+R3
+R4
+R0
+Z15 8D:/intelFPGA_lite/Workspace/UART_test/Tx.vhd
+Z16 FD:/intelFPGA_lite/Workspace/UART_test/Tx.vhd
+l0
+L7
+V?0=?hJ_Z=9>@MUb@XcXD40
+!s100 89^_Mm3EE?S[LHh9nl<[n1
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/UART_test/Tx.vhd|
+Z18 !s107 D:/intelFPGA_lite/Workspace/UART_test/Tx.vhd|
+!i113 1
+R12
+R13
+Alogic
+R2
+R3
+R4
+DEx4 work 2 tx 0 22 ?0=?hJ_Z=9>@MUb@XcXD40
+l30
+L23
+Ve`ZcM3_Pc=E]zaK;bihiB2
+!s100 8=gQcJdK=g2@056<NC^1Z2
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Euart
+Z19 w1625227725
+R2
+R3
+R4
+R0
+Z20 8D:/intelFPGA_lite/Workspace/UART_test/UART.vhd
+Z21 FD:/intelFPGA_lite/Workspace/UART_test/UART.vhd
+l0
+L7
+Vk_kG:FNR]5?Af<48zQZ4A2
+!s100 b6EKf[0:Q`b`_IG51W;nN1
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/UART_test/UART.vhd|
+Z23 !s107 D:/intelFPGA_lite/Workspace/UART_test/UART.vhd|
+!i113 1
+R12
+R13
+Alogic
+R2
+R3
+R4
+DEx4 work 4 uart 0 22 k_kG:FNR]5?Af<48zQZ4A2
+l67
+L28
+V=AihE83aT:[nfU4Mi3V2?0
+!s100 ^7LF^L8SECPbfMg=<DK_i2
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13

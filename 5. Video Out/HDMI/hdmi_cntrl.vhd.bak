@@ -1,0 +1,123 @@
+--Library
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+--Entity
+entity HDMI_cntrl is
+port(
+		clock_25	: in std_logic;
+		clock_50	: in std_logic;
+		reset		: in std_logic;
+		
+		start		: in std_logic;
+		
+		SWR			: in std_logic;
+		SWG			: in std_logic;
+		SWB			: in std_logic;
+		
+		HSYNC		: out std_logic;
+		VSYNC		: out std_logic;
+		DATAENABLE	: out std_logic;
+		VGACLK		: out std_logic;
+		VGADATA		: out std_logic_vector(23 downto 0)
+	);
+end entity HDMI_cntrl;
+
+--Architecture
+architecture logic of HDMI_cntrl is
+signal PIXELH	: positive range 0 to 799 := 0
+signal PIXELV	: positive range 0 to 524 := 0
+
+signal VGACLK_r	: std_logic;
+
+type state is (config, ok);
+HDMI_state, HDMI_clk : state := config;
+
+begin
+
+process(clock_25, reset)
+begin
+	if (reset = '0') then
+		HSYNC 		<= '1';
+		VSYNC 		<= '1';
+		DATAENABLE 	<= '0';
+		PIXELH		<= 0;
+		PIXELV 		<= 0;
+	elsif (rising_edge(clock_25)) then
+		case (HDMI_state) is
+			when config is =>
+				HSYNC 		<= '1';
+				VSYNC 		<= '1';
+				DATAENABLE 	<= '0';
+				PIXELH		<= 0;
+				PIXELV 		<= 0;
+				if (start = '1') then
+					HDMI_state <= ok;
+				end if;
+			when ok is =>
+				
+				if (PIXELH = 0 and PIXELV /= 524) then
+					PIXELH <= PIXELH + 1;
+					PIXELV <= PIXELV + 1;
+				elsif (PIXELH = 0 and PIXELV = 524) then
+					PIXELH <= PIXELH + 1;
+					PIXELV <= 0;
+				elsif (PIXELH <= 640) then
+					PIXELH <= PIXELH + 1;
+				
+				elsif (PIXELH <= 656) then
+					PIXELH <= PIXELH + 1;
+				
+				elsif (PIXELH <= 752) then
+					PIXELH <= PIXELH + 1;
+					HSYNC <= '0';
+				
+				elsif (PIXELH <= 799) then
+					PIXELH <= PIXELH + 1;
+					HSYNC <= '1';
+				else
+					PIXELH <= 0;
+				end if;
+				
+				if (PIXELV = 491 or PIXELV = 492)
+					VSYNC <= 0;
+				else
+					VSYNC <= 1
+				end if;
+				
+				
+				if (PIXELH >= 0 and PIXELH < 640
+				and PIXELV >= 0 and PIXELV < 480) then
+					DATAENABLE <= '1';
+				else
+					DATAENABLE <= '0';
+				end if;
+				
+		end case;
+	end if;
+end process;
+
+process(reset, clock_50)
+VGACLK <= VGACLK_r;
+begin
+	if (reset = '0') then
+		VGACLK_r <= '0';
+	elseif (rising_edge(clock_50)) then
+		case (HDMI_clk) is
+			when config is =>
+				VGACLK_r <= '0';
+				if (start = '1') then
+					HDMI_clk <= ok;
+				end if;
+			when ok is =>
+				VGACLK_r <= (not VGACLK_r);
+		end case;
+	end if;
+end process;
+
+VGADATA(23 downto 16) <= X"FF" if SWR = '0' else X"00";
+VGADATA(15 downto 8) <= X"FF" if SWG = '0' else X"00";
+VGADATA(7 downto 0) <= X"FF" if SWB = '0' else X"00";
+
+end architecture logic;

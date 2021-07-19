@@ -1,0 +1,18 @@
+# system info ALTCLK on 2021.06.13.00:49:10
+system_info:
+name,value
+DEVICE,5CGXFC5C6F27C7
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1623525549
+#
+#
+# Files generated for ALTCLK on 2021.06.13.00:49:10
+files:
+filepath,kind,attributes,module,is_top
+simulation/ALTCLK.vhd,VHDL,,ALTCLK,true
+simulation/submodules/ALTCLK_altclkctrl_0.vhd,VHDL,,ALTCLK_altclkctrl_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+ALTCLK.altclkctrl_0,ALTCLK_altclkctrl_0

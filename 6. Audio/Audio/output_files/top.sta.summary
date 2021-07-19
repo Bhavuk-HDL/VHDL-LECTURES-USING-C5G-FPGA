@@ -1,0 +1,229 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -3.217
+TNS   : -239.688
+
+Type  : Slow 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 9.680
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 17.418
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 29.379
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk50'
+Slack : 9.949
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 11.741
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.029
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 39.266
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -3.123
+TNS   : -221.978
+
+Type  : Slow 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 9.770
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 17.485
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 29.518
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.622
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.980
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 11.652
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.032
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 39.223
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -1.669
+TNS   : -117.846
+
+Type  : Fast 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 13.301
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 20.827
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 30.634
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk50'
+Slack : 9.643
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 12.028
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 14.931
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 39.564
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : -1.515
+TNS   : -105.792
+
+Type  : Fast 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 13.633
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 21.300
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 30.934
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL_O_VCOPH0'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.632
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'PLL_SYS:PLL40|PLL_SYS_0002:pll_sys_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 12.025
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 14.979
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CHIP_CLK:XCLK|CHIP_CLK_0002:chip_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]'
+Slack : 39.566
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,7 @@
+
+State Machine - |debounce|state_reg
+Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
+state_reg.zero 0 0 0 0 
+state_reg.wait0 0 0 1 1 
+state_reg.one 0 1 0 1 
+state_reg.wait1 1 0 0 1 

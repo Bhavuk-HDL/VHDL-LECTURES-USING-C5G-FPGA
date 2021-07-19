@@ -1,0 +1,95 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+# Date created = 23:05:01  February 10, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		UART_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CGXFC5C6F27C7
+set_global_assignment -name TOP_LEVEL_ENTITY UART
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.1.2
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:05:01  FEBRUARY 10, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name VHDL_FILE UART.vhd
+set_global_assignment -name VHDL_FILE Tx.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE Rx.vhd
+set_location_assignment PIN_H12 -to clock_50
+set_location_assignment PIN_P11 -to key
+set_instance_assignment -name IO_STANDARD "1.2 V" -to key
+set_location_assignment PIN_L9 -to UART_TXD
+set_location_assignment PIN_M9 -to UART_RXD
+set_location_assignment PIN_AC9 -to sw[0]
+set_location_assignment PIN_AE10 -to sw[1]
+set_location_assignment PIN_AD13 -to sw[2]
+set_location_assignment PIN_AC8 -to sw[3]
+set_location_assignment PIN_W11 -to sw[4]
+set_location_assignment PIN_AB10 -to sw[5]
+set_location_assignment PIN_V10 -to sw[6]
+set_location_assignment PIN_AC10 -to sw[7]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw[7]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw[6]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw[5]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw[4]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw[3]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw[2]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw[1]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw[0]
+set_location_assignment PIN_F7 -to ledr[0]
+set_location_assignment PIN_F6 -to ledr[1]
+set_location_assignment PIN_G6 -to ledr[2]
+set_location_assignment PIN_G7 -to ledr[3]
+set_location_assignment PIN_J8 -to ledr[4]
+set_location_assignment PIN_J7 -to ledr[5]
+set_location_assignment PIN_K10 -to ledr[6]
+set_location_assignment PIN_K8 -to ledr[7]
+set_location_assignment PIN_L7 -to ledg[0]
+set_location_assignment PIN_K6 -to ledg[1]
+set_location_assignment PIN_D8 -to ledg[2]
+set_location_assignment PIN_E9 -to ledg[3]
+set_location_assignment PIN_A5 -to ledg[4]
+set_location_assignment PIN_B6 -to ledg[5]
+set_location_assignment PIN_H8 -to ledg[6]
+set_location_assignment PIN_H9 -to ledg[7]
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

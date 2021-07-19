@@ -1,0 +1,126 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+vOGN4xiltZMq/OwdwcoI7iLsOD7VdtbWPSrzfZ1OZV3WNLQbO0n4fhl0DmIk65SckunhMHWzpHdlwVpfx6POLiA==
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1616748542
+!i10b 0
+!s100 h1<CX0HH;WQ06VcoKPoCO3
+I47U]P<[M<MLT1LfUjcKMV3
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 782907136
+!s105 altdq_dqs2_acv_connect_to_hard_phy_cyclonev_lpddr2_sv_unit
+S1
+R0
+w1616748542
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altdq_dqs2_acv_connect_to_hard_phy_cyclonev_lpddr2.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altdq_dqs2_acv_connect_to_hard_phy_cyclonev_lpddr2.sv
+L0 38
+OV;L;10.5b;63
+r1
+!s85 0
+31
+Z1 !s108 1616748541.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altdq_dqs2_acv_connect_to_hard_phy_cyclonev_lpddr2.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altdq_dqs2_acv_connect_to_hard_phy_cyclonev_lpddr2.sv|-work|p0|
+!i113 1
+o-sv -work p0
+tCvgOpt 0
+n52cdbc2
+Elpddr2_p0
+Z2 w1614854338
+Z3 DPx5 sgate 10 sgate_pack 0 22 M>N6>_Bhn=EY0k:J`1:WZ2
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 41KVoNENnj;RUmMIITVQg1
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx8 cyclonev 19 cyclonev_components 0 22 MmMkVfW5JWkR?lm<VcfRO1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx9 altera_mf 20 altera_mf_components 0 22 m2K6F5NmQKkFhQa^^]15g3
+R0
+Z11 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_p0.vho
+Z12 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_p0.vho
+l0
+L40
+Vz<@6AS:YZZL>L@GN:aI^62
+!s100 mo0X75K>5I>Sb`I@67UeQ3
+Z13 OV;C;10.5b;63
+32
+!s110 1616748540
+!i10b 1
+Z14 !s108 1616748540.000000
+Z15 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_p0.vho|-work|p0|
+Z16 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_p0.vho|
+!i113 1
+Z17 o-work p0
+Z18 tExplicit 1 CvgOpt 0
+Artl
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 9 lpddr2_p0 0 22 z<@6AS:YZZL>L@GN:aI^62
+l728
+L164
+Vg_B:4Xe2N>D]2TKlEl4_b0
+!s100 @_9P^?8fgXIa2VTB<4Rhm2
+R13
+32
+Z19 !s110 1616748541
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Elpddr2_p0_altdqdqs
+R2
+R8
+R9
+R0
+Z20 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_p0_altdqdqs.vhd
+Z21 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_p0_altdqdqs.vhd
+l0
+L17
+V22=eU_Re@g2>XkSGKO3LP0
+!s100 JfT6EeSK_1W]F:^<gTC[k1
+R13
+32
+R19
+!i10b 1
+R1
+Z22 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_p0_altdqdqs.vhd|-work|p0|
+Z23 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_p0_altdqdqs.vhd|
+!i113 1
+R17
+R18
+Artl
+R8
+R9
+DEx4 work 18 lpddr2_p0_altdqdqs 0 22 22=eU_Re@g2>XkSGKO3LP0
+l170
+L67
+VTY:;A6CI:oG8_aaUk[jnB3
+!s100 zD:PUERj6JDV4;[9SIB?b2
+R13
+32
+R19
+!i10b 1
+R1
+R22
+R23
+!i113 1
+R17
+R18

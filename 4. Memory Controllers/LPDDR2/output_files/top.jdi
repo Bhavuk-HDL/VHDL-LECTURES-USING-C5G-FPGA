@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="f02187b5b6cdd8a72aef"/>
+  </project>
+  <file_info>
+    <file device="5CGXFC5C6F27C7" path="top.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="ALTCLK:ALTCLK_inst" name="ALTCLK_inst">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME ALTCLK HAS_SOPCINFO 1 GENERATION_ID 1623525553"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

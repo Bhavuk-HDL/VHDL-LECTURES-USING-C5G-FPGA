@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/UART/simulation/modelsim
+Erx
+Z1 w1613372446
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/intelFPGA_lite/Workspace/UART/Rx.vhd
+Z6 FD:/intelFPGA_lite/Workspace/UART/Rx.vhd
+l0
+L7
+VhL]hkMf8<;FVg_Mh>;fn50
+!s100 38Mg49amj_PYWdU>z7eU=3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1624124969
+!i10b 1
+Z9 !s108 1624124969.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/UART/Rx.vhd|
+Z11 !s107 D:/intelFPGA_lite/Workspace/UART/Rx.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Amain
+R2
+R3
+R4
+DEx4 work 2 rx 0 22 hL]hkMf8<;FVg_Mh>;fn50
+l23
+L16
+V=zWn[[z5K0ld>_hRJ17Ok0
+!s100 V13n=:cQJ>6eIDVTFL3Y;3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etx
+Z14 w1614333715
+R2
+R3
+R4
+R0
+Z15 8D:/intelFPGA_lite/Workspace/UART/Tx.vhd
+Z16 FD:/intelFPGA_lite/Workspace/UART/Tx.vhd
+l0
+L7
+V@e03oF0Mg`JFnOG>:AF:I0
+!s100 LYYgfJEZdQeV_ejhLASbO0
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/UART/Tx.vhd|
+Z18 !s107 D:/intelFPGA_lite/Workspace/UART/Tx.vhd|
+!i113 1
+R12
+R13
+Amain
+R2
+R3
+R4
+DEx4 work 2 tx 0 22 @e03oF0Mg`JFnOG>:AF:I0
+l24
+L17
+Vg=fBIddVXZn;IMTGXYb3g3
+!s100 l5TUUJe3IDnV<ZOBT<V2i2
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Euart
+Z19 w1613035939
+R2
+R3
+R4
+R0
+Z20 8D:/intelFPGA_lite/Workspace/UART/UART.vhd
+Z21 FD:/intelFPGA_lite/Workspace/UART/UART.vhd
+l0
+L7
+VYfN:PPHC^XDE0Q6B?Yl@i0
+!s100 8@88@l8Nk?723H:CEZCRG3
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/UART/UART.vhd|
+Z23 !s107 D:/intelFPGA_lite/Workspace/UART/UART.vhd|
+!i113 1
+R12
+R13
+Amain
+R2
+R3
+R4
+DEx4 work 4 uart 0 22 YfN:PPHC^XDE0Q6B?Yl@i0
+l50
+L19
+V^R9Ie;?gXFLJYM`9@8SHG0
+!s100 2UO?4nLKO`052o^>UZbY52
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13

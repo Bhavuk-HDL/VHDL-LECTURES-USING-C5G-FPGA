@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SEN",
+					"strict" : false
+				},
+				{
+					"name" : "SCLK",
+					"strict" : false
+				},
+				{
+					"name" : "COMPLETE",
+					"strict" : false
+				},
+				{
+					"name" : "SDATA",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "START",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_IN[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

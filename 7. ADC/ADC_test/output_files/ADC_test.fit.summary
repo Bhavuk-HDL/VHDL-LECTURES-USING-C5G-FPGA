@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Mar 22 17:55:18 2021
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+Revision Name : ADC_test
+Top-level Entity Name : ADC_test
+Family : Cyclone V
+Device : 5CGXFC5C6F27C7
+Timing Models : Final
+Logic utilization (in ALMs) : 578 / 29,080 ( 2 % )
+Total registers : 1076
+Total pins : 27 / 364 ( 7 % )
+Total virtual pins : 0
+Total block memory bits : 3,072 / 4,567,040 ( < 1 % )
+Total RAM Blocks : 1 / 446 ( < 1 % )
+Total DSP Blocks : 0 / 150 ( 0 % )
+Total HSSI RX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
+Total HSSI TX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 6 ( 0 % )
+Total PLLs : 1 / 12 ( 8 % )
+Total DLLs : 0 / 4 ( 0 % )

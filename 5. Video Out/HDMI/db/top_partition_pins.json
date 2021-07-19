@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SCL",
+					"strict" : false
+				},
+				{
+					"name" : "HSYNC",
+					"strict" : false
+				},
+				{
+					"name" : "VSYNC",
+					"strict" : false
+				},
+				{
+					"name" : "DATAENABLE",
+					"strict" : false
+				},
+				{
+					"name" : "HDMICLK",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[16]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[17]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[18]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[19]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[20]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[21]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[22]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMIDATA[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SDA",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "START",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

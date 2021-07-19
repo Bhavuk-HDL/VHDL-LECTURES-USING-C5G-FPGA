@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Jun 11 19:02:24 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : leds_segments
+Top-level Entity Name : leds_segments
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 105
+Total pins : 48
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

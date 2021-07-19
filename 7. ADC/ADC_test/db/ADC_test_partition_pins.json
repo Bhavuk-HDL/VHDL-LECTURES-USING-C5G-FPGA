@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SDI",
+					"strict" : false
+				},
+				{
+					"name" : "SCK",
+					"strict" : false
+				},
+				{
+					"name" : "CONVST",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "led_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "led_nthing",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx_pulse",
+					"strict" : false
+				},
+				{
+					"name" : "led_channel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_channel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_channel[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_channel[3]",
+					"strict" : false
+				},
+				{
+					"name" : "UART_Tx",
+					"strict" : false
+				},
+				{
+					"name" : "reset_all",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "SDO",
+					"strict" : false
+				},
+				{
+					"name" : "UART_Rx",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

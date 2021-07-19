@@ -1,0 +1,28 @@
+add wave -position end  sim:/i2c/main_clk
+add wave -position end  sim:/i2c/i2c_clk
+add wave -position end  sim:/i2c/clk
+add wave -position end  sim:/i2c/reset
+add wave -position end  sim:/i2c/scl
+add wave -position end  sim:/i2c/sda
+add wave -position end  sim:/i2c/base_addr
+add wave -position end  sim:/i2c/base_data
+add wave -position end  sim:/i2c/default_addr
+add wave -position end  sim:/i2c/start_seq
+add wave -position end  sim:/i2c/end_seq
+add wave -position end  sim:/i2c/clk_count
+add wave -position end  sim:/i2c/reg_index
+add wave -position end  sim:/i2c/flip
+add wave -position end  sim:/i2c/ack
+add wave -position end  sim:/i2c/ack_check
+add wave -position end  sim:/i2c/base_addr_r
+add wave -position end  sim:/i2c/base_data_r
+add wave -position end  sim:/i2c/default_addr_r
+add wave -position end  sim:/i2c/I2C_state
+add wave -position end  sim:/i2c/clk_delay
+add wave -position end  sim:/i2c/data_w
+force -freeze sim:/i2c/clk 0 0, 1 {10000 ps} -r 20000
+force -freeze sim:/i2c/reset 1 0
+force -freeze sim:/i2c/base_addr 10011010 0
+force -freeze sim:/i2c/base_data 11000010 0
+force -freeze sim:/i2c/default_addr 01010110 0
+force -freeze sim:/i2c/start_seq 1 0 -cancel 100000

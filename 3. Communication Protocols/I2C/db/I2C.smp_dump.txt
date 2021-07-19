@@ -1,0 +1,8 @@
+
+State Machine - |top|I2C:I2C_inst|curr_state
+Name curr_state.stop curr_state.ack curr_state.sending curr_state.start curr_state.idle 
+curr_state.idle 0 0 0 0 0 
+curr_state.start 0 0 0 1 1 
+curr_state.sending 0 0 1 0 1 
+curr_state.ack 0 1 0 0 1 
+curr_state.stop 1 0 0 0 1 

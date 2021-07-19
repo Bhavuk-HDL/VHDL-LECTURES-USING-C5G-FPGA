@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SCL",
+					"strict" : false
+				},
+				{
+					"name" : "BCLK",
+					"strict" : false
+				},
+				{
+					"name" : "PBLRC",
+					"strict" : false
+				},
+				{
+					"name" : "PBDAT",
+					"strict" : false
+				},
+				{
+					"name" : "SDA",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "START",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

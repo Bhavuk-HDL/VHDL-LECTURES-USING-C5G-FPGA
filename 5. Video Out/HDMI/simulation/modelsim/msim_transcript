@@ -1,0 +1,110 @@
+# Reading D:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do top_run_msim_rtl_vhdl.do
+# if ![file isdirectory top_iputf_libs] {
+# 	file mkdir top_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vcom "D:/intelFPGA_lite/Workspace/HDMI/pll_25_sim/pll_25.vho"
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:18 on Mar 27,2021
+# vcom -reportprogress 300 D:/intelFPGA_lite/Workspace/HDMI/pll_25_sim/pll_25.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Compiling entity pll_25
+# -- Compiling architecture RTL of pll_25
+# End time: 22:11:19 on Mar 27,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {D:/intelFPGA_lite/Workspace/HDMI/I2C_config.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:19 on Mar 27,2021
+# vcom -reportprogress 300 -93 -work work D:/intelFPGA_lite/Workspace/HDMI/I2C_config.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity I2C_config
+# -- Compiling architecture logic of I2C_config
+# End time: 22:11:19 on Mar 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/intelFPGA_lite/Workspace/HDMI/I2C.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:19 on Mar 27,2021
+# vcom -reportprogress 300 -93 -work work D:/intelFPGA_lite/Workspace/HDMI/I2C.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity I2C
+# -- Compiling architecture logic of I2C
+# ** Warning: D:/intelFPGA_lite/Workspace/HDMI/I2C.vhd(38): (vcom-1013) Initial value of "base_addr_r" depends on value of signal "base_addr".
+# ** Warning: D:/intelFPGA_lite/Workspace/HDMI/I2C.vhd(39): (vcom-1013) Initial value of "base_data_r" depends on value of signal "base_data".
+# ** Warning: D:/intelFPGA_lite/Workspace/HDMI/I2C.vhd(40): (vcom-1013) Initial value of "default_addr_r" depends on value of signal "default_addr".
+# End time: 22:11:19 on Mar 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vcom -93 -work work {D:/intelFPGA_lite/Workspace/HDMI/top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:19 on Mar 27,2021
+# vcom -reportprogress 300 -93 -work work D:/intelFPGA_lite/Workspace/HDMI/top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top
+# -- Compiling architecture logic of top
+# ** Error: D:/intelFPGA_lite/Workspace/HDMI/top.vhd(124): (vcom-1436) Actual expression (prefix expression) of formal "rst" is not globally static.
+# ** Error: D:/intelFPGA_lite/Workspace/HDMI/top.vhd(128): VHDL Compiler exiting
+# End time: 22:11:19 on Mar 27,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: D:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./top_run_msim_rtl_vhdl.do line 21
+# D:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {D:/intelFPGA_lite/Workspace/HDMI/top.vhd}"
+vsim work.i2c_config
+# vsim work.i2c_config 
+# Start time: 22:11:32 on Mar 27,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.i2c_config(logic)
+# Loading work.i2c(logic)
+add wave -position end  sim:/i2c_config/main_clk
+add wave -position end  sim:/i2c_config/i2c_clk
+add wave -position end  sim:/i2c_config/clk
+add wave -position end  sim:/i2c_config/reset
+add wave -position end  sim:/i2c_config/scl
+add wave -position end  sim:/i2c_config/sda
+add wave -position end  sim:/i2c_config/config
+add wave -position end  sim:/i2c_config/config_ack
+add wave -position end  sim:/i2c_config/base_addr
+add wave -position end  sim:/i2c_config/base_data
+add wave -position end  sim:/i2c_config/start_seq
+add wave -position end  sim:/i2c_config/end_seq
+add wave -position end  sim:/i2c_config/state
+add wave -position end  sim:/i2c_config/index
+add wave -position end  sim:/i2c_config/default_addr
+force -freeze sim:/i2c_config/clk 1 0, 0 {10000 ps} -r 20000
+force -freeze sim:/i2c_config/reset 1 0
+force -freeze sim:/i2c_config/config 1 0 -cancel 80000
+run
+# End time: 22:13:34 on Mar 27,2021, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0

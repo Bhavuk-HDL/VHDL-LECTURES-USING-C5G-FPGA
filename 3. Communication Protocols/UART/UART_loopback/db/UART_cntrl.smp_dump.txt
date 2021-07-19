@@ -1,0 +1,7 @@
+
+State Machine - |UART_cntrl|tx_state
+Name tx_state.waiting tx_state.signaling tx_state.sending tx_state.idle 
+tx_state.idle 0 0 0 0 
+tx_state.sending 0 0 1 1 
+tx_state.signaling 0 1 0 1 
+tx_state.waiting 1 0 0 1 

@@ -1,0 +1,29 @@
+add wave -position end  sim:/spi_prog/PLL_CLK
+add wave -position end  sim:/spi_prog/SPI_CLK
+add wave -position end  sim:/spi_prog/SEN
+add wave -position end  sim:/spi_prog/SCLK
+add wave -position end  sim:/spi_prog/SDATA
+add wave -position end  sim:/spi_prog/CLK
+add wave -position end  sim:/spi_prog/RESET
+add wave -position end  sim:/spi_prog/START
+add wave -position end  sim:/spi_prog/COMPLETE
+add wave -position end  sim:/spi_prog/ADDRESS
+add wave -position end  sim:/spi_prog/DATA_IN
+add wave -position end  sim:/spi_prog/spiclk_ind
+add wave -position end  sim:/spi_prog/address_ind
+add wave -position end  sim:/spi_prog/data_ind
+add wave -position end  sim:/spi_prog/address_write
+add wave -position end  sim:/spi_prog/data_write
+add wave -position end  sim:/spi_prog/current_state
+add wave -position end  sim:/spi_prog/clk_count
+add wave -position end  sim:/spi_prog/clk_count_hf
+add wave -position end  sim:/spi_prog/address_w
+add wave -position end  sim:/spi_prog/data_w
+force -freeze sim:/spi_prog/CLK 1 0, 0 {6250 ps} -r 12500
+force -freeze sim:/spi_prog/RESET 1 0
+force -freeze sim:/spi_prog/START 0 0
+run
+force -freeze sim:/spi_prog/START 1 0
+force -freeze sim:/spi_prog/ADDRESS 10011010 0
+force -freeze sim:/spi_prog/DATA_IN 1010001110110101 0
+run

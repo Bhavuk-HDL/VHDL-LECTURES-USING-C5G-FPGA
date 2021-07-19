@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+Elpddr2_mm_interconnect_1
+Z1 w1614854399
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_mm_interconnect_1.vhd
+Z6 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_mm_interconnect_1.vhd
+l0
+L12
+VjV7eLg@acYmn;B8a5HhfP0
+!s100 h:igdO722fM8m2@@4ki[R1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1616748511
+!i10b 1
+Z9 !s108 1616748511.000000
+Z10 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_mm_interconnect_1.vhd|-work|mm_interconnect_1|
+Z11 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_mm_interconnect_1.vhd|
+!i113 1
+Z12 o-work mm_interconnect_1
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 24 lpddr2_mm_interconnect_1 0 22 jV7eLg@acYmn;B8a5HhfP0
+l790
+L47
+V0L`[6F@`G`TazDOmzoQ@z1
+!s100 OLbi@Jol?<OGzSHnWbnE12
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Elpddr2_mm_interconnect_1_s0_seq_debug_agent_rdata_fifo
+R1
+R2
+R3
+R4
+R0
+Z14 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_mm_interconnect_1_s0_seq_debug_agent_rdata_fifo.vhd
+Z15 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_mm_interconnect_1_s0_seq_debug_agent_rdata_fifo.vhd
+l0
+L12
+VL?Gb>mh;dN870eMhSSfM80
+!s100 Z?1_5L===2C5Vh:UWb4j>1
+R7
+32
+Z16 !s110 1616748512
+!i10b 1
+Z17 !s108 1616748512.000000
+Z18 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_mm_interconnect_1_s0_seq_debug_agent_rdata_fifo.vhd|-work|mm_interconnect_1|
+Z19 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_mm_interconnect_1_s0_seq_debug_agent_rdata_fifo.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z20 DEx4 work 54 lpddr2_mm_interconnect_1_s0_seq_debug_agent_rdata_fifo 0 22 L?Gb>mh;dN870eMhSSfM80
+l101
+L56
+Z21 V32odjV9N7<Fc>76=>m>eD2
+Z22 !s100 N`FdX[]_<UaA4:J9g=38d1
+R7
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13
+Elpddr2_mm_interconnect_1_s0_seq_debug_agent_rsp_fifo
+R1
+R2
+R3
+R4
+R0
+Z23 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_mm_interconnect_1_s0_seq_debug_agent_rsp_fifo.vhd
+Z24 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_mm_interconnect_1_s0_seq_debug_agent_rsp_fifo.vhd
+l0
+L12
+V@Z86eKBMU`6dTk;mEC>SX2
+!s100 @Dn72o8H]iVl:7PLnhKD:0
+R7
+32
+R16
+!i10b 1
+R17
+Z25 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_mm_interconnect_1_s0_seq_debug_agent_rsp_fifo.vhd|-work|mm_interconnect_1|
+Z26 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_mm_interconnect_1_s0_seq_debug_agent_rsp_fifo.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 52 lpddr2_mm_interconnect_1_s0_seq_debug_agent_rsp_fifo 0 22 @Z86eKBMU`6dTk;mEC>SX2
+l101
+L56
+VOiDJbjg:h?D[T5d_hZKz50
+!s100 TG]8JMS=XQ;1=hz3cf4A:3
+R7
+32
+R16
+!i10b 1
+R17
+R25
+R26
+!i113 1
+R12
+R13

@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun May 23 03:03:05 2021
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+Revision Name : SPI_PROG
+Top-level Entity Name : SPI_PROG
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 129
+Total pins : 31
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

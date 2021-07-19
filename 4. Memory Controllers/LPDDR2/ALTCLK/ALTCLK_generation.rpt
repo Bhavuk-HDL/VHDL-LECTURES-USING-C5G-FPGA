@@ -1,0 +1,73 @@
+Info: Starting: Create simulation model
+Info: qsys-generate D:\intelFPGA_lite\Workspace\LPDDR2\ALTCLK.qsys --simulation=VHDL --allow-mixed-language-simulation --output-directory=D:\intelFPGA_lite\Workspace\LPDDR2\ALTCLK\simulation --family="Cyclone V" --part=5CGXFC5C6F27C7
+Progress: Loading LPDDR2/ALTCLK.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 18.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: ALTCLK.altclkctrl_0: Targeting device family: Cyclone V.
+: ALTCLK.altclkctrl_0: Selecting AUTO allows the compiler to pick the best clock buffer to use, while other values restrict usage to only the given clock buffer.
+: ALTCLK.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
+Info: ALTCLK: Generating ALTCLK "ALTCLK" for SIM_VHDL
+Info: altclkctrl_0: Generating top-level entity ALTCLK_altclkctrl_0.
+Info: altclkctrl_0: "ALTCLK" instantiated altclkctrl "altclkctrl_0"
+Info: ALTCLK: Done "ALTCLK" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=D:\intelFPGA_lite\Workspace\LPDDR2\ALTCLK\ALTCLK.spd --output-directory=D:/intelFPGA_lite/Workspace/LPDDR2/ALTCLK/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\intelFPGA_lite\Workspace\LPDDR2\ALTCLK\ALTCLK.spd --output-directory=D:/intelFPGA_lite/Workspace/LPDDR2/ALTCLK/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/intelFPGA_lite/Workspace/LPDDR2/ALTCLK/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in D:/intelFPGA_lite/Workspace/LPDDR2/ALTCLK/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/intelFPGA_lite/Workspace/LPDDR2/ALTCLK/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/intelFPGA_lite/Workspace/LPDDR2/ALTCLK/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/intelFPGA_lite/Workspace/LPDDR2/ALTCLK/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\intelFPGA_lite\Workspace\LPDDR2\ALTCLK.qsys --block-symbol-file --output-directory=D:\intelFPGA_lite\Workspace\LPDDR2\ALTCLK --family="Cyclone V" --part=5CGXFC5C6F27C7
+Progress: Loading LPDDR2/ALTCLK.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 18.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: ALTCLK.altclkctrl_0: Targeting device family: Cyclone V.
+: ALTCLK.altclkctrl_0: Selecting AUTO allows the compiler to pick the best clock buffer to use, while other values restrict usage to only the given clock buffer.
+: ALTCLK.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\intelFPGA_lite\Workspace\LPDDR2\ALTCLK.qsys --synthesis=VHDL --output-directory=D:\intelFPGA_lite\Workspace\LPDDR2\ALTCLK\synthesis --family="Cyclone V" --part=5CGXFC5C6F27C7
+Progress: Loading LPDDR2/ALTCLK.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 18.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: ALTCLK.altclkctrl_0: Targeting device family: Cyclone V.
+: ALTCLK.altclkctrl_0: Selecting AUTO allows the compiler to pick the best clock buffer to use, while other values restrict usage to only the given clock buffer.
+: ALTCLK.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
+Info: ALTCLK: Generating ALTCLK "ALTCLK" for QUARTUS_SYNTH
+Info: altclkctrl_0: Generating top-level entity ALTCLK_altclkctrl_0.
+Info: altclkctrl_0: "ALTCLK" instantiated altclkctrl "altclkctrl_0"
+Info: ALTCLK: Done "ALTCLK" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

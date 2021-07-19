@@ -1,0 +1,60 @@
+--Library
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+--Entity
+entity top is
+port(
+		clk		: in std_logic;	--50MHz
+		reset		: in std_logic;
+		
+		scl		: out std_logic;
+		sda		: inout std_logic
+	);
+end entity top;
+
+--Architecture
+architecture logic of top is
+constant main_clk : integer := 50000000;
+constant i2c_clk	: integer := 20000;
+
+signal config 		: std_logic;
+signal config_ack	: std_logic;
+
+component I2C_config is
+generic(
+		main_clk	: integer := 50000000;	--50MHz
+		i2c_clk	: integer := 20000		--20KHz
+		);
+port(
+		clk		: in std_logic;	--50MHz
+		reset		: in std_logic;
+		
+		scl		: out std_logic;
+		sda		: inout std_logic;
+		
+		config		: in std_logic;
+		config_ack	: out std_logic;
+	);
+end component I2C_config;
+
+begin
+
+I2C_config_inst : I2C_config
+generic map(
+		main_clk	=> main_clk,	--50MHz
+		i2c_clk	=>	i2c_clk		--20KHz
+		)
+port map(
+		clk		=> clk,	--50MHz
+		reset		=> reset,
+		
+		scl		=> scl,
+		sda		=> sda,
+		
+		config		=> config,
+		config_ack	=> config_ack
+	);
+
+end architecture logic;

@@ -1,0 +1,229 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "adr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "adr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "adr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "adr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "adr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "adr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "adr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "adr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ce",
+					"strict" : false
+				},
+				{
+					"name" : "oe",
+					"strict" : false
+				},
+				{
+					"name" : "we",
+					"strict" : false
+				},
+				{
+					"name" : "ub",
+					"strict" : false
+				},
+				{
+					"name" : "lb",
+					"strict" : false
+				},
+				{
+					"name" : "UART_Tx",
+					"strict" : false
+				},
+				{
+					"name" : "led_rst",
+					"strict" : false
+				},
+				{
+					"name" : "led_adr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_adr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_adr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_adr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_adr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led_adr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led_adr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_adr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_rx[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dq[15]",
+					"strict" : false
+				},
+				{
+					"name" : "rst_all",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "sw_read",
+					"strict" : false
+				},
+				{
+					"name" : "sw_snd",
+					"strict" : false
+				},
+				{
+					"name" : "sw_addr",
+					"strict" : false
+				},
+				{
+					"name" : "sw_data",
+					"strict" : false
+				},
+				{
+					"name" : "sw_write",
+					"strict" : false
+				},
+				{
+					"name" : "UART_Rx",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

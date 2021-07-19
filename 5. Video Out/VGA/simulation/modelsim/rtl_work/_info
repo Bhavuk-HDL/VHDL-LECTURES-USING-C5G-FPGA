@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/VGA/simulation/modelsim
+Epll
+Z1 w1624454828
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+R0
+Z5 8D:/intelFPGA_lite/Workspace/VGA/pll_sim/pll.vho
+Z6 FD:/intelFPGA_lite/Workspace/VGA/pll_sim/pll.vho
+l0
+L34
+VJ1TPO1`1ZfkUeeM;FegRk3
+!s100 Ih438?S?_^dXGB:8feaPk2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1624461376
+!i10b 1
+Z9 !s108 1624461376.000000
+Z10 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/VGA/pll_sim/pll.vho|
+Z11 !s107 D:/intelFPGA_lite/Workspace/VGA/pll_sim/pll.vho|
+!i113 1
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 3 pll 0 22 J1TPO1`1ZfkUeeM;FegRk3
+l51
+L44
+V;80h;2[J4:840=6kgeDz43
+!s100 DHJY<D^a3_J[k0<^Ajece3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+Etop
+Z13 w1624461331
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8D:/intelFPGA_lite/Workspace/VGA/top.vhd
+Z16 FD:/intelFPGA_lite/Workspace/VGA/top.vhd
+l0
+L7
+VUG:D1=BMMIGFYn^aZ[`]D3
+!s100 2V330Vzk^JZmDO9]CnJXo2
+R7
+31
+Z17 !s110 1624461377
+!i10b 1
+Z18 !s108 1624461377.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/VGA/top.vhd|
+Z20 !s107 D:/intelFPGA_lite/Workspace/VGA/top.vhd|
+!i113 1
+Z21 o-93 -work work
+R12
+Alogic
+R14
+R2
+R3
+DEx4 work 3 top 0 22 UG:D1=BMMIGFYn^aZ[`]D3
+l45
+L23
+VPk`>K8BIj5:EkIE`1ealk1
+!s100 [53dEn>_foH9d6kI3_bT12
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R21
+R12

@@ -1,0 +1,97 @@
+# Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do top_run_msim_rtl_vhdl.do
+# if ![file isdirectory top_iputf_libs] {
+# 	file mkdir top_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vcom "D:/intelFPGA_lite/Workspace/VGA/pll_sim/pll.vho"
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:46:16 on Jun 23,2021
+# vcom -reportprogress 300 D:/intelFPGA_lite/Workspace/VGA/pll_sim/pll.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Compiling entity pll
+# -- Compiling architecture RTL of pll
+# End time: 20:46:16 on Jun 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {D:/intelFPGA_lite/Workspace/VGA/top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:46:17 on Jun 23,2021
+# vcom -reportprogress 300 -93 -work work D:/intelFPGA_lite/Workspace/VGA/top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top
+# -- Compiling architecture logic of top
+# End time: 20:46:17 on Jun 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.top
+# vsim work.top 
+# Start time: 20:46:37 on Jun 23,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top(logic)
+# Loading altera_lnsim.altera_lnsim_components
+# Loading work.pll(rtl)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_lnsim_functions
+# Loading altera_lnsim.altera_pll
+# Loading altera_lnsim.dps_extra_kick
+# Loading altera_lnsim.dprio_init
+# Loading altera_lnsim.altera_generic_pll_functions
+# Loading altera_lnsim.generic_pll
+add wave -position end  sim:/top/CLK
+add wave -position end  sim:/top/START
+add wave -position end  sim:/top/hor_blank
+add wave -position end  sim:/top/VGA_HS
+add wave -position end  sim:/top/ver_blank
+add wave -position end  sim:/top/VGA_HS
+add wave -position end  sim:/top/VGA_R
+add wave -position end  sim:/top/VGA_G
+add wave -position end  sim:/top/VGA_B
+add wave -position 2  sim:/top/pllclk
+add wave -position end  sim:/top/counterx
+add wave -position end  sim:/top/countery
+force -freeze sim:/top/CLK 0 0, 1 {10000 ps} -r 20000
+force -freeze sim:/top/START 0 0
+run
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (top.pixel_clk.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = top.pixel_clk.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 25.1 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 19920.318725
+# Info: output_clock_low_period = 19920.318725
+force -freeze sim:/top/START 1 0
+run
+add wave -position 5  sim:/top/VGA_VS
+run
+# End time: 21:08:35 on Jun 23,2021, Elapsed time: 0:21:58
+# Errors: 0, Warnings: 0

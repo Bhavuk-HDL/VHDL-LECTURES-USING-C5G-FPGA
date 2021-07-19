@@ -1,0 +1,223 @@
+--Library
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+--Entity
+entity I2C is
+generic(
+		main_clk	: integer := 50000000;	--50MHz
+		i2c_clk		: integer := 20000		--20KHz
+		);
+port(
+		clk		: in std_logic;	--50MHz
+		reset	: in std_logic;
+		
+		scl		: out std_logic;
+		sda		: inout std_logic;
+		
+		base_addr	: in std_logic_vector(7 downto 0);
+		base_data	: in std_logic_vector(7 downto 0);
+		default_addr: in std_logic_vector(7 downto 0);
+		
+		start_seq	: in std_logic;
+		end_seq		: out std_logic
+	);
+end entity I2C;
+
+--Architecture
+architecture logic of I2C is
+constant clk_delay	: integer := main_clk / i2c_clk;
+constant data_w		: integer := 8;
+signal clk_count	: integer := clk_delay - 1;
+signal reg_index	: integer := data_w - 1;
+
+signal flip		: std_logic := '0';
+signal ack		: std_logic := '1';
+signal ack_check: std_logic := '0';
+signal base_addr_r		: std_logic_vector(7 downto 0) := base_addr;
+signal base_data_r		: std_logic_vector(7 downto 0) := base_data;
+signal default_addr_r	: std_logic_vector(7 downto 0) := default_addr;
+
+type states is (idle, start0, start1, send0, ack0, send1, ack1, send2, stop0, stop1);
+signal I2C_state : states := idle;
+
+begin
+
+	process(reset, clk)
+	begin
+		if (reset = '0') then
+			I2C_state <= idle;
+		
+		elsif (rising_edge(clk)) then
+			--clk_count <= clk_count - 1;
+			case(I2C_state) is
+			
+				when idle =>
+					scl <= '1';
+					sda <= '1';
+					flip <= '0';
+					ack <= '1';
+					ack_check <= '0';
+					end_seq <= '0';
+					if (start_seq = '1') then
+						base_addr_r <= base_addr;
+						base_data_r <= base_data;
+						default_addr_r <= default_addr;
+						I2C_state <= start0;
+					end if;
+					
+				when start0 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						sda <= '0';
+						scl <= '1';
+						I2C_state <= start1;
+					end if;
+				
+				when start1 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						sda <= default_addr_r(reg_index);
+						reg_index <= reg_index - 1;
+						flip <= '1';
+						scl <= '0';
+						I2C_state <= send0;
+					end if;
+				
+				when send0 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						if (flip = '1') then
+							scl <= '1';
+							flip <= '0';
+							if (reg_index < 1) then
+								reg_index <= data_w - 1;
+								ack <= '1';
+								ack_check <= '0';
+								I2C_state <= ack0;
+							end if;
+						else
+							scl <= '0';
+							sda <= default_addr_r(reg_index);
+							reg_index <= reg_index - 1;
+							flip <= '1';
+						end if;
+					end if;
+					
+				when ack0 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						if (flip = '1') then
+							scl <= '1';
+							flip <= '0';
+							ack <= sda;
+							ack_check <= '1';
+						else
+							scl <= '0';
+							flip <= '1';
+							if (ack_check = '1') then
+								reg_index <= reg_index - 1;
+								if (ack = '0') then
+									sda <= base_addr_r(reg_index);
+									I2C_state <= send1;
+								else
+									sda <= default_addr_r(reg_index);
+									I2C_state <= send0;
+								end if;
+							end if;
+						end if;
+					end if;
+					
+				when send1 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						if (flip = '1') then
+							scl <= '1';
+							flip <= '0';
+							if (reg_index < 1) then
+								reg_index <= data_w - 1;
+								ack <= '1';
+								ack_check <= '0';
+								I2C_state <= ack1;
+							end if;
+						else
+							scl <= '0';
+							sda <= base_addr_r(reg_index);
+							reg_index <= reg_index - 1;
+							flip <= '1';
+						end if;
+					end if;
+					
+				when ack1 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						if (flip = '1') then
+							scl <= '1';
+							flip <= '0';
+							ack <= sda;
+							ack_check <= '1';
+						else
+							scl <= '0';
+							flip <= '1';
+							if (ack_check = '1') then
+								reg_index <= reg_index - 1;
+								if (ack = '0') then
+									sda <= base_data_r(reg_index);
+									I2C_state <= send1;
+								else
+									sda <= base_addr_r(reg_index);
+									I2C_state <= send2;
+								end if;
+							end if;
+						end if;
+					end if;					
+					
+				when send2 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						if (flip = '1') then
+							scl <= '1';
+							flip <= '0';
+							if (reg_index < 1) then
+								reg_index <= data_w - 1;
+								I2C_state <= stop0;
+							end if;
+						else
+							scl <= '0';
+							sda <= base_data_r(reg_index);
+							reg_index <= reg_index - 1;
+							flip <= '1';
+						end if;
+					end if;
+					
+				when stop0 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						sda <= '0';
+						scl <= '1';
+						I2C_state <= stop1;
+					end if;
+				
+				when stop1 =>
+					clk_count <= clk_count - 1;
+					if (clk_count < 1) then
+						clk_count <= clk_delay - 1;
+						sda <= '1';
+						scl <= '1';
+						end_seq <= '1';
+						I2C_state <= idle;
+					end if;
+					
+			end case;
+		end if;
+	end process;
+end architecture logic;

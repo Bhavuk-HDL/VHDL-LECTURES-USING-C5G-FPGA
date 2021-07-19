@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+v/Q4t0veyygOpzhitrTTlBtjtsncvCzJfqafOCPHRqlDuUR2WWmpgQGRUMRbnIxd6
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1616748503
+!i10b 0
+!s100 10:Yah_6ZYFgR8ahOQQDS2
+IdGClWC:Dk`iWRJbZB[]Ej3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 860492336
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+w1616748503
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_burst_uncompressor.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_burst_uncompressor.sv
+Z3 L0 38
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1616748502.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_burst_uncompressor.sv|-work|s0_seq_debug_agent|
+!i113 1
+Z6 o-sv -work s0_seq_debug_agent
+Z7 tCvgOpt 0
+n4d119a2
+vSYEHqA1Jj7bJ5N9HDKJaqFZM2d9QAY66Fh4keIzuNGM=
+R1
+!s110 1616748502
+!i10b 0
+!s100 DOjcnPVY1z@D[d7zNjFCQ2
+ImgIJP=0[;U>QjhinXXEcA1
+R2
+!i8a 2118021200
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+w1616748502
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_slave_agent.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_slave_agent.sv
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_slave_agent.sv|-work|s0_seq_debug_agent|
+!i113 1
+R6
+R7
+n527aa64

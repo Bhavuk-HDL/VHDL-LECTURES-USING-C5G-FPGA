@@ -1,0 +1,8 @@
+
+State Machine - |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|current_mode
+Name current_mode.wait1 current_mode.conv current_mode.wait0 current_mode.pulse current_mode.idle 
+current_mode.idle 0 0 0 0 0 
+current_mode.pulse 0 0 0 1 1 
+current_mode.wait0 0 0 1 0 1 
+current_mode.conv 0 1 0 0 1 
+current_mode.wait1 1 0 0 0 1 

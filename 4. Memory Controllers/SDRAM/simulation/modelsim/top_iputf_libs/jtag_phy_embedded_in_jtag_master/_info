@@ -1,0 +1,265 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+valtera_avalon_st_clock_crosser
+Z1 !s110 1616748509
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IF6cAn:kRXL?d^`33M8lFF1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1614854400
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_clock_crosser.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_clock_crosser.v
+Z4 L0 22
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1616748509.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_clock_crosser.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+Z7 o-work jtag_phy_embedded_in_jtag_master
+Z8 tCvgOpt 0
+valtera_avalon_st_idle_inserter
+Z9 !s110 1616748510
+!i10b 1
+!s100 S71b16BnCfDWcoZ^EEZTn1
+I_6egRgmU27bON_X>BN4=I3
+R2
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_idle_inserter.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_idle_inserter.v
+Z10 L0 19
+R5
+r1
+!s85 0
+31
+Z11 !s108 1616748510.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_idle_inserter.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_idle_inserter.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_idle_remover
+R9
+!i10b 1
+!s100 MZJlUT2CY>hnV]FQIb=S]1
+I>V3BPoh0Dc[>TABA_PJz60
+R2
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_idle_remover.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_idle_remover.v
+R10
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_idle_remover.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_idle_remover.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_jtag_interface
+Z12 !s110 1616748508
+!i10b 1
+!s100 N7o^ddA[oe3RDKPC5>UZG1
+IB>T3AmL5f1BcYLGAB:Jk82
+R2
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_jtag_interface.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_jtag_interface.v
+L0 20
+R5
+r1
+!s85 0
+31
+Z13 !s108 1616748508.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_jtag_interface.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_jtag_interface.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_pipeline_base
+R9
+!i10b 1
+!s100 SP[<U8JVkW?]RHOS`DzPF1
+IOdn6585D[:3Q8ZXiQCoC00
+R2
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_base.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_base.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_base.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_pipeline_stage
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R9
+!i10b 1
+!s100 0[eR^H<[LF9R7ZA?d`HaW2
+Ib2VHiT@NlHzQ^?=@H7d0^0
+R2
+!s105 altera_avalon_st_pipeline_stage_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_stage.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_stage.sv
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_stage.sv|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+o-sv -work jtag_phy_embedded_in_jtag_master
+R8
+valtera_jtag_control_signal_crosser
+R12
+!i10b 1
+!s100 `=i;H1E7lBV>R_3e4D5452
+I9OU<@T4FF8F7LIn6U8SJ02
+R2
+R0
+R3
+Z14 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_dc_streaming.v
+Z15 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_dc_streaming.v
+L0 30
+R5
+r1
+!s85 0
+31
+R13
+Z16 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_dc_streaming.v|
+Z17 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_dc_streaming.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_jtag_dc_streaming
+R1
+!i10b 1
+!s100 EWdjgenNzZZ[1:h1cb56?0
+IgVNocZo:bX9ABHg[8o2J[3
+R2
+R0
+R3
+R14
+R15
+L0 135
+R5
+r1
+!s85 0
+31
+R13
+R16
+R17
+!i113 1
+R7
+R8
+valtera_jtag_sld_node
+R1
+!i10b 1
+!s100 3n0e<ZJ7D0L][I>bEF?Oi2
+IiEVbX>6ohHE3Y3>5>UcC51
+R2
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_sld_node.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_sld_node.v
+L0 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_sld_node.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_sld_node.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_jtag_src_crosser
+R12
+!i10b 1
+!s100 4?GOPZ8SJm>`nd35FBFXc3
+IGR[WnjS8jiYnf@aN4W`Y<1
+R2
+R0
+R3
+R14
+R15
+L0 72
+R5
+r1
+!s85 0
+31
+R13
+R16
+R17
+!i113 1
+R7
+R8
+valtera_jtag_streaming
+R1
+!i10b 1
+!s100 ge70D<WS<=FgooM5G8W@b0
+IjZ7Lm]VXBGVoN^HkAJY3C1
+R2
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_streaming.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_streaming.v
+L0 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_streaming.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_jtag_streaming.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_std_synchronizer_nocut
+R1
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+I4GkB6FN>@bL;>L?QdQXb@3
+R2
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_std_synchronizer_nocut.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_std_synchronizer_nocut.v
+L0 44
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_std_synchronizer_nocut.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8

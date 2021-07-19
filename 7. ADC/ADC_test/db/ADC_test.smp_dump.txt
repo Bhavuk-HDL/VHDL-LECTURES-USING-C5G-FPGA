@@ -1,0 +1,19 @@
+
+State Machine - |ADC_test|cmd_ch
+Name cmd_ch.CH8 cmd_ch.CH7 cmd_ch.CH6 cmd_ch.CH5 cmd_ch.CH4 cmd_ch.CH3 cmd_ch.CH2 cmd_ch.CH1 
+cmd_ch.CH1 0 0 0 0 0 0 0 0 
+cmd_ch.CH2 0 0 0 0 0 0 1 1 
+cmd_ch.CH3 0 0 0 0 0 1 0 1 
+cmd_ch.CH4 0 0 0 0 1 0 0 1 
+cmd_ch.CH5 0 0 0 1 0 0 0 1 
+cmd_ch.CH6 0 0 1 0 0 0 0 1 
+cmd_ch.CH7 0 1 0 0 0 0 0 1 
+cmd_ch.CH8 1 0 0 0 0 0 0 1 
+
+State Machine - |ADC_test|ADC:C0|current_mode
+Name current_mode.wait1 current_mode.conv current_mode.wait0 current_mode.pulse current_mode.idle 
+current_mode.idle 0 0 0 0 0 
+current_mode.pulse 0 0 0 1 1 
+current_mode.wait0 0 0 1 0 1 
+current_mode.conv 0 1 0 0 1 
+current_mode.wait1 1 0 0 0 1 

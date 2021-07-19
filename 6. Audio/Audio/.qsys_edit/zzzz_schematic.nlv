@@ -1,0 +1,10 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst unsaved.audio_and_video_config_0 -pg 1 -lvl 1 -y 30
+preplace inst unsaved -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)audio_and_video_config_0.avalon_av_config_slave,(SLAVE)unsaved.avalon_av_config_slave) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)audio_and_video_config_0.clk,(SLAVE)unsaved.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.external_interface,(SLAVE)audio_and_video_config_0.external_interface) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.reset,(SLAVE)audio_and_video_config_0.reset) 1 0 1 NJ
+levelinfo -pg 1 0 150 380
+levelinfo -hier unsaved 160 190 360

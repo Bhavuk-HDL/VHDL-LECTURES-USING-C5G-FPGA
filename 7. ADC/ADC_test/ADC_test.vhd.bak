@@ -1,0 +1,74 @@
+--Library
+Library IEEE;
+Use IEEE.std_logic_1164.all;
+Use IEEE.numeric_std.all;
+
+--Entity
+entity ADC_test is
+port(
+	SDI		:	out	std_logic;
+	SDO		:	in	std_logic;
+	SCK		:	out	std_logic;
+	CONVST	:	out	std_logic;
+	
+	clock	:	in	std_logic;	--40MHz
+	
+	led_data		:	out	std_logic_vector(11 downto 0);
+	led_nthing	:	out	std_logic
+	);
+end entity;
+
+--Architecture
+architecture logic of ADC_test is
+signal data_adc:	std_logic_vector(11 downto 0);
+constant cmd	:	std_logic_vector(5 downto 0) := "100010";
+
+signal	led		: std_logic;
+signal	led_stat : std_logic;
+signal	wait_time:	integer := 500000;
+
+signal start	:	std_logic := '1';
+signal reset	:	std_logic := '0';
+
+----------------------------------------------
+
+component ADC
+port(
+	-- With ADC Chip
+	SDI		:	out	std_logic;
+	SDO		:	in		std_logic;
+	SCK		:	out	std_logic;
+	CONVST	:	out	std_logic;
+	
+	-- With External
+	clk	:	in	std_logic;	--40MHz
+	start	:	in	std_logic;
+	reset	:	in	std_logic;
+
+	data	:	out	std_logic_vector(11 downto 0);
+	command	:	in	std_logic_vector(5 downto 0);
+	blink	:	out std_logic;
+	);
+	end component;
+
+----------------------------------------------
+begin
+C0 : ADC port map(SDI, SDO, SCK, CONVST, clock, start, reset, data_adc, cmd, led);
+
+process(clock)
+begin
+	if rising_edge(clock) then
+		led_data <= data_adc(11 downto 0);
+		led_nthing <= led_stat;
+	end if;
+	
+	if rising_edge(led) then
+		wait_time <= wait_time - 1;
+		if wait_time < 1 then
+			wait_time <= 500000;
+			led_stat <= not led_stat;
+		end if;
+	end if;
+end process;
+
+end logic;

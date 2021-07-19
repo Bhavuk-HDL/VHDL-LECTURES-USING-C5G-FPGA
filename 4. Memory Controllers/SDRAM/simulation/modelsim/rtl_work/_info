@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+Elpddr2
+Z1 w1614854296
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2.vhd
+Z6 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2.vhd
+l0
+L9
+VNI9<?Ff[;b0Wf`>Oaz35n3
+!s100 C_kPe5R>lJ:ZM>7`L>fJ82
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1616748543
+!i10b 1
+Z9 !s108 1616748543.000000
+Z10 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2.vhd|
+Z11 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2.vhd|
+!i113 1
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 6 lpddr2 0 22 NI9<?Ff[;b0Wf`>Oaz35n3
+l228
+L118
+VeFNbk?MY>Un_T0Hz0Ycz80
+!s100 P;ho=BMcCQK6Q;WEY@iz00
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+Epll
+Z13 w1614855667
+R3
+R4
+Z14 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3L]34bNSPL@[RD2AeKH]S3
+R0
+Z15 8D:/intelFPGA_lite/Workspace/SDRAM/pll_sim/pll.vho
+Z16 FD:/intelFPGA_lite/Workspace/SDRAM/pll_sim/pll.vho
+l0
+L34
+VJ1TPO1`1ZfkUeeM;FegRk3
+!s100 Ih438?S?_^dXGB:8feaPk2
+R7
+32
+Z17 !s110 1616748544
+!i10b 1
+Z18 !s108 1616748544.000000
+Z19 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/pll_sim/pll.vho|
+Z20 !s107 D:/intelFPGA_lite/Workspace/SDRAM/pll_sim/pll.vho|
+!i113 1
+R12
+Artl
+R3
+R4
+R14
+DEx4 work 3 pll 0 22 J1TPO1`1ZfkUeeM;FegRk3
+l51
+L44
+VJeIz<Y`h?oC1aV1]fV^6Q1
+!s100 f^`H=1l?GX0KV=^fiFP;j3
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12

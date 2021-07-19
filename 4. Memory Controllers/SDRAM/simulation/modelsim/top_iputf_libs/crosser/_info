@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+valtera_avalon_st_clock_crosser
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1616748497
+!i10b 1
+!s100 HXcGESGB1AIK<[k96k8GW3
+IFF]OjY:;NROWa`[S?H7S:0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_st_clock_crosser_v_unit
+S1
+R0
+Z4 w1614854400
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_clock_crosser.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_clock_crosser.v
+Z5 L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1616748497.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_clock_crosser.v|-work|crosser|
+!i113 1
+Z8 o-sv -work crosser
+Z9 tCvgOpt 0
+valtera_avalon_st_handshake_clock_crosser
+R1
+R2
+!i10b 1
+!s100 f:AU?0BbMgC^cVdTB^k4C0
+I`f88f8YlzJUTDZ^fO<kAg1
+R3
+!s105 altera_avalon_st_handshake_clock_crosser_v_unit
+S1
+R0
+R4
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_handshake_clock_crosser.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_handshake_clock_crosser.v
+L0 24
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_handshake_clock_crosser.v|-work|crosser|
+!i113 1
+R8
+R9
+valtera_avalon_st_pipeline_base
+R1
+Z10 !s110 1616748498
+!i10b 1
+!s100 IZ246NSd;dW2a7WAUFMLa1
+I2WKkd_bPAid?9a6P<beHo1
+R3
+!s105 altera_avalon_st_pipeline_base_v_unit
+S1
+R0
+R4
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_base.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_base.v
+R5
+R6
+r1
+!s85 0
+31
+Z11 !s108 1616748498.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_pipeline_base.v|-work|crosser|
+!i113 1
+R8
+R9
+valtera_std_synchronizer_nocut
+R1
+R10
+!i10b 1
+!s100 VXZB9eG5R<c?e0Q]eX?@a3
+I8GJ72_:31:1;e5^]TN4`i1
+R3
+!s105 altera_std_synchronizer_nocut_v_unit
+S1
+R0
+R4
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_std_synchronizer_nocut.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_std_synchronizer_nocut.v
+L0 44
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_std_synchronizer_nocut.v|-work|crosser|
+!i113 1
+R8
+R9

@@ -1,0 +1,745 @@
+Analysis & Synthesis report for top
+Thu Mar 25 15:09:58 2021
+Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis IP Cores Summary
+  9. State Machine - |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|current_mode
+ 10. Registers Removed During Synthesis
+ 11. Removed Registers Triggering Further Register Optimizations
+ 12. General Register Statistics
+ 13. Inverted Register Statistics
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Parameter Settings for User Entity Instance: pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i
+ 16. Post-Synthesis Netlist Statistics for Top Partition
+ 17. Elapsed Time Per Partition
+ 18. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Thu Mar 25 15:09:58 2021       ;
+; Quartus Prime Version           ; 16.1.2 Build 203 01/18/2017 SJ Lite Edition ;
+; Revision Name                   ; top                                         ;
+; Top-level Entity Name           ; top                                         ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 281                                         ;
+; Total pins                      ; 26                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 1                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CGXFC5C6F27C7     ;                    ;
+; Top-level entity name                                                           ; top                ; top                ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; OpenCore Plus hardware evaluation                                               ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; PowerPlay Power Optimization During Synthesis                                   ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                           ;
++----------------------------------+-----------------+-----------------------------+---------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                   ; File Name with Absolute Path                                        ; Library ;
++----------------------------------+-----------------+-----------------------------+---------------------------------------------------------------------+---------+
+; ADC.vhd                          ; yes             ; User VHDL File              ; D:/intelFPGA_lite/Workspace/ADC/ADC.vhd                             ;         ;
+; ADC_cntrl.vhd                    ; yes             ; User VHDL File              ; D:/intelFPGA_lite/Workspace/ADC/ADC_cntrl.vhd                       ;         ;
+; top.vhd                          ; yes             ; User VHDL File              ; D:/intelFPGA_lite/Workspace/ADC/top.vhd                             ;         ;
+; pll_adc.vhd                      ; yes             ; User Wizard-Generated File  ; D:/intelFPGA_lite/Workspace/ADC/pll_adc.vhd                         ; pll_adc ;
+; pll_adc/pll_adc_0002.v           ; yes             ; User Verilog HDL File       ; D:/intelFPGA_lite/Workspace/ADC/pll_adc/pll_adc_0002.v              ; pll_adc ;
+; altera_pll.v                     ; yes             ; Megafunction                ; d:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altera_pll.v ;         ;
++----------------------------------+-----------------+-----------------------------+---------------------------------------------------------------------+---------+
+
+
++----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary              ;
++---------------------------------------------+------------+
+; Resource                                    ; Usage      ;
++---------------------------------------------+------------+
+; Estimate of Logic utilization (ALMs needed) ; 257        ;
+;                                             ;            ;
+; Combinational ALUT usage for logic          ; 460        ;
+;     -- 7 input functions                    ; 1          ;
+;     -- 6 input functions                    ; 49         ;
+;     -- 5 input functions                    ; 33         ;
+;     -- 4 input functions                    ; 125        ;
+;     -- <=3 input functions                  ; 252        ;
+;                                             ;            ;
+; Dedicated logic registers                   ; 281        ;
+;                                             ;            ;
+; I/O pins                                    ; 26         ;
+;                                             ;            ;
+; Total DSP Blocks                            ; 0          ;
+;                                             ;            ;
+; Total PLLs                                  ; 1          ;
+;     -- PLLs                                 ; 1          ;
+;                                             ;            ;
+; Maximum fan-out node                        ; pll_clk_40 ;
+; Maximum fan-out                             ; 282        ;
+; Total fan-out                               ; 2394       ;
+; Average fan-out                             ; 3.02       ;
++---------------------------------------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                     ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------+--------------+--------------+
+; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                         ; Entity Name  ; Library Name ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------+--------------+--------------+
+; |top                               ; 460 (1)             ; 281 (0)                   ; 0                 ; 0          ; 26   ; 0            ; |top                                                                        ; top          ; work         ;
+;    |ADC_cntrl:ADC_cntrl_inst|      ; 459 (47)            ; 281 (52)                  ; 0                 ; 0          ; 0    ; 0            ; |top|ADC_cntrl:ADC_cntrl_inst                                               ; ADC_cntrl    ; work         ;
+;       |ADC:ADC_inst|               ; 412 (412)           ; 229 (229)                 ; 0                 ; 0          ; 0    ; 0            ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst                                  ; ADC          ; work         ;
+;    |pll_adc:pll_adc_inst|          ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|pll_adc:pll_adc_inst                                                   ; pll_adc      ; pll_adc      ;
+;       |pll_adc_0002:pll_adc_inst|  ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst                         ; pll_adc_0002 ; pll_adc      ;
+;          |altera_pll:altera_pll_i| ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i ; altera_pll   ; work         ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------+--------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                       ;
++--------+--------------+---------+--------------+--------------+---------------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance           ; IP Include File ;
++--------+--------------+---------+--------------+--------------+---------------------------+-----------------+
+; Altera ; altera_pll   ; 16.1    ; N/A          ; N/A          ; |top|pll_adc:pll_adc_inst ; pll_adc.vhd     ;
++--------+--------------+---------+--------------+--------------+---------------------------+-----------------+
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|current_mode                                                   ;
++--------------------+--------------------+-------------------+--------------------+--------------------+-------------------+
+; Name               ; current_mode.wait1 ; current_mode.conv ; current_mode.wait0 ; current_mode.pulse ; current_mode.idle ;
++--------------------+--------------------+-------------------+--------------------+--------------------+-------------------+
+; current_mode.idle  ; 0                  ; 0                 ; 0                  ; 0                  ; 0                 ;
+; current_mode.pulse ; 0                  ; 0                 ; 0                  ; 1                  ; 1                 ;
+; current_mode.wait0 ; 0                  ; 0                 ; 1                  ; 0                  ; 1                 ;
+; current_mode.conv  ; 0                  ; 1                 ; 0                  ; 0                  ; 1                 ;
+; current_mode.wait1 ; 1                  ; 0                 ; 0                  ; 0                  ; 1                 ;
++--------------------+--------------------+-------------------+--------------------+--------------------+-------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                    ;
++-----------------------------------------------------+-----------------------------------------------------------------+
+; Register name                                       ; Reason for Removal                                              ;
++-----------------------------------------------------+-----------------------------------------------------------------+
+; ADC_cntrl:ADC_cntrl_inst|command[0]                 ; Stuck at GND due to stuck port data_in                          ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|command_in[0] ; Stuck at GND due to stuck port data_in                          ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|command_in[5] ; Merged with ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|command_in[1] ;
+; ADC_cntrl:ADC_cntrl_inst|command[5]                 ; Merged with ADC_cntrl:ADC_cntrl_inst|command[1]                 ;
+; Total Number of Removed Registers = 4               ;                                                                 ;
++-----------------------------------------------------+-----------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                           ;
++-------------------------------------+---------------------------+-----------------------------------------------------+
+; Register name                       ; Reason for Removal        ; Registers Removed due to This Register              ;
++-------------------------------------+---------------------------+-----------------------------------------------------+
+; ADC_cntrl:ADC_cntrl_inst|command[0] ; Stuck at GND              ; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|command_in[0] ;
+;                                     ; due to stuck port data_in ;                                                     ;
++-------------------------------------+---------------------------+-----------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 281   ;
+; Number of registers using Synchronous Clear  ; 86    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 25    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 202   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------+
+; Inverted Register Statistics                                 ;
++----------------------------------------------------+---------+
+; Inverted Register                                  ; Fan out ;
++----------------------------------------------------+---------+
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|cmd_ind[2]   ; 3       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|cmd_ind[0]   ; 3       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|pulses[3]    ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|pulses[2]    ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait0_scl[0] ; 3       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait0_scl[1] ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|conv_scl[0]  ; 4       ;
+; ADC_cntrl:ADC_cntrl_inst|wait_time[7]              ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|wait_time[18]             ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|wait_time[17]             ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|wait_time[12]             ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|wait_time[11]             ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|wait_time[9]              ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait1_scl[0] ; 3       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait1_scl[5] ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait1_scl[4] ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait1_scl[3] ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait1_scl[2] ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait1_scl[1] ; 2       ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|data_ind[3]  ; 10      ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|data_ind[1]  ; 10      ;
+; ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|data_ind[0]  ; 10      ;
+; Total number of inverted registers = 22            ;         ;
++----------------------------------------------------+---------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
+; 3:1                ; 30 bits   ; 60 LEs        ; 0 LEs                ; 60 LEs                 ; Yes        ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|cmd_ind[9]   ;
+; 4:1                ; 29 bits   ; 58 LEs        ; 0 LEs                ; 58 LEs                 ; Yes        ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|data_ind[7]  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|cmd_ind[2]   ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|data_ind[3]  ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|pulses[2]    ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait0_scl[1] ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|wait1_scl[2] ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|Selector4    ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; No         ; |top|ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst|Selector1    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i ;
++--------------------------------------+------------------------+-----------------------------------------------------+
+; Parameter Name                       ; Value                  ; Type                                                ;
++--------------------------------------+------------------------+-----------------------------------------------------+
+; reference_clock_frequency            ; 50.0 MHz               ; String                                              ;
+; fractional_vco_multiplier            ; false                  ; String                                              ;
+; pll_type                             ; General                ; String                                              ;
+; pll_subtype                          ; General                ; String                                              ;
+; number_of_clocks                     ; 1                      ; Signed Integer                                      ;
+; operation_mode                       ; direct                 ; String                                              ;
+; deserialization_factor               ; 4                      ; Signed Integer                                      ;
+; data_rate                            ; 0                      ; Signed Integer                                      ;
+; sim_additional_refclk_cycles_to_lock ; 0                      ; Signed Integer                                      ;
+; output_clock_frequency0              ; 40.000000 MHz          ; String                                              ;
+; phase_shift0                         ; 0 ps                   ; String                                              ;
+; duty_cycle0                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency1              ; 0 MHz                  ; String                                              ;
+; phase_shift1                         ; 0 ps                   ; String                                              ;
+; duty_cycle1                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency2              ; 0 MHz                  ; String                                              ;
+; phase_shift2                         ; 0 ps                   ; String                                              ;
+; duty_cycle2                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency3              ; 0 MHz                  ; String                                              ;
+; phase_shift3                         ; 0 ps                   ; String                                              ;
+; duty_cycle3                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency4              ; 0 MHz                  ; String                                              ;
+; phase_shift4                         ; 0 ps                   ; String                                              ;
+; duty_cycle4                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency5              ; 0 MHz                  ; String                                              ;
+; phase_shift5                         ; 0 ps                   ; String                                              ;
+; duty_cycle5                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency6              ; 0 MHz                  ; String                                              ;
+; phase_shift6                         ; 0 ps                   ; String                                              ;
+; duty_cycle6                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency7              ; 0 MHz                  ; String                                              ;
+; phase_shift7                         ; 0 ps                   ; String                                              ;
+; duty_cycle7                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency8              ; 0 MHz                  ; String                                              ;
+; phase_shift8                         ; 0 ps                   ; String                                              ;
+; duty_cycle8                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency9              ; 0 MHz                  ; String                                              ;
+; phase_shift9                         ; 0 ps                   ; String                                              ;
+; duty_cycle9                          ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency10             ; 0 MHz                  ; String                                              ;
+; phase_shift10                        ; 0 ps                   ; String                                              ;
+; duty_cycle10                         ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency11             ; 0 MHz                  ; String                                              ;
+; phase_shift11                        ; 0 ps                   ; String                                              ;
+; duty_cycle11                         ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency12             ; 0 MHz                  ; String                                              ;
+; phase_shift12                        ; 0 ps                   ; String                                              ;
+; duty_cycle12                         ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency13             ; 0 MHz                  ; String                                              ;
+; phase_shift13                        ; 0 ps                   ; String                                              ;
+; duty_cycle13                         ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency14             ; 0 MHz                  ; String                                              ;
+; phase_shift14                        ; 0 ps                   ; String                                              ;
+; duty_cycle14                         ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency15             ; 0 MHz                  ; String                                              ;
+; phase_shift15                        ; 0 ps                   ; String                                              ;
+; duty_cycle15                         ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency16             ; 0 MHz                  ; String                                              ;
+; phase_shift16                        ; 0 ps                   ; String                                              ;
+; duty_cycle16                         ; 50                     ; Signed Integer                                      ;
+; output_clock_frequency17             ; 0 MHz                  ; String                                              ;
+; phase_shift17                        ; 0 ps                   ; String                                              ;
+; duty_cycle17                         ; 50                     ; Signed Integer                                      ;
+; clock_name_0                         ;                        ; String                                              ;
+; clock_name_1                         ;                        ; String                                              ;
+; clock_name_2                         ;                        ; String                                              ;
+; clock_name_3                         ;                        ; String                                              ;
+; clock_name_4                         ;                        ; String                                              ;
+; clock_name_5                         ;                        ; String                                              ;
+; clock_name_6                         ;                        ; String                                              ;
+; clock_name_7                         ;                        ; String                                              ;
+; clock_name_8                         ;                        ; String                                              ;
+; clock_name_global_0                  ; false                  ; String                                              ;
+; clock_name_global_1                  ; false                  ; String                                              ;
+; clock_name_global_2                  ; false                  ; String                                              ;
+; clock_name_global_3                  ; false                  ; String                                              ;
+; clock_name_global_4                  ; false                  ; String                                              ;
+; clock_name_global_5                  ; false                  ; String                                              ;
+; clock_name_global_6                  ; false                  ; String                                              ;
+; clock_name_global_7                  ; false                  ; String                                              ;
+; clock_name_global_8                  ; false                  ; String                                              ;
+; m_cnt_hi_div                         ; 1                      ; Signed Integer                                      ;
+; m_cnt_lo_div                         ; 1                      ; Signed Integer                                      ;
+; m_cnt_bypass_en                      ; false                  ; String                                              ;
+; m_cnt_odd_div_duty_en                ; false                  ; String                                              ;
+; n_cnt_hi_div                         ; 1                      ; Signed Integer                                      ;
+; n_cnt_lo_div                         ; 1                      ; Signed Integer                                      ;
+; n_cnt_bypass_en                      ; false                  ; String                                              ;
+; n_cnt_odd_div_duty_en                ; false                  ; String                                              ;
+; c_cnt_hi_div0                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div0                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en0                     ; false                  ; String                                              ;
+; c_cnt_in_src0                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en0               ; false                  ; String                                              ;
+; c_cnt_prst0                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst0                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div1                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div1                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en1                     ; false                  ; String                                              ;
+; c_cnt_in_src1                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en1               ; false                  ; String                                              ;
+; c_cnt_prst1                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst1                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div2                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div2                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en2                     ; false                  ; String                                              ;
+; c_cnt_in_src2                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en2               ; false                  ; String                                              ;
+; c_cnt_prst2                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst2                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div3                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div3                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en3                     ; false                  ; String                                              ;
+; c_cnt_in_src3                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en3               ; false                  ; String                                              ;
+; c_cnt_prst3                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst3                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div4                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div4                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en4                     ; false                  ; String                                              ;
+; c_cnt_in_src4                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en4               ; false                  ; String                                              ;
+; c_cnt_prst4                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst4                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div5                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div5                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en5                     ; false                  ; String                                              ;
+; c_cnt_in_src5                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en5               ; false                  ; String                                              ;
+; c_cnt_prst5                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst5                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div6                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div6                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en6                     ; false                  ; String                                              ;
+; c_cnt_in_src6                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en6               ; false                  ; String                                              ;
+; c_cnt_prst6                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst6                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div7                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div7                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en7                     ; false                  ; String                                              ;
+; c_cnt_in_src7                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en7               ; false                  ; String                                              ;
+; c_cnt_prst7                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst7                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div8                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div8                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en8                     ; false                  ; String                                              ;
+; c_cnt_in_src8                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en8               ; false                  ; String                                              ;
+; c_cnt_prst8                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst8                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div9                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div9                        ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en9                     ; false                  ; String                                              ;
+; c_cnt_in_src9                        ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en9               ; false                  ; String                                              ;
+; c_cnt_prst9                          ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst9                   ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div10                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div10                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en10                    ; false                  ; String                                              ;
+; c_cnt_in_src10                       ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en10              ; false                  ; String                                              ;
+; c_cnt_prst10                         ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst10                  ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div11                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div11                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en11                    ; false                  ; String                                              ;
+; c_cnt_in_src11                       ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en11              ; false                  ; String                                              ;
+; c_cnt_prst11                         ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst11                  ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div12                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div12                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en12                    ; false                  ; String                                              ;
+; c_cnt_in_src12                       ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en12              ; false                  ; String                                              ;
+; c_cnt_prst12                         ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst12                  ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div13                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div13                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en13                    ; false                  ; String                                              ;
+; c_cnt_in_src13                       ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en13              ; false                  ; String                                              ;
+; c_cnt_prst13                         ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst13                  ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div14                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div14                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en14                    ; false                  ; String                                              ;
+; c_cnt_in_src14                       ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en14              ; false                  ; String                                              ;
+; c_cnt_prst14                         ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst14                  ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div15                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div15                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en15                    ; false                  ; String                                              ;
+; c_cnt_in_src15                       ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en15              ; false                  ; String                                              ;
+; c_cnt_prst15                         ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst15                  ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div16                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div16                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en16                    ; false                  ; String                                              ;
+; c_cnt_in_src16                       ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en16              ; false                  ; String                                              ;
+; c_cnt_prst16                         ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst16                  ; 0                      ; Signed Integer                                      ;
+; c_cnt_hi_div17                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_lo_div17                       ; 1                      ; Signed Integer                                      ;
+; c_cnt_bypass_en17                    ; false                  ; String                                              ;
+; c_cnt_in_src17                       ; ph_mux_clk             ; String                                              ;
+; c_cnt_odd_div_duty_en17              ; false                  ; String                                              ;
+; c_cnt_prst17                         ; 1                      ; Signed Integer                                      ;
+; c_cnt_ph_mux_prst17                  ; 0                      ; Signed Integer                                      ;
+; pll_vco_div                          ; 1                      ; Signed Integer                                      ;
+; pll_slf_rst                          ; false                  ; String                                              ;
+; pll_bw_sel                           ; low                    ; String                                              ;
+; pll_output_clk_frequency             ; 0 MHz                  ; String                                              ;
+; pll_cp_current                       ; 0                      ; Signed Integer                                      ;
+; pll_bwctrl                           ; 0                      ; Signed Integer                                      ;
+; pll_fractional_division              ; 1                      ; Signed Integer                                      ;
+; pll_fractional_cout                  ; 24                     ; Signed Integer                                      ;
+; pll_dsm_out_sel                      ; 1st_order              ; String                                              ;
+; mimic_fbclk_type                     ; gclk                   ; String                                              ;
+; pll_fbclk_mux_1                      ; glb                    ; String                                              ;
+; pll_fbclk_mux_2                      ; fb_1                   ; String                                              ;
+; pll_m_cnt_in_src                     ; ph_mux_clk             ; String                                              ;
+; pll_vcoph_div                        ; 1                      ; Signed Integer                                      ;
+; refclk1_frequency                    ; 0 MHz                  ; String                                              ;
+; pll_clkin_0_src                      ; clk_0                  ; String                                              ;
+; pll_clkin_1_src                      ; clk_0                  ; String                                              ;
+; pll_clk_loss_sw_en                   ; false                  ; String                                              ;
+; pll_auto_clk_sw_en                   ; false                  ; String                                              ;
+; pll_manu_clk_sw_en                   ; false                  ; String                                              ;
+; pll_clk_sw_dly                       ; 0                      ; Signed Integer                                      ;
+; pll_extclk_0_cnt_src                 ; pll_extclk_cnt_src_vss ; String                                              ;
+; pll_extclk_1_cnt_src                 ; pll_extclk_cnt_src_vss ; String                                              ;
++--------------------------------------+------------------------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 281                         ;
+;     CLR               ; 13                          ;
+;     ENA               ; 164                         ;
+;     ENA CLR           ; 12                          ;
+;     ENA SCLR          ; 26                          ;
+;     SCLR              ; 60                          ;
+;     plain             ; 6                           ;
+; arriav_lcell_comb     ; 460                         ;
+;     arith             ; 224                         ;
+;         1 data inputs ; 224                         ;
+;     extend            ; 1                           ;
+;         7 data inputs ; 1                           ;
+;     normal            ; 235                         ;
+;         2 data inputs ; 18                          ;
+;         3 data inputs ; 10                          ;
+;         4 data inputs ; 125                         ;
+;         5 data inputs ; 33                          ;
+;         6 data inputs ; 49                          ;
+; boundary_port         ; 26                          ;
+; generic_pll           ; 1                           ;
+;                       ;                             ;
+; Max LUT depth         ; 5.10                        ;
+; Average LUT depth     ; 3.55                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+    Info: Processing started: Thu Mar 25 15:09:46 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ADC -c top
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file adc.vhd
+    Info (12022): Found design unit 1: ADC-logic File: D:/intelFPGA_lite/Workspace/ADC/ADC.vhd Line: 27
+    Info (12023): Found entity 1: ADC File: D:/intelFPGA_lite/Workspace/ADC/ADC.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file rx.vhd
+    Info (12022): Found design unit 1: Rx-main File: D:/intelFPGA_lite/Workspace/ADC/Rx.vhd Line: 18
+    Info (12023): Found entity 1: Rx File: D:/intelFPGA_lite/Workspace/ADC/Rx.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file tx.vhd
+    Info (12022): Found design unit 1: Tx-main File: D:/intelFPGA_lite/Workspace/ADC/Tx.vhd Line: 18
+    Info (12023): Found entity 1: Tx File: D:/intelFPGA_lite/Workspace/ADC/Tx.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file adc_cntrl.vhd
+    Info (12022): Found design unit 1: ADC_cntrl-logic File: D:/intelFPGA_lite/Workspace/ADC/ADC_cntrl.vhd Line: 29
+    Info (12023): Found entity 1: ADC_cntrl File: D:/intelFPGA_lite/Workspace/ADC/ADC_cntrl.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file top.vhd
+    Info (12022): Found design unit 1: top-logic File: D:/intelFPGA_lite/Workspace/ADC/top.vhd Line: 29
+    Info (12023): Found entity 1: top File: D:/intelFPGA_lite/Workspace/ADC/top.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file pll_adc.vhd
+    Info (12022): Found design unit 1: pll_adc-rtl File: D:/intelFPGA_lite/Workspace/ADC/pll_adc.vhd Line: 20
+    Info (12023): Found entity 1: pll_adc File: D:/intelFPGA_lite/Workspace/ADC/pll_adc.vhd Line: 11
+Info (12021): Found 1 design units, including 1 entities, in source file pll_adc/pll_adc_0002.v
+    Info (12023): Found entity 1: pll_adc_0002 File: D:/intelFPGA_lite/Workspace/ADC/pll_adc/pll_adc_0002.v Line: 2
+Info (12127): Elaborating entity "top" for the top level hierarchy
+Info (12128): Elaborating entity "pll_adc" for hierarchy "pll_adc:pll_adc_inst" File: D:/intelFPGA_lite/Workspace/ADC/top.vhd Line: 76
+Info (12128): Elaborating entity "pll_adc_0002" for hierarchy "pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst" File: D:/intelFPGA_lite/Workspace/ADC/pll_adc.vhd Line: 32
+Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i" File: D:/intelFPGA_lite/Workspace/ADC/pll_adc/pll_adc_0002.v Line: 85
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
+Info (12130): Elaborated megafunction instantiation "pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i" File: D:/intelFPGA_lite/Workspace/ADC/pll_adc/pll_adc_0002.v Line: 85
+Info (12133): Instantiated megafunction "pll_adc:pll_adc_inst|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i" with the following parameter: File: D:/intelFPGA_lite/Workspace/ADC/pll_adc/pll_adc_0002.v Line: 85
+    Info (12134): Parameter "fractional_vco_multiplier" = "false"
+    Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
+    Info (12134): Parameter "operation_mode" = "direct"
+    Info (12134): Parameter "number_of_clocks" = "1"
+    Info (12134): Parameter "output_clock_frequency0" = "40.000000 MHz"
+    Info (12134): Parameter "phase_shift0" = "0 ps"
+    Info (12134): Parameter "duty_cycle0" = "50"
+    Info (12134): Parameter "output_clock_frequency1" = "0 MHz"
+    Info (12134): Parameter "phase_shift1" = "0 ps"
+    Info (12134): Parameter "duty_cycle1" = "50"
+    Info (12134): Parameter "output_clock_frequency2" = "0 MHz"
+    Info (12134): Parameter "phase_shift2" = "0 ps"
+    Info (12134): Parameter "duty_cycle2" = "50"
+    Info (12134): Parameter "output_clock_frequency3" = "0 MHz"
+    Info (12134): Parameter "phase_shift3" = "0 ps"
+    Info (12134): Parameter "duty_cycle3" = "50"
+    Info (12134): Parameter "output_clock_frequency4" = "0 MHz"
+    Info (12134): Parameter "phase_shift4" = "0 ps"
+    Info (12134): Parameter "duty_cycle4" = "50"
+    Info (12134): Parameter "output_clock_frequency5" = "0 MHz"
+    Info (12134): Parameter "phase_shift5" = "0 ps"
+    Info (12134): Parameter "duty_cycle5" = "50"
+    Info (12134): Parameter "output_clock_frequency6" = "0 MHz"
+    Info (12134): Parameter "phase_shift6" = "0 ps"
+    Info (12134): Parameter "duty_cycle6" = "50"
+    Info (12134): Parameter "output_clock_frequency7" = "0 MHz"
+    Info (12134): Parameter "phase_shift7" = "0 ps"
+    Info (12134): Parameter "duty_cycle7" = "50"
+    Info (12134): Parameter "output_clock_frequency8" = "0 MHz"
+    Info (12134): Parameter "phase_shift8" = "0 ps"
+    Info (12134): Parameter "duty_cycle8" = "50"
+    Info (12134): Parameter "output_clock_frequency9" = "0 MHz"
+    Info (12134): Parameter "phase_shift9" = "0 ps"
+    Info (12134): Parameter "duty_cycle9" = "50"
+    Info (12134): Parameter "output_clock_frequency10" = "0 MHz"
+    Info (12134): Parameter "phase_shift10" = "0 ps"
+    Info (12134): Parameter "duty_cycle10" = "50"
+    Info (12134): Parameter "output_clock_frequency11" = "0 MHz"
+    Info (12134): Parameter "phase_shift11" = "0 ps"
+    Info (12134): Parameter "duty_cycle11" = "50"
+    Info (12134): Parameter "output_clock_frequency12" = "0 MHz"
+    Info (12134): Parameter "phase_shift12" = "0 ps"
+    Info (12134): Parameter "duty_cycle12" = "50"
+    Info (12134): Parameter "output_clock_frequency13" = "0 MHz"
+    Info (12134): Parameter "phase_shift13" = "0 ps"
+    Info (12134): Parameter "duty_cycle13" = "50"
+    Info (12134): Parameter "output_clock_frequency14" = "0 MHz"
+    Info (12134): Parameter "phase_shift14" = "0 ps"
+    Info (12134): Parameter "duty_cycle14" = "50"
+    Info (12134): Parameter "output_clock_frequency15" = "0 MHz"
+    Info (12134): Parameter "phase_shift15" = "0 ps"
+    Info (12134): Parameter "duty_cycle15" = "50"
+    Info (12134): Parameter "output_clock_frequency16" = "0 MHz"
+    Info (12134): Parameter "phase_shift16" = "0 ps"
+    Info (12134): Parameter "duty_cycle16" = "50"
+    Info (12134): Parameter "output_clock_frequency17" = "0 MHz"
+    Info (12134): Parameter "phase_shift17" = "0 ps"
+    Info (12134): Parameter "duty_cycle17" = "50"
+    Info (12134): Parameter "pll_type" = "General"
+    Info (12134): Parameter "pll_subtype" = "General"
+Info (12128): Elaborating entity "ADC_cntrl" for hierarchy "ADC_cntrl:ADC_cntrl_inst" File: D:/intelFPGA_lite/Workspace/ADC/top.vhd Line: 86
+Info (12128): Elaborating entity "ADC" for hierarchy "ADC_cntrl:ADC_cntrl_inst|ADC:ADC_inst" File: D:/intelFPGA_lite/Workspace/ADC/ADC_cntrl.vhd Line: 64
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 5 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 522 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 7 input pins
+    Info (21059): Implemented 19 output pins
+    Info (21061): Implemented 495 logic cells
+    Info (21065): Implemented 1 PLLs
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4855 megabytes
+    Info: Processing ended: Thu Mar 25 15:09:58 2021
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:24
+
+

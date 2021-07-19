@@ -1,0 +1,134 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+# Date created = 15:12:12  February 05, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		leds_segments_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CGXFC5C6F27C7
+set_global_assignment -name TOP_LEVEL_ENTITY leds_segments
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.1.2
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:12:12  FEBRUARY 05, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name VHDL_FILE leds_segments.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_R20 -to clk_led
+set_location_assignment PIN_U12 -to clk_segment
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk_led
+set_instance_assignment -name IO_STANDARD LVDS -to clk_segment
+set_location_assignment PIN_V12 -to "clk_segment(n)"
+set_location_assignment PIN_L7 -to LEDG0
+set_location_assignment PIN_K6 -to LEDG1
+set_location_assignment PIN_D8 -to LEDG2
+set_location_assignment PIN_E9 -to LEDG3
+set_location_assignment PIN_F7 -to LEDR0
+set_location_assignment PIN_F6 -to LEDR1
+set_location_assignment PIN_G6 -to LEDR2
+set_location_assignment PIN_G7 -to LEDR3
+set_location_assignment PIN_V19 -to segment0[0]
+set_location_assignment PIN_V18 -to segment0[1]
+set_location_assignment PIN_V17 -to segment0[2]
+set_location_assignment PIN_W18 -to segment0[3]
+set_location_assignment PIN_Y20 -to segment0[4]
+set_location_assignment PIN_Y19 -to segment0[5]
+set_location_assignment PIN_Y18 -to segment0[6]
+set_location_assignment PIN_AA18 -to segment1[0]
+set_location_assignment PIN_AD26 -to segment1[1]
+set_location_assignment PIN_AB19 -to segment1[2]
+set_location_assignment PIN_AE26 -to segment1[3]
+set_location_assignment PIN_AE25 -to segment1[4]
+set_location_assignment PIN_AC19 -to segment1[5]
+set_location_assignment PIN_AF24 -to segment1[6]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment0[0]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment0[1]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment0[2]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment0[3]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment0[4]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment0[5]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment0[6]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment1[0]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment1[1]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment1[2]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment1[3]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment1[4]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment1[5]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to segment1[6]
+set_location_assignment PIN_AD7 -to segment2[0]
+set_location_assignment PIN_AD6 -to segment2[1]
+set_location_assignment PIN_U20 -to segment2[2]
+set_location_assignment PIN_V22 -to segment2[3]
+set_location_assignment PIN_V20 -to segment2[4]
+set_location_assignment PIN_W21 -to segment2[5]
+set_location_assignment PIN_W20 -to segment2[6]
+set_location_assignment PIN_Y24 -to segment3[0]
+set_location_assignment PIN_Y23 -to segment3[1]
+set_location_assignment PIN_AA23 -to segment3[2]
+set_location_assignment PIN_AA22 -to segment3[3]
+set_location_assignment PIN_AC24 -to segment3[4]
+set_location_assignment PIN_AC23 -to segment3[5]
+set_location_assignment PIN_AC22 -to segment3[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment2[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment2[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment2[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment2[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment2[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment2[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment2[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment3[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment3[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment3[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment3[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment3[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment3[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to segment3[6]
+set_global_assignment -name SDC_FILE leds_segments.sdc
+set_location_assignment PIN_A5 -to LEDG4
+set_location_assignment PIN_B6 -to LEDG5
+set_location_assignment PIN_H8 -to LEDG6
+set_location_assignment PIN_H9 -to LEDG7
+set_location_assignment PIN_J8 -to LEDR4
+set_location_assignment PIN_J7 -to LEDR5
+set_location_assignment PIN_K10 -to LEDR6
+set_location_assignment PIN_K8 -to LEDR7
+set_location_assignment PIN_H7 -to LEDR8
+set_location_assignment PIN_J10 -to LEDR9
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

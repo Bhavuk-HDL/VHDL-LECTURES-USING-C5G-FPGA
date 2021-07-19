@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_segment'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'clk_led'
+Slack : 6.747
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_segment'
+Slack : 0.287
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_led'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_segment'
+Slack : 4.024
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_led'
+Slack : 9.245
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk_segment'
+Slack : 0.589
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk_led'
+Slack : 6.878
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_segment'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_led'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_segment'
+Slack : 4.004
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_led'
+Slack : 9.347
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk_segment'
+Slack : 4.169
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk_led'
+Slack : 12.131
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_segment'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_led'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_segment'
+Slack : 4.547
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_led'
+Slack : 9.130
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk_segment'
+Slack : 4.448
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk_led'
+Slack : 12.476
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_segment'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_led'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_segment'
+Slack : 4.544
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_led'
+Slack : 9.088
+TNS   : 0.000
+
+------------------------------------------------------------

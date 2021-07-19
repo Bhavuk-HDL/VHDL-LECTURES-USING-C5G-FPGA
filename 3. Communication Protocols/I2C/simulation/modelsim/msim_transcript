@@ -1,0 +1,424 @@
+# Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do top_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {D:/intelFPGA_lite/Workspace/I2C/top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:51:48 on Jul 12,2021
+# vcom -reportprogress 300 -2008 -work work D:/intelFPGA_lite/Workspace/I2C/top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top
+# -- Compiling architecture logic of top
+# End time: 13:51:49 on Jul 12,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {D:/intelFPGA_lite/Workspace/I2C/I2C.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:51:49 on Jul 12,2021
+# vcom -reportprogress 300 -2008 -work work D:/intelFPGA_lite/Workspace/I2C/I2C.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity I2C
+# -- Compiling architecture logic of I2C
+# End time: 13:51:50 on Jul 12,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.top
+# vsim work.top 
+# Start time: 13:51:58 on Jul 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top(logic)
+# Loading work.i2c(logic)
+add wave -position end  sim:/i2c/main_clk
+# (vish-4014) No objects found matching '/i2c/main_clk'.
+add wave -position end  sim:/i2c/i2c_clk
+# (vish-4014) No objects found matching '/i2c/i2c_clk'.
+add wave -position end  sim:/i2c/clk
+# (vish-4014) No objects found matching '/i2c/clk'.
+add wave -position end  sim:/i2c/reset
+# (vish-4014) No objects found matching '/i2c/reset'.
+add wave -position end  sim:/i2c/scl
+# (vish-4014) No objects found matching '/i2c/scl'.
+add wave -position end  sim:/i2c/sda
+# (vish-4014) No objects found matching '/i2c/sda'.
+add wave -position end  sim:/i2c/base_addr
+# (vish-4014) No objects found matching '/i2c/base_addr'.
+add wave -position end  sim:/i2c/base_data
+# (vish-4014) No objects found matching '/i2c/base_data'.
+add wave -position end  sim:/i2c/default_addr
+# (vish-4014) No objects found matching '/i2c/default_addr'.
+add wave -position end  sim:/i2c/start_seq
+# (vish-4014) No objects found matching '/i2c/start_seq'.
+add wave -position end  sim:/i2c/end_seq
+# (vish-4014) No objects found matching '/i2c/end_seq'.
+add wave -position end  sim:/i2c/clk_count
+# (vish-4014) No objects found matching '/i2c/clk_count'.
+add wave -position end  sim:/i2c/reg_index
+# (vish-4014) No objects found matching '/i2c/reg_index'.
+add wave -position end  sim:/i2c/flip
+# (vish-4014) No objects found matching '/i2c/flip'.
+add wave -position end  sim:/i2c/ack
+# (vish-4014) No objects found matching '/i2c/ack'.
+add wave -position end  sim:/i2c/ack_check
+# (vish-4014) No objects found matching '/i2c/ack_check'.
+add wave -position end  sim:/i2c/base_addr_r
+# (vish-4014) No objects found matching '/i2c/base_addr_r'.
+add wave -position end  sim:/i2c/base_data_r
+# (vish-4014) No objects found matching '/i2c/base_data_r'.
+add wave -position end  sim:/i2c/default_addr_r
+# (vish-4014) No objects found matching '/i2c/default_addr_r'.
+add wave -position end  sim:/i2c/I2C_state
+# (vish-4014) No objects found matching '/i2c/I2C_state'.
+add wave -position end  sim:/i2c/clk_delay
+# (vish-4014) No objects found matching '/i2c/clk_delay'.
+add wave -position end  sim:/i2c/data_w
+# (vish-4014) No objects found matching '/i2c/data_w'.
+force -freeze sim:/i2c/clk 0 0, 1 {10000 ps} -r 20000
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/clk' not found.
+# 
+force -freeze sim:/i2c/reset 1 0
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/reset' not found.
+# 
+force -freeze sim:/i2c/base_addr 10011010 0
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/base_addr' not found.
+# 
+force -freeze sim:/i2c/base_data 11000010 0
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/base_data' not found.
+# 
+force -freeze sim:/i2c/default_addr 01010110 0
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/default_addr' not found.
+# 
+force -freeze sim:/i2c/start_seq 1 0 -cancel 100000
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/start_seq' not found.
+# 
+vsim work.i2c
+# End time: 13:52:18 on Jul 12,2021, Elapsed time: 0:00:20
+# Errors: 28, Warnings: 0
+# vsim work.i2c 
+# Start time: 13:52:18 on Jul 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.i2c(logic)
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/main_clk: (vish-4014) No objects found matching '/i2c/main_clk'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/i2c_clk: (vish-4014) No objects found matching '/i2c/i2c_clk'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/base_addr: (vish-4014) No objects found matching '/i2c/base_addr'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/base_data: (vish-4014) No objects found matching '/i2c/base_data'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/default_addr: (vish-4014) No objects found matching '/i2c/default_addr'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/end_seq: (vish-4014) No objects found matching '/i2c/end_seq'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/clk_count: (vish-4014) No objects found matching '/i2c/clk_count'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/reg_index: (vish-4014) No objects found matching '/i2c/reg_index'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/flip: (vish-4014) No objects found matching '/i2c/flip'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/ack: (vish-4014) No objects found matching '/i2c/ack'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/ack_check: (vish-4014) No objects found matching '/i2c/ack_check'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/base_addr_r: (vish-4014) No objects found matching '/i2c/base_addr_r'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/base_data_r: (vish-4014) No objects found matching '/i2c/base_data_r'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/default_addr_r: (vish-4014) No objects found matching '/i2c/default_addr_r'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/I2C_state: (vish-4014) No objects found matching '/i2c/I2C_state'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/clk_delay: (vish-4014) No objects found matching '/i2c/clk_delay'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: end: (vish-4014) No objects found matching 'end'.
+# Paste insertion failed: sim:/i2c/data_w: (vish-4014) No objects found matching '/i2c/data_w'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: 0,: (vish-4014) No objects found matching '0,'.
+# Paste insertion failed: 1: (vish-4014) No objects found matching '1'.
+# Paste insertion failed: 10000 ps: (vish-4014) No objects found matching '10000 ps'.
+# Paste insertion failed: -r: Missing signal name or pattern.
+# Paste insertion failed: 20000: (vish-4014) No objects found matching '20000'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: 1: (vish-4014) No objects found matching '1'.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: sim:/i2c/base_addr: (vish-4014) No objects found matching '/i2c/base_addr'.
+# Paste insertion failed: 10011010: (vish-4014) No objects found matching '10011010'.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: sim:/i2c/base_data: (vish-4014) No objects found matching '/i2c/base_data'.
+# Paste insertion failed: 11000010: (vish-4014) No objects found matching '11000010'.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: sim:/i2c/default_addr: (vish-4014) No objects found matching '/i2c/default_addr'.
+# Paste insertion failed: 01010110: (vish-4014) No objects found matching '01010110'.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: 1: (vish-4014) No objects found matching '1'.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: -cancel: Unrecognized option: "-cancel" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: 100000: (vish-4014) No objects found matching '100000'.
+add wave -position end  sim:/i2c/main_clk
+# (vish-4014) No objects found matching '/i2c/main_clk'.
+add wave -position end  sim:/i2c/i2c_clk
+# (vish-4014) No objects found matching '/i2c/i2c_clk'.
+add wave -position end  sim:/i2c/clk
+add wave -position end  sim:/i2c/reset
+add wave -position end  sim:/i2c/scl
+add wave -position end  sim:/i2c/sda
+add wave -position end  sim:/i2c/base_addr
+# (vish-4014) No objects found matching '/i2c/base_addr'.
+add wave -position end  sim:/i2c/base_data
+# (vish-4014) No objects found matching '/i2c/base_data'.
+add wave -position end  sim:/i2c/default_addr
+# (vish-4014) No objects found matching '/i2c/default_addr'.
+add wave -position end  sim:/i2c/start_seq
+add wave -position end  sim:/i2c/end_seq
+# (vish-4014) No objects found matching '/i2c/end_seq'.
+add wave -position end  sim:/i2c/clk_count
+# (vish-4014) No objects found matching '/i2c/clk_count'.
+add wave -position end  sim:/i2c/reg_index
+# (vish-4014) No objects found matching '/i2c/reg_index'.
+add wave -position end  sim:/i2c/flip
+# (vish-4014) No objects found matching '/i2c/flip'.
+add wave -position end  sim:/i2c/ack
+# (vish-4014) No objects found matching '/i2c/ack'.
+add wave -position end  sim:/i2c/ack_check
+# (vish-4014) No objects found matching '/i2c/ack_check'.
+add wave -position end  sim:/i2c/base_addr_r
+# (vish-4014) No objects found matching '/i2c/base_addr_r'.
+add wave -position end  sim:/i2c/base_data_r
+# (vish-4014) No objects found matching '/i2c/base_data_r'.
+add wave -position end  sim:/i2c/default_addr_r
+# (vish-4014) No objects found matching '/i2c/default_addr_r'.
+add wave -position end  sim:/i2c/I2C_state
+# (vish-4014) No objects found matching '/i2c/I2C_state'.
+add wave -position end  sim:/i2c/clk_delay
+# (vish-4014) No objects found matching '/i2c/clk_delay'.
+add wave -position end  sim:/i2c/data_w
+# (vish-4014) No objects found matching '/i2c/data_w'.
+force -freeze sim:/i2c/clk 0 0, 1 {10000 ps} -r 20000
+force -freeze sim:/i2c/reset 1 0
+force -freeze sim:/i2c/base_addr 10011010 0
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/base_addr' not found.
+# 
+force -freeze sim:/i2c/base_data 11000010 0
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/base_data' not found.
+# 
+force -freeze sim:/i2c/default_addr 01010110 0
+# ** Error (suppressible): (vsim-4008) Object 'sim:/i2c/default_addr' not found.
+# 
+force -freeze sim:/i2c/start_seq 1 0 -cancel 100000
+force -freeze sim:/i2c/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/i2c/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/i2c/RESET 1 0
+force -freeze sim:/i2c/START_SEQ 1 0
+add wave -position end  sim:/i2c/CLKFREQ
+add wave -position end  sim:/i2c/I2CFREQ
+add wave -position end  sim:/i2c/CLK
+add wave -position end  sim:/i2c/RESET
+add wave -position end  sim:/i2c/SCL
+add wave -position end  sim:/i2c/SDA
+add wave -position end  sim:/i2c/SLAVE_ADDRESS
+add wave -position end  sim:/i2c/BASE_ADDRESS
+add wave -position end  sim:/i2c/DATA_BYTE
+add wave -position end  sim:/i2c/START_SEQ
+add wave -position end  sim:/i2c/COMP_SEQ
+add wave -position end  sim:/i2c/ACK_N
+add wave -position end  sim:/i2c/SCL_count
+add wave -position end  sim:/i2c/index
+add wave -position end  sim:/i2c/byte_num
+add wave -position end  sim:/i2c/SDA_byte
+add wave -position end  sim:/i2c/SDA_data
+add wave -position end  sim:/i2c/curr_state
+add wave -position end  sim:/i2c/SCL_state
+add wave -position end  sim:/i2c/prescaler
+force -freeze sim:/i2c/CLK 1 0, 0 {12500 ps} -r 25000
+force -freeze sim:/i2c/RESET 1 0
+force -freeze sim:/i2c/SLAVE_ADDRESS 10101100 0
+force -freeze sim:/i2c/BASE_ADDRESS 11110000 0
+force -freeze sim:/i2c/DATA_BYTE 01010011 0
+force -freeze sim:/i2c/START_SEQ 0 0
+run
+force -freeze sim:/i2c/START_SEQ 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# End time: 13:56:25 on Jul 12,2021, Elapsed time: 0:04:07
+# Errors: 158, Warnings: 2

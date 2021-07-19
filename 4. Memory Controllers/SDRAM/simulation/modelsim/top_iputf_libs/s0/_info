@@ -1,0 +1,2082 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+valtera_avalon_mm_bridge
+Z1 !s110 1616748516
+!i10b 1
+!s100 `eCPo@iPkKz1CWZaUGYD=3
+IUk2fS8Co108d7MBzF>b1P0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1614854395
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_mm_bridge.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_mm_bridge.v
+L0 25
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1616748516.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_mm_bridge.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_mm_bridge.v|-work|s0|
+!i113 1
+Z6 o-work s0
+Z7 tCvgOpt 0
+v2AVezqhMH53rI4AstCXMkRt1ItdAXOufivm4fM89TT3DQ9NDQEA1oehoyUlk5fHK
+Z8 !s110 1616748528
+!i10b 0
+!s100 M7hPMBJ86L6QQN9cELNUg3
+Ik3JKmbejl]5BG9V@FTZWQ0
+R2
+!i8a 759572176
+R0
+Z9 w1616748528
+Z10 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_cpu_cv_sim_cpu_inst.v
+Z11 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_cpu_cv_sim_cpu_inst.v
+Z12 L0 38
+R4
+r1
+!s85 0
+31
+Z13 !s108 1616748528.000000
+Z14 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_cpu_cv_sim_cpu_inst.v|
+Z15 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_cpu_cv_sim_cpu_inst.v|-work|s0|
+!i113 1
+R6
+R7
+n57279c4
+v7Yt1CoTta6YaA1EQY9T4W55FgMmSZdrzom0duYQqerdFJbUy5ipAv1l7GQ+OEYXZppsy3fQI3ils0thqzwkR9osW5IGr+mXswFgPVY06Uq0=
+R8
+!i10b 0
+!s100 4z@mY25hG8hY8Z5zzk5mA0
+IzSJc;f1^Y]jahfNYZ8D_M1
+R2
+!i8a 674519168
+R0
+R9
+R10
+R11
+R12
+R4
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R6
+R7
+n225c355
+v1bx/KBSVkhYCNMQYFAomg2go1MoObVs77mz0KBcTljkSPW7J2MVXKng2g/nxRl6T82bzorRJ3srh0vR3mvHDb6Y4IX64qM1BssHpekKZ6jA=
+R8
+!i10b 0
+!s100 cFdVn2jdK`9GSQ2S:Wh0S3
+I6P<;a2H5T9XGcFB1AAJ8f2
+R2
+!i8a 2129030256
+R0
+R9
+R10
+R11
+R12
+R4
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R6
+R7
+n225c3a5
+v5twa4VvDULksYf2atgbhLDGAzpfvRCfhzJXqDONMYFjXCA/BvsEToGpvU2O1R8EGnV8I2LnhCGN2KI3XuDBaBw==
+!s110 1616748529
+!i10b 0
+!s100 VgfiY9k];JhG<Y[H^4Zem1
+IWAYThz:RceW6KMM94Q;P@2
+R2
+!i8a 1993368896
+R0
+w1616748529
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_cpu_cv_sim_cpu_inst_test_bench.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_cpu_cv_sim_cpu_inst_test_bench.v
+R12
+R4
+r1
+!s85 0
+31
+Z16 !s108 1616748529.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_cpu_cv_sim_cpu_inst_test_bench.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_cpu_cv_sim_cpu_inst_test_bench.v|-work|s0|
+!i113 1
+R6
+R7
+n6894fa8
+vZ66vLPeR7RIGi2uabxu/nQb2WaNI43UCh3h2+PlnCqTio5cEHQd28GGaMFaournE
+Z17 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z18 !s110 1616748530
+!i10b 0
+!s100 M3>L5:51^IP`UTG=FaENB1
+IeBE7nNTC=UnWOAXM9:j2l2
+R2
+!i8a 1475240864
+!s105 altera_mem_if_sequencer_mem_no_ifdef_params_sv_unit
+S1
+R0
+Z19 w1616748530
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_mem_no_ifdef_params.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_mem_no_ifdef_params.sv
+R12
+R4
+r1
+!s85 0
+31
+R16
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_mem_no_ifdef_params.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_mem_no_ifdef_params.sv|-work|s0|
+!i113 1
+Z20 o-sv -work s0
+R7
+ne3595a3
+vky1QAHElyos/pGvOfxT9h1jLxMIy+ilGXXDApl3JbeY=
+R17
+R18
+!i10b 0
+!s100 DJW5WS<z@JaajLEWUSh2g0
+I6JP>a91U0^cI<`eUR=lS90
+R2
+!i8a 1730891856
+!s105 altera_mem_if_sequencer_rst_sv_unit
+S1
+R0
+R19
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_rst.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_rst.sv
+R12
+R4
+r1
+!s85 0
+31
+Z21 !s108 1616748530.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_rst.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_sequencer_rst.sv|-work|s0|
+!i113 1
+R20
+R7
+n2f33784
+v0e0dkLjqy9+rAOUvOWfHLSlcusUHQgL7IVsPiWaOfMol5IumxNlOjigyfzyGxQ4J
+R17
+Z22 !s110 1616748531
+!i10b 0
+!s100 gK297A6EB7f8jKdg<_=^12
+Ie_6`k1kgTzN6`MTWAbkV=1
+R2
+!i8a 1780319632
+!s105 altera_mem_if_simple_avalon_mm_bridge_sv_unit
+S1
+R0
+Z23 w1616748531
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_simple_avalon_mm_bridge.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_simple_avalon_mm_bridge.sv
+R12
+R4
+r1
+!s85 0
+31
+R21
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_simple_avalon_mm_bridge.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_simple_avalon_mm_bridge.sv|-work|s0|
+!i113 1
+R20
+R7
+n2062d35
+valtera_merlin_arb_adder
+R17
+Z24 !s110 1616748517
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+IUDKL6zg>F15SI@bdl5=KP3
+R2
+Z25 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R3
+Z26 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_merlin_arbitrator.sv
+Z27 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_merlin_arbitrator.sv
+L0 228
+R4
+r1
+!s85 0
+31
+Z28 !s108 1616748517.000000
+Z29 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_merlin_arbitrator.sv|
+Z30 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_merlin_arbitrator.sv|-work|s0|
+!i113 1
+R20
+R7
+valtera_merlin_arbitrator
+R17
+R24
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+IC1Alf8P<UT>C78F[1L`A@3
+R2
+R25
+S1
+R0
+R3
+R26
+R27
+L0 103
+R4
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R20
+R7
+veJtNap0rp4VN4Dkt5hZ7Igw/HDsjwPcnkFdy+q6xF7ZcYYU7RfD2nAm/aUJIbP+N
+R17
+R22
+!i10b 0
+!s100 10:Yah_6ZYFgR8ahOQQDS2
+I8E63CMI>5NERAA?9G:hHk0
+R2
+!i8a 54314096
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R23
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_burst_uncompressor.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_burst_uncompressor.sv
+R12
+R4
+r1
+!s85 0
+31
+Z31 !s108 1616748531.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_burst_uncompressor.sv|-work|s0|
+!i113 1
+R20
+R7
+n4d119a2
+vPSmStWRVHk2l9Vp/iTlFP+s7O5XqLjkc2/BtQYcMuvE=
+R17
+Z32 !s110 1616748532
+!i10b 0
+!s100 FKEb=]2HUhOLU1LjHjmni1
+IL=YHc_R;i1:?;M3KGP?7e0
+R2
+!i8a 1171546448
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+Z33 w1616748532
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_master_agent.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_master_agent.sv
+R12
+R4
+r1
+!s85 0
+31
+R31
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_master_agent.sv|-work|s0|
+!i113 1
+R20
+R7
+n20adf74
+vaE+BaNCxUJQ/i4Yo0KeVKpeEAvx9nlw9rvch42OK2vs=
+R17
+R32
+!i10b 0
+!s100 DOjcnPVY1z@D[d7zNjFCQ2
+I<2;n9UQTf610U36i84ETK1
+R2
+!i8a 1158112576
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R33
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_slave_agent.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_slave_agent.sv
+R12
+R4
+r1
+!s85 0
+31
+!s108 1616748532.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_slave_agent.sv|-work|s0|
+!i113 1
+R20
+R7
+n527aa64
+vYeLSDXG0fD1hOo0x8rQOmSvh6qMyXjMqNSLS0N/B9a0=
+R17
+!s110 1616748533
+!i10b 0
+!s100 :HYTcA94XoQOJBW1ZK;HA1
+Id1PHoGTKgaigC8YzC`a_70
+R2
+!i8a 1186161552
+!s105 altera_merlin_traffic_limiter_sv_unit
+S1
+R0
+w1616748533
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_traffic_limiter.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_traffic_limiter.sv
+R12
+R4
+r1
+!s85 0
+31
+!s108 1616748533.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_traffic_limiter.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_merlin_traffic_limiter.sv|-work|s0|
+!i113 1
+R20
+R7
+nfd29c52
+Elpddr2_s0
+R3
+Z34 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z35 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z36 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z37 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0.vhd
+Z38 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0.vhd
+l0
+L12
+V`K?Mc9hdfRzA28:8jZO?Q0
+!s100 HP:C@IjZcJEV@<Tln;oj32
+Z39 OV;C;10.5b;63
+32
+R1
+!i10b 1
+Z40 !s108 1616748515.000000
+Z41 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0.vhd|-work|s0|
+Z42 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0.vhd|
+!i113 1
+R6
+Z43 tExplicit 1 CvgOpt 0
+Artl
+R34
+R35
+R36
+DEx4 work 9 lpddr2_s0 0 22 `K?Mc9hdfRzA28:8jZO?Q0
+l507
+L49
+ViRl_MJ6M@kF=@BQ1?ooo>3
+!s100 FD]hgKjE:E[zmPBnPkO1c2
+R39
+32
+R1
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R6
+R43
+vLPDDR2_s0_irq_mapper
+R17
+Z44 !s110 1616748518
+!i10b 1
+!s100 5i@U7^QHRgKiF8JOooKPH2
+Ie<]>CC^>Am]BHNg6Afl<?1
+R2
+!s105 LPDDR2_s0_irq_mapper_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_irq_mapper.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_irq_mapper.sv
+L0 31
+R4
+r1
+!s85 0
+31
+Z45 !s108 1616748518.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_irq_mapper.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_irq_mapper
+Elpddr2_s0_mm_interconnect_0
+R3
+R34
+R35
+R36
+R0
+Z46 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0.vhd
+Z47 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0.vhd
+l0
+L12
+VkQjFVok@NS^2S1MePZkgH2
+!s100 JTDET7OD_9O5UjI=lNM062
+R39
+32
+R44
+!i10b 1
+R45
+Z48 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0.vhd|-work|s0|
+Z49 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 27 lpddr2_s0_mm_interconnect_0 0 22 kQjFVok@NS^2S1MePZkgH2
+l2156
+L98
+V1bYgS7MH4H]RMIZj=BA;Z0
+!s100 ^Cj7Vd9@hgSLlB?L>TeFK1
+R39
+32
+R44
+!i10b 1
+R45
+R48
+R49
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_avalon_st_adapter
+R3
+R34
+R35
+R36
+R0
+Z50 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_avalon_st_adapter.vhd
+Z51 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_avalon_st_adapter.vhd
+l0
+L12
+VgHYLl[WL3P87d45Xdz<FQ2
+!s100 FAQMPQ2<ONCC7e6gfo7fk3
+R39
+32
+R44
+!i10b 1
+R45
+Z52 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_avalon_st_adapter.vhd|-work|s0|
+Z53 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_avalon_st_adapter.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 45 lpddr2_s0_mm_interconnect_0_avalon_st_adapter 0 22 gHYLl[WL3P87d45Xdz<FQ2
+l61
+L44
+V_ohP>4heEVSAEPETBBT`E3
+!s100 k<k<oOKBi1=7?Ob@hh[eG3
+R39
+32
+R44
+!i10b 1
+R45
+R52
+R53
+!i113 1
+R6
+R43
+vLPDDR2_s0_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R17
+R44
+!i10b 1
+!s100 _4KLA<S5HXN>;US][=fLZ3
+I^PQdc?`hFVT;?V4@LcSOK0
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+L0 66
+R4
+r1
+!s85 0
+31
+R45
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+vLPDDR2_s0_mm_interconnect_0_cmd_demux
+R17
+R44
+!i10b 1
+!s100 m=?8635gLXLClNc7Qh<_83
+I>E7eYRgh]V?4<O<D3c8:c3
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux.sv
+Z54 L0 43
+R4
+r1
+!s85 0
+31
+R45
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_cmd_demux
+vLPDDR2_s0_mm_interconnect_0_cmd_demux_001
+R17
+Z55 !s110 1616748519
+!i10b 1
+!s100 SHKM_VB89>d`=5eO5J<L>2
+IHaGKI:Y[d1Y@fmML__mDU0
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_001.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_001.sv
+R54
+R4
+r1
+!s85 0
+31
+R45
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_001.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_cmd_demux_001
+vLPDDR2_s0_mm_interconnect_0_cmd_demux_002
+R17
+R55
+!i10b 1
+!s100 177k0>:Nf`R@W=BCC`N<`0
+IRYT7AEH1fE_EfHR1;N20m3
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_cmd_demux_002_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_002.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_002.sv
+R54
+R4
+r1
+!s85 0
+31
+Z56 !s108 1616748519.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_002.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_002.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_cmd_demux_002
+vLPDDR2_s0_mm_interconnect_0_cmd_demux_003
+R17
+R55
+!i10b 1
+!s100 8`4]AgC?>`i1L<_21K:DX3
+I]4gb5m36KQ7MFfjF=zCAC2
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_cmd_demux_003_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_003.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_003.sv
+R54
+R4
+r1
+!s85 0
+31
+R56
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_003.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_demux_003.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_cmd_demux_003
+vLPDDR2_s0_mm_interconnect_0_cmd_mux
+R17
+R55
+!i10b 1
+!s100 3nC^TgncT?D]n23_a1?n73
+IbHh3;81AS1l3L<00[O6c73
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux.sv
+Z57 L0 51
+R4
+r1
+!s85 0
+31
+R56
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_cmd_mux
+vLPDDR2_s0_mm_interconnect_0_cmd_mux_002
+R17
+R55
+!i10b 1
+!s100 _`US_cDRIdLS:0aGf_65;0
+IjYOgCRY`A[4ZTFjWQFc]62
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_cmd_mux_002_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux_002.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux_002.sv
+R57
+R4
+r1
+!s85 0
+31
+R56
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux_002.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux_002.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_cmd_mux_002
+vLPDDR2_s0_mm_interconnect_0_cmd_mux_003
+R17
+R55
+!i10b 1
+!s100 433YQm>6F2[JlU=G=7m8z0
+Ia@^mGbjM<DE8bB^6OKfi<2
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_cmd_mux_003_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux_003.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux_003.sv
+R57
+R4
+r1
+!s85 0
+31
+R56
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux_003.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_cmd_mux_003.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_cmd_mux_003
+Elpddr2_s0_mm_interconnect_0_cpu_inst_data_master_translator
+R3
+R34
+R35
+R36
+R0
+Z58 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_cpu_inst_data_master_translator.vhd
+Z59 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_cpu_inst_data_master_translator.vhd
+l0
+L12
+V@DOFNW>i[>L72UGNgh8WU2
+!s100 U@]lY1?>LnJNXj8iMLL0j3
+R39
+32
+R55
+!i10b 1
+R56
+Z60 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_cpu_inst_data_master_translator.vhd|-work|s0|
+Z61 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_cpu_inst_data_master_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 59 lpddr2_s0_mm_interconnect_0_cpu_inst_data_master_translator 0 22 @DOFNW>i[>L72UGNgh8WU2
+l139
+L75
+V0b0FhRh?kibThT>@3BL1i1
+!s100 g8ZZ:Pn]KfcLV629kLKbT1
+R39
+32
+R55
+!i10b 1
+R56
+R60
+R61
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_cpu_inst_instruction_master_translator
+R3
+R34
+R35
+R36
+R0
+Z62 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_cpu_inst_instruction_master_translator.vhd
+Z63 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_cpu_inst_instruction_master_translator.vhd
+l0
+L12
+VC0^`ZXHTzW@S2JhFdglBn1
+!s100 ^Z>AZ:R^e]zhC043iJ56V0
+R39
+32
+Z64 !s110 1616748520
+!i10b 1
+Z65 !s108 1616748520.000000
+Z66 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_cpu_inst_instruction_master_translator.vhd|-work|s0|
+Z67 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_cpu_inst_instruction_master_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 66 lpddr2_s0_mm_interconnect_0_cpu_inst_instruction_master_translator 0 22 C0^`ZXHTzW@S2JhFdglBn1
+l139
+L75
+V6BEGE73ZFQ29eAMJ_SiLj0
+!s100 `lfhTFZ_a7JJZKc3;eGK52
+R39
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_hphy_bridge_s0_translator
+R3
+R34
+R35
+R36
+R0
+Z68 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_hphy_bridge_s0_translator.vhd
+Z69 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_hphy_bridge_s0_translator.vhd
+l0
+L12
+VFea`RC=A:a<6_k?[OHlPz0
+!s100 05>;VghFIc4IGf131j7bE1
+R39
+32
+R64
+!i10b 1
+R65
+Z70 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_hphy_bridge_s0_translator.vhd|-work|s0|
+Z71 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_hphy_bridge_s0_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 53 lpddr2_s0_mm_interconnect_0_hphy_bridge_s0_translator 0 22 Fea`RC=A:a<6_k?[OHlPz0
+l147
+L79
+V7<_3hXP3NNc@:i^aMT17^0
+!s100 MA>Vbz>_LCRRgZgSgk8fR1
+R39
+32
+R64
+!i10b 1
+R65
+R70
+R71
+!i113 1
+R6
+R43
+vLPDDR2_s0_mm_interconnect_0_router
+R17
+R64
+!i10b 1
+!s100 ]gjmQJj>ZUN7:=UUI3:KW0
+IfUkGmGhN>6U:`2iT2VRBb2
+R2
+Z72 !s105 LPDDR2_s0_mm_interconnect_0_router_sv_unit
+S1
+R0
+R3
+Z73 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router.sv
+Z74 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router.sv
+Z75 L0 84
+R4
+r1
+!s85 0
+31
+R65
+Z76 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router.sv|
+Z77 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router
+vLPDDR2_s0_mm_interconnect_0_router_001
+R17
+R64
+!i10b 1
+!s100 4WPNS[64UXoJ[MQYl4XI93
+IKd:7<N11N;QJ?Z=e]QhM40
+R2
+Z78 !s105 LPDDR2_s0_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R3
+Z79 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_001.sv
+Z80 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_001.sv
+R75
+R4
+r1
+!s85 0
+31
+R65
+Z81 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_001.sv|
+Z82 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_001.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_001
+vLPDDR2_s0_mm_interconnect_0_router_001_default_decode
+R17
+R64
+!i10b 1
+!s100 6chYE<35<nS6lWzHXNN1<3
+IlCRfN_K<7;4ik]oNTlC=C3
+R2
+R78
+S1
+R0
+R3
+R79
+R80
+Z83 L0 45
+R4
+r1
+!s85 0
+31
+R65
+R81
+R82
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_001_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_002
+R17
+R64
+!i10b 1
+!s100 zgTRe7<XNNU2_K4UjZ3nV3
+I?flYPCDEcSk3LfZ_5BzjT1
+R2
+Z84 !s105 LPDDR2_s0_mm_interconnect_0_router_002_sv_unit
+S1
+R0
+R3
+Z85 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_002.sv
+Z86 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_002.sv
+R75
+R4
+r1
+!s85 0
+31
+R65
+Z87 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_002.sv|
+Z88 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_002.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_002
+vLPDDR2_s0_mm_interconnect_0_router_002_default_decode
+R17
+R64
+!i10b 1
+!s100 c@Y;AKz?LG6U;<eW8GnBn2
+ISikKH@L`i`:R;^?3flShz0
+R2
+R84
+S1
+R0
+R3
+R85
+R86
+R83
+R4
+r1
+!s85 0
+31
+R65
+R87
+R88
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_002_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_003
+R17
+R64
+!i10b 1
+!s100 ACkk<C1jMgKK5IH@AQ5Gg0
+IdNo[L7PNC^4?TiU@HK0bl1
+R2
+Z89 !s105 LPDDR2_s0_mm_interconnect_0_router_003_sv_unit
+S1
+R0
+R3
+Z90 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_003.sv
+Z91 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_003.sv
+R75
+R4
+r1
+!s85 0
+31
+R65
+Z92 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_003.sv|
+Z93 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_003.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_003
+vLPDDR2_s0_mm_interconnect_0_router_003_default_decode
+R17
+R64
+!i10b 1
+!s100 PRF^EL:3a@Jc3^[m@>gXT2
+I=6mkgaG]:R0A4MJl1R4Pj1
+R2
+R89
+S1
+R0
+R3
+R90
+R91
+R83
+R4
+r1
+!s85 0
+31
+R65
+R92
+R93
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_003_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_004
+R17
+Z94 !s110 1616748521
+!i10b 1
+!s100 X9Tmg?YKj>:e`2dc?P>gn2
+Ihf4aVAPg<822XWL9XH?=Q0
+R2
+Z95 !s105 LPDDR2_s0_mm_interconnect_0_router_004_sv_unit
+S1
+R0
+R3
+Z96 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_004.sv
+Z97 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_004.sv
+R75
+R4
+r1
+!s85 0
+31
+Z98 !s108 1616748521.000000
+Z99 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_004.sv|
+Z100 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_004.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_004
+vLPDDR2_s0_mm_interconnect_0_router_004_default_decode
+R17
+R94
+!i10b 1
+!s100 BQfTBdD@3>E=hmY^Tob1F0
+Ic7ai>cX5BIR>JZ=`WK_5J2
+R2
+R95
+S1
+R0
+R3
+R96
+R97
+R83
+R4
+r1
+!s85 0
+31
+R98
+R99
+R100
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_004_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_005
+R17
+R94
+!i10b 1
+!s100 _M2Cz>65IRJ4H@@gK3QH63
+IAOnAdj;gjQ2@F>hNhB25Y1
+R2
+Z101 !s105 LPDDR2_s0_mm_interconnect_0_router_005_sv_unit
+S1
+R0
+R3
+Z102 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_005.sv
+Z103 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_005.sv
+R75
+R4
+r1
+!s85 0
+31
+R98
+Z104 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_005.sv|
+Z105 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_005.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_005
+vLPDDR2_s0_mm_interconnect_0_router_005_default_decode
+R17
+R94
+!i10b 1
+!s100 jQ^V=aZg2PaH8DXo@j]6J0
+IJz]SVmXSJeX2@SXBS=DY:0
+R2
+R101
+S1
+R0
+R3
+R102
+R103
+R83
+R4
+r1
+!s85 0
+31
+R98
+R104
+R105
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_005_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_007
+R17
+R94
+!i10b 1
+!s100 2PZi>PQmJ>EMflhid4Cf60
+I0]eXckaB]]d7?n=lKQ2W^1
+R2
+Z106 !s105 LPDDR2_s0_mm_interconnect_0_router_007_sv_unit
+S1
+R0
+R3
+Z107 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_007.sv
+Z108 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_007.sv
+R75
+R4
+r1
+!s85 0
+31
+R98
+Z109 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_007.sv|
+Z110 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_007.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_007
+vLPDDR2_s0_mm_interconnect_0_router_007_default_decode
+R17
+R94
+!i10b 1
+!s100 jc_hh`SPPg]gPW<06F0[:3
+IJG0Y5:^o?JlYV<LQFzRi<2
+R2
+R106
+S1
+R0
+R3
+R107
+R108
+R83
+R4
+r1
+!s85 0
+31
+R98
+R109
+R110
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_007_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_008
+R17
+R94
+!i10b 1
+!s100 Ug>JVOQ5SG?A4:g=V4mS60
+Il;2P[bS[zoY@EiE_R8V3=1
+R2
+Z111 !s105 LPDDR2_s0_mm_interconnect_0_router_008_sv_unit
+S1
+R0
+R3
+Z112 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_008.sv
+Z113 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_008.sv
+R75
+R4
+r1
+!s85 0
+31
+R98
+Z114 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_008.sv|
+Z115 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_008.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_008
+vLPDDR2_s0_mm_interconnect_0_router_008_default_decode
+R17
+R94
+!i10b 1
+!s100 F?>W5iKhVMD5H<4XPInIC2
+I4`98UBkjJbnbI4U6=kHbo0
+R2
+R111
+S1
+R0
+R3
+R112
+R113
+R83
+R4
+r1
+!s85 0
+31
+R98
+R114
+R115
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_008_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_009
+R17
+Z116 !s110 1616748522
+!i10b 1
+!s100 M^L6gUzLMa;1[F_ai>[F;2
+I=>lfh30nOEKKGj1HHkD6z0
+R2
+Z117 !s105 LPDDR2_s0_mm_interconnect_0_router_009_sv_unit
+S1
+R0
+R3
+Z118 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_009.sv
+Z119 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_009.sv
+R75
+R4
+r1
+!s85 0
+31
+Z120 !s108 1616748522.000000
+Z121 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_009.sv|
+Z122 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_009.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_009
+vLPDDR2_s0_mm_interconnect_0_router_009_default_decode
+R17
+R116
+!i10b 1
+!s100 0dYmVCl[iXEgJFSeoX?gh2
+IPFJb7Via<ik?;UI__UfDe0
+R2
+R117
+S1
+R0
+R3
+R118
+R119
+R83
+R4
+r1
+!s85 0
+31
+R120
+R121
+R122
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_009_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_010
+R17
+R116
+!i10b 1
+!s100 <UNSeXROVKbW451]=j<NY0
+I9<LP5eXGC;AXO3BbPj9RK0
+R2
+Z123 !s105 LPDDR2_s0_mm_interconnect_0_router_010_sv_unit
+S1
+R0
+R3
+Z124 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_010.sv
+Z125 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_010.sv
+R75
+R4
+r1
+!s85 0
+31
+R120
+Z126 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_010.sv|
+Z127 !s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_router_010.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_010
+vLPDDR2_s0_mm_interconnect_0_router_010_default_decode
+R17
+R116
+!i10b 1
+!s100 gE>Y7G`RWYQb0bBlNPP=k0
+ImLYJAmfN653;?_XmPoGO>3
+R2
+R123
+S1
+R0
+R3
+R124
+R125
+R83
+R4
+r1
+!s85 0
+31
+R120
+R126
+R127
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_010_default_decode
+vLPDDR2_s0_mm_interconnect_0_router_default_decode
+R17
+R64
+!i10b 1
+!s100 Uf2:VR@S4ELBV9dQ;zXSk0
+I>kLlCVbNS>N4KoAoBLbfL2
+R2
+R72
+S1
+R0
+R3
+R73
+R74
+R83
+R4
+r1
+!s85 0
+31
+R65
+R76
+R77
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_router_default_decode
+vLPDDR2_s0_mm_interconnect_0_rsp_demux_002
+R17
+R116
+!i10b 1
+!s100 S9:P7H_idO]k0:oCgCS331
+IZn^fIUGIgo9YIf>ZDj>L61
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_rsp_demux_002_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_demux_002.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_demux_002.sv
+R54
+R4
+r1
+!s85 0
+31
+R120
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_demux_002.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_demux_002.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_rsp_demux_002
+vLPDDR2_s0_mm_interconnect_0_rsp_mux
+R17
+R116
+!i10b 1
+!s100 Tl@A5oEL]HQTHfh]QCVkD0
+IeH9NITG[ZW46V0ARSJ7CP2
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux.sv
+R57
+R4
+r1
+!s85 0
+31
+R120
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_rsp_mux
+vLPDDR2_s0_mm_interconnect_0_rsp_mux_001
+R17
+Z128 !s110 1616748523
+!i10b 1
+!s100 7[XZO>MmDf[Oe9N1]eAoF2
+IJT^_>R]EFMYab=^7jnI0A0
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux_001.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux_001.sv
+R57
+R4
+r1
+!s85 0
+31
+Z129 !s108 1616748523.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux_001.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_rsp_mux_001
+vLPDDR2_s0_mm_interconnect_0_rsp_mux_002
+R17
+R128
+!i10b 1
+!s100 _b0HM[cnT^LE2<33?mUnL1
+I[Z0Fif72B[k9eR[`LT2j51
+R2
+!s105 LPDDR2_s0_mm_interconnect_0_rsp_mux_002_sv_unit
+S1
+R0
+R3
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux_002.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux_002.sv
+R57
+R4
+r1
+!s85 0
+31
+R129
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux_002.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/LPDDR2_s0_mm_interconnect_0_rsp_mux_002.sv|-work|s0|
+!i113 1
+R20
+R7
+n@l@p@d@d@r2_s0_mm_interconnect_0_rsp_mux_002
+Elpddr2_s0_mm_interconnect_0_seq_bridge_m0_translator
+R3
+R34
+R35
+R36
+R0
+Z130 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_seq_bridge_m0_translator.vhd
+Z131 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_seq_bridge_m0_translator.vhd
+l0
+L12
+VYBdYTP09O=SlSId3l:XBn1
+!s100 Y7@1GBkHL453;[TnWOi9G0
+R39
+32
+Z132 !s110 1616748524
+!i10b 1
+Z133 !s108 1616748524.000000
+Z134 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_seq_bridge_m0_translator.vhd|-work|s0|
+Z135 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_seq_bridge_m0_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 52 lpddr2_s0_mm_interconnect_0_seq_bridge_m0_translator 0 22 YBdYTP09O=SlSId3l:XBn1
+l139
+L75
+V5oBmPm5IC1[>FWPkKAAaB0
+!s100 dUFoSdKbn7SEF<WNcY77n2
+R39
+32
+R132
+!i10b 1
+R133
+R134
+R135
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_sequencer_mem_s1_translator
+R3
+R34
+R35
+R36
+R0
+Z136 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_mem_s1_translator.vhd
+Z137 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_mem_s1_translator.vhd
+l0
+L12
+VJe>bD^@Nl8=TOLWHk3l>62
+!s100 zmGEKk:;BI;e=KUTmCaGE0
+R39
+32
+R128
+!i10b 1
+R129
+Z138 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_mem_s1_translator.vhd|-work|s0|
+Z139 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_mem_s1_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 55 lpddr2_s0_mm_interconnect_0_sequencer_mem_s1_translator 0 22 Je>bD^@Nl8=TOLWHk3l>62
+l147
+L79
+VQQ3ZDf1`<SS^:Bhm>R0Qg3
+!s100 Ik0G@Z7Sz`Xd>maWVE]E<1
+R39
+32
+R128
+!i10b 1
+R129
+R138
+R139
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_sequencer_reg_file_inst_avl_translator
+R3
+R34
+R35
+R36
+R0
+Z140 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_reg_file_inst_avl_translator.vhd
+Z141 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_reg_file_inst_avl_translator.vhd
+l0
+L12
+ViL0?>==W3__X3W8BYTMHF1
+!s100 EcD?Y0kE8EgbZS4dT[:=`1
+R39
+32
+R132
+!i10b 1
+R129
+Z142 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_reg_file_inst_avl_translator.vhd|-work|s0|
+Z143 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_reg_file_inst_avl_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 66 lpddr2_s0_mm_interconnect_0_sequencer_reg_file_inst_avl_translator 0 22 iL0?>==W3__X3W8BYTMHF1
+l147
+L79
+Vh1jPWhH>>l7NN2`LIG6hQ3
+!s100 ohz>?IkB1H?CCOi5`8J810
+R39
+32
+R132
+!i10b 1
+R129
+R142
+R143
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_sequencer_scc_mgr_inst_avl_translator
+R3
+R34
+R35
+R36
+R0
+Z144 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_scc_mgr_inst_avl_translator.vhd
+Z145 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_scc_mgr_inst_avl_translator.vhd
+l0
+L12
+V<of17Bhe4QbYzYA3>BWWX3
+!s100 F;em=EB_L[Ij?iAMJL<h[2
+R39
+32
+R132
+!i10b 1
+R133
+Z146 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_scc_mgr_inst_avl_translator.vhd|-work|s0|
+Z147 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_scc_mgr_inst_avl_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 65 lpddr2_s0_mm_interconnect_0_sequencer_scc_mgr_inst_avl_translator 0 22 <of17Bhe4QbYzYA3>BWWX3
+l147
+L79
+V;0fJekBVd:A5Nn2]bmKLX2
+!s100 >j0h:]zb61oW2Jak>z7F41
+R39
+32
+R132
+!i10b 1
+R133
+R146
+R147
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trkm_translator
+R3
+R34
+R35
+R36
+R0
+Z148 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trkm_translator.vhd
+Z149 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trkm_translator.vhd
+l0
+L12
+VRagVNnD>C_SNCU;gm@XJf0
+!s100 ?H<DC>SGo[cBR=n;a_7bE3
+R39
+32
+R132
+!i10b 1
+R133
+Z150 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trkm_translator.vhd|-work|s0|
+Z151 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trkm_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 66 lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trkm_translator 0 22 RagVNnD>C_SNCU;gm@XJf0
+l139
+L75
+VUL[aQ1Ei5lNKM2CTDdH^k1
+!s100 78_^jC2ia[DeYcZcD:nEo0
+R39
+32
+R132
+!i10b 1
+R133
+R150
+R151
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trks_translator
+R3
+R34
+R35
+R36
+R0
+Z152 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trks_translator.vhd
+Z153 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trks_translator.vhd
+l0
+L12
+VIS;zlgl;_TeePFgX;omMj0
+!s100 SD@ceVCR^9;gz?2Rof=U03
+R39
+32
+R132
+!i10b 1
+R133
+Z154 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trks_translator.vhd|-work|s0|
+Z155 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trks_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 66 lpddr2_s0_mm_interconnect_0_sequencer_trk_mgr_inst_trks_translator 0 22 IS;zlgl;_TeePFgX;omMj0
+l147
+L79
+V^4OSQJ0[GIb<37n00KO4h1
+!s100 _LL5:joVDJoiA5UmmkUV;1
+R39
+32
+R132
+!i10b 1
+R133
+R154
+R155
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_trk_mm_bridge_m0_translator
+R3
+R34
+R35
+R36
+R0
+Z156 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_trk_mm_bridge_m0_translator.vhd
+Z157 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_trk_mm_bridge_m0_translator.vhd
+l0
+L12
+Vi>WCVOIka2Zf]zV2TF:[]0
+!s100 SFoh8eSZ:8gD98Zm5S:6z3
+R39
+32
+Z158 !s110 1616748525
+!i10b 1
+Z159 !s108 1616748525.000000
+Z160 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_trk_mm_bridge_m0_translator.vhd|-work|s0|
+Z161 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_trk_mm_bridge_m0_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 55 lpddr2_s0_mm_interconnect_0_trk_mm_bridge_m0_translator 0 22 i>WCVOIka2Zf]zV2TF:[]0
+l139
+L75
+Va8zJKFb=7Y;ZXTIcQl9SE2
+!s100 9MgIaUI>A;Ec3hjDQiEzB2
+R39
+32
+R158
+!i10b 1
+R159
+R160
+R161
+!i113 1
+R6
+R43
+Elpddr2_s0_mm_interconnect_0_trk_mm_bridge_s0_translator
+R3
+R34
+R35
+R36
+R0
+Z162 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_trk_mm_bridge_s0_translator.vhd
+Z163 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_trk_mm_bridge_s0_translator.vhd
+l0
+L12
+VKQKK4P4KVDD0J7W95?B030
+!s100 1`_@A3T[icL5257N4c4P52
+R39
+32
+R158
+!i10b 1
+R159
+Z164 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_trk_mm_bridge_s0_translator.vhd|-work|s0|
+Z165 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_mm_interconnect_0_trk_mm_bridge_s0_translator.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 55 lpddr2_s0_mm_interconnect_0_trk_mm_bridge_s0_translator 0 22 KQKK4P4KVDD0J7W95?B030
+l147
+L79
+VE@J`b33aZ7bLcY@N<6ARQ1
+!s100 l3X:UD^?FD9m<bE0m^i`i3
+R39
+32
+R158
+!i10b 1
+R159
+R164
+R165
+!i113 1
+R6
+R43
+Elpddr2_s0_seq_bridge
+R3
+R34
+R35
+R36
+R0
+Z166 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_seq_bridge.vhd
+Z167 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_seq_bridge.vhd
+l0
+L12
+VGM>n4o?<[aBDz9eIE[@cH1
+!s100 Fe[ca[Q?9b9:T?e4ngjTZ3
+R39
+32
+R1
+!i10b 1
+R5
+Z168 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_seq_bridge.vhd|-work|s0|
+Z169 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_seq_bridge.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 20 lpddr2_s0_seq_bridge 0 22 GM>n4o?<[aBDz9eIE[@cH1
+l87
+L49
+Vze[0fH;<0]f<Eaeh[7AG52
+!s100 U^7OP9J:@Tmi_I2Z:9KWf3
+R39
+32
+R1
+!i10b 1
+R5
+R168
+R169
+!i113 1
+R6
+R43
+Elpddr2_s0_trk_mm_bridge
+R3
+R34
+R35
+R36
+R0
+Z170 8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_trk_mm_bridge.vhd
+Z171 FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_trk_mm_bridge.vhd
+l0
+L12
+VEKVG9BROd46Gh9FIP9k[i2
+!s100 bb=ZXCk6Re;D;;BN>22H51
+R39
+32
+R1
+!i10b 1
+R5
+Z172 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_trk_mm_bridge.vhd|-work|s0|
+Z173 !s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/lpddr2_s0_trk_mm_bridge.vhd|
+!i113 1
+R6
+R43
+Artl
+R34
+R35
+R36
+DEx4 work 23 lpddr2_s0_trk_mm_bridge 0 22 EKVG9BROd46Gh9FIP9k[i2
+l87
+L49
+V765m@<=@:3NUCZA<hk>NP2
+!s100 @PHUVf0Q:9fO8V_kid>kj3
+R39
+32
+R1
+!i10b 1
+R5
+R172
+R173
+!i113 1
+R6
+R43
+vQK9eY6lo1NHMZaJPiKlCBnPOnlMA4eqg6EGIrArDRj8=
+R17
+Z174 !s110 1616748534
+!i10b 0
+!s100 Lfn7cP9kaEX`@0zPfiIU@2
+Ic9AP2W6dzoc4iF^WIQ9XR2
+R2
+!i8a 1010479152
+!s105 sequencer_reg_file_sv_unit
+S1
+R0
+Z175 w1616748534
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_reg_file.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_reg_file.sv
+R12
+R4
+r1
+!s85 0
+31
+Z176 !s108 1616748534.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_reg_file.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_reg_file.sv|-work|s0|
+!i113 1
+R20
+R7
+n8d4c365
+vCw0JLSGxSkE6W13fm6/c7vFznavdZI1WDA8Y6w7lRkI=
+R174
+!i10b 0
+!s100 8RQEQZSEazik]IBjIb;[60
+Id89<j3Z3Y2SWRW;VBCn1b2
+R2
+!i8a 1899283408
+R0
+R175
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_acv_phase_decode.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_acv_phase_decode.v
+R12
+R4
+r1
+!s85 0
+31
+R176
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_acv_phase_decode.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_acv_phase_decode.v|-work|s0|
+!i113 1
+R6
+R7
+n9517bc5
+vteCN0ladS9pj4qJpzpzC9mtyt3IwsEl3FuXLhgtQ8GM=
+R17
+!s110 1616748535
+!i10b 0
+!s100 g?bCO=8UdH45@andfnFBM1
+IiC^nMYIN>ccXP9EmoHRK52
+R2
+!i8a 1370801904
+!s105 sequencer_scc_acv_wrapper_sv_unit
+S1
+R0
+w1616748535
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_acv_wrapper.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_acv_wrapper.sv
+R12
+R4
+r1
+!s85 0
+31
+Z177 !s108 1616748535.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_acv_wrapper.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_acv_wrapper.sv|-work|s0|
+!i113 1
+R20
+R7
+n7cf0902
+vuMhleo0J56D1jJqooME6FXOXnm8gWLl3ycdHzTIQqkI=
+R17
+Z178 !s110 1616748536
+!i10b 0
+!s100 X^YOb7Gc[813odS0nOAJZ3
+Ic`nUWFYA424IaoK5gV=gj3
+R2
+!i8a 952199312
+!s105 sequencer_scc_mgr_sv_unit
+S1
+R0
+Z179 w1616748536
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_mgr.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_mgr.sv
+R12
+R4
+r1
+!s85 0
+31
+R177
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_mgr.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_mgr.sv|-work|s0|
+!i113 1
+R20
+R7
+n5a95332
+vT0orTyh32toEdt5p4ylGmolwHato1/uKLbejy3/OsL8=
+R178
+!i10b 0
+!s100 WUJ<DEfVg4oYm`5U?6Ji]0
+IBP01WGTBBdNiQ=PkS0X1J2
+R2
+!i8a 1423460544
+R0
+R179
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_reg_file.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_reg_file.v
+R12
+R4
+r1
+!s85 0
+31
+!s108 1616748536.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_reg_file.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_reg_file.v|-work|s0|
+!i113 1
+R6
+R7
+n6af59a5
+vVEbrcVho7it7QUIQmj+A8uBDPStG5pq32EOjqbLoM/0=
+!s110 1616748537
+!i10b 0
+!s100 CVhH6`=B@in_DTcUk;PGK1
+IDWzjbNCXABgnbIm>@YP?G3
+R2
+!i8a 2108552768
+R0
+w1616748537
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_siii_phase_decode.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_siii_phase_decode.v
+R12
+R4
+r1
+!s85 0
+31
+Z180 !s108 1616748537.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_siii_phase_decode.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_siii_phase_decode.v|-work|s0|
+!i113 1
+R6
+R7
+nabc41a5
+vJIFqEENSY7BwQakhqP2SpHGL4MJD7ZJoJ5uaq21okfo=
+R17
+!s110 1616748538
+!i10b 0
+!s100 ;`]WeTbdOCQgL2NPT=hCK3
+If6T97KfT8AD>HjzV`94f90
+R2
+!i8a 1898492800
+!s105 sequencer_scc_siii_wrapper_sv_unit
+S1
+R0
+w1616748538
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_siii_wrapper.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_siii_wrapper.sv
+R12
+R4
+r1
+!s85 0
+31
+R180
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_siii_wrapper.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_siii_wrapper.sv|-work|s0|
+!i113 1
+R20
+R7
+n91ad332
+v2fFXHB+/zKNVDg3X17qlLsCKzCMdSyESsreMg2UUT0c=
+Z181 !s110 1616748539
+!i10b 0
+!s100 JJgk0BhKdeg:oia=;zXkB1
+Ikc7^^^VR5Qb5OkLoZLle?3
+R2
+!i8a 1117478544
+R0
+Z182 w1616748539
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_sv_phase_decode.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_sv_phase_decode.v
+R12
+R4
+r1
+!s85 0
+31
+!s108 1616748538.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_sv_phase_decode.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_sv_phase_decode.v|-work|s0|
+!i113 1
+R6
+R7
+n66c7645
+v/tWXfDZ3DzZNIwJjz5Nv8sU+7DUKOClIxtX0Mq3Cj24=
+R17
+R181
+!i10b 0
+!s100 ;96a7<?TUY2Vca[Q4@Ok^1
+I;XkWZkY9iJMfXZ;l;zzWJ1
+R2
+!i8a 1271362496
+!s105 sequencer_scc_sv_wrapper_sv_unit
+S1
+R0
+R182
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_sv_wrapper.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_sv_wrapper.sv
+R12
+R4
+r1
+!s85 0
+31
+!s108 1616748539.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_sv_wrapper.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_scc_sv_wrapper.sv|-work|s0|
+!i113 1
+R20
+R7
+n41fd1f2
+vBE7jljeYA6zEr17VK0eTB6I2nf2BrEbbWAn3x5Tqmec=
+R17
+!s110 1616748540
+!i10b 0
+!s100 =F0X`Xbh>Ao[MbK6e]6Y60
+Ij>lcQc;UI:?[>oaLQJCIB3
+R2
+!i8a 1710675728
+!s105 sequencer_trk_mgr_sv_unit
+S1
+R0
+w1616748540
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_trk_mgr.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_trk_mgr.sv
+R12
+R4
+r1
+!s85 0
+31
+!s108 1616748540.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_trk_mgr.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/sequencer_trk_mgr.sv|-work|s0|
+!i113 1
+R20
+R7
+n7c15332

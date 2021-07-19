@@ -1,0 +1,36 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+vNxvek3YYSvABAmdTRkoVUFn6yS7R4xQ75dVArfxlnY+M/w5f1TQh0qCnhtJhYFs+
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1616748512
+!i10b 0
+!s100 gK297A6EB7f8jKdg<_=^12
+ILnX1g_i@IiFLT3mZSfL7`1
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 452422336
+!s105 altera_mem_if_simple_avalon_mm_bridge_sv_unit
+S1
+R0
+w1616748512
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_simple_avalon_mm_bridge.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_simple_avalon_mm_bridge.sv
+L0 38
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1616748512.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_simple_avalon_mm_bridge.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_simple_avalon_mm_bridge.sv|-work|seq_bridge|
+!i113 1
+o-sv -work seq_bridge
+tCvgOpt 0
+n2062d35

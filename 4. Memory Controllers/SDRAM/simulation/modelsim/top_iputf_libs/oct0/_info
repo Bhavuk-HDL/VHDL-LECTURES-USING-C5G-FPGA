@@ -1,0 +1,36 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+vCyYj0Uz1bG1bM222Nn5hJA8VbQLsRzV3HwdIVHnKjoc=
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1616748514
+!i10b 0
+!s100 Z>:_9bKLd5e:6_FlSVP=d3
+I0_KnHzNf81kOGgMEJHPcJ2
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 1816297024
+!s105 altera_mem_if_oct_cyclonev_sv_unit
+S1
+R0
+w1616748514
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_oct_cyclonev.sv
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_oct_cyclonev.sv
+L0 38
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1616748513.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_oct_cyclonev.sv|
+!s90 -reportprogress|300|-sv|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/mentor/altera_mem_if_oct_cyclonev.sv|-work|oct0|
+!i113 1
+o-sv -work oct0
+tCvgOpt 0
+n9f81f06

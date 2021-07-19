@@ -1,0 +1,8 @@
+
+State Machine - |SPI_PROG|current_state
+Name current_state.stop current_state.data_spi current_state.address_spi current_state.start_spi current_state.idle 
+current_state.idle 0 0 0 0 0 
+current_state.start_spi 0 0 0 1 1 
+current_state.address_spi 0 0 1 0 1 
+current_state.data_spi 0 1 0 0 1 
+current_state.stop 1 0 0 0 1 

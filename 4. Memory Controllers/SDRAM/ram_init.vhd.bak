@@ -1,0 +1,20 @@
+--Library
+library IEEE;
+Use IEEE.std_logic_1164.all;
+Use IEEE.numeric_std.all;
+
+--Entity
+entity ram_init is
+	generic(
+				DATA_WIDTH	: positive := 32;
+				ADDR_WIDTH	: positive := 29;
+				MEM_DEPTH	: positive := (1 << ADDR_WIDTH);
+				BE				: std_logic_vector(3 downto 0) := "0111"
+			 );
+	port	(
+				wr_data_0	:	std_logic_vector((DATA_WIDTH - 1) downto 0);
+				wr_data_1	:	std_logic_vector((DATA_WIDTH - 1) downto 0);
+				wr_data_2	:	std_logic_vector((DATA_WIDTH - 1) downto 0);
+				wr_data_3	:	std_logic_vector((DATA_WIDTH - 1) downto 0);
+			);
+end ram_init;

@@ -1,0 +1,153 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/HDMI/simulation/modelsim
+Ei2c
+Z1 w1616589944
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/intelFPGA_lite/Workspace/HDMI/I2C.vhd
+Z6 FD:/intelFPGA_lite/Workspace/HDMI/I2C.vhd
+l0
+L7
+VEIjkW>:@DKlZFgJF@[8IM1
+!s100 aInEAJfZVh]hLEjFd7iCP3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1616863279
+!i10b 1
+Z9 !s108 1616863279.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/HDMI/I2C.vhd|
+Z11 !s107 D:/intelFPGA_lite/Workspace/HDMI/I2C.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Alogic
+R2
+R3
+R4
+DEx4 work 3 i2c 0 22 EIjkW>:@DKlZFgJF@[8IM1
+l45
+L29
+VWDWkQ?B==5bL2>aN_Fn@M2
+!s100 ?hd_7WCHI[B70eIJV>e3e0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ei2c_config
+Z14 w1616862263
+R2
+R3
+R4
+R0
+Z15 8D:/intelFPGA_lite/Workspace/HDMI/I2C_config.vhd
+Z16 FD:/intelFPGA_lite/Workspace/HDMI/I2C_config.vhd
+l0
+L7
+Vg9hiUYVGil7JCM6dS<zEN3
+!s100 i2U72M_9KL33TL8@oa_cn2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/HDMI/I2C_config.vhd|
+Z18 !s107 D:/intelFPGA_lite/Workspace/HDMI/I2C_config.vhd|
+!i113 1
+R12
+R13
+Alogic
+R2
+R3
+R4
+DEx4 work 10 i2c_config 0 22 g9hiUYVGil7JCM6dS<zEN3
+l61
+L25
+Vf5eaPh9z4@6>RT7dODcUd2
+!s100 =hd;X`V4CBbBL<QzY5[b_1
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Epll_25
+Z19 w1616862380
+R3
+R4
+Z20 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3L]34bNSPL@[RD2AeKH]S3
+R0
+Z21 8D:/intelFPGA_lite/Workspace/HDMI/pll_25_sim/pll_25.vho
+Z22 FD:/intelFPGA_lite/Workspace/HDMI/pll_25_sim/pll_25.vho
+l0
+L34
+V?_Y2hAkCfBj@F>_Z^2h7i0
+!s100 WQ>0le^o]WYg_e@m?5S[;2
+R7
+32
+R8
+!i10b 1
+Z23 !s108 1616863278.000000
+Z24 !s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/HDMI/pll_25_sim/pll_25.vho|
+Z25 !s107 D:/intelFPGA_lite/Workspace/HDMI/pll_25_sim/pll_25.vho|
+!i113 1
+R13
+Artl
+R3
+R4
+R20
+DEx4 work 6 pll_25 0 22 ?_Y2hAkCfBj@F>_Z^2h7i0
+l51
+L44
+VM=l:J9F<1<mbnhc1o>P1@3
+!s100 X=Hn@Y7g39U1O?GV69FgM2
+R7
+32
+R8
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R13
+Etop
+w1616862800
+R2
+R3
+R4
+R0
+8D:/intelFPGA_lite/Workspace/HDMI/top.vhd
+FD:/intelFPGA_lite/Workspace/HDMI/top.vhd
+l0
+L7
+V^8ZT7W[]D:O_ST>;6CNK<0
+!s100 0ADYl=G7na;2b4k3k>?PF0
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|D:/intelFPGA_lite/Workspace/HDMI/top.vhd|
+!s107 D:/intelFPGA_lite/Workspace/HDMI/top.vhd|
+!i113 1
+R12
+R13

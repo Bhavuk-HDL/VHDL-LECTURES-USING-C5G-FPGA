@@ -1,0 +1,151 @@
+# Reading D:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ADC_test_run_msim_rtl_vhdl.do
+# if ![file isdirectory ADC_test_iputf_libs] {
+# 	file mkdir ADC_test_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vcom "D:/intelFPGA_lite/Workspace/ADC_test/pll_sim/pll.vho"
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:07:15 on Mar 22,2021
+# vcom -reportprogress 300 D:/intelFPGA_lite/Workspace/ADC_test/pll_sim/pll.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Compiling entity pll
+# -- Compiling architecture RTL of pll
+# End time: 11:07:17 on Mar 22,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {D:/intelFPGA_lite/Workspace/ADC_test/ADC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:07:17 on Mar 22,2021
+# vcom -reportprogress 300 -93 -work work D:/intelFPGA_lite/Workspace/ADC_test/ADC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ADC
+# -- Compiling architecture logic of ADC
+# ** Warning: D:/intelFPGA_lite/Workspace/ADC_test/ADC.vhd(46): (vcom-1013) Initial value of "command_in" depends on value of signal "command".
+# End time: 11:07:17 on Mar 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {D:/intelFPGA_lite/Workspace/ADC_test/ADC_test.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:07:17 on Mar 22,2021
+# vcom -reportprogress 300 -93 -work work D:/intelFPGA_lite/Workspace/ADC_test/ADC_test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ADC_test
+# -- Compiling architecture logic of ADC_test
+# End time: 11:07:18 on Mar 22,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/intelFPGA_lite/Workspace/ADC_test/output_files/Tx.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:07:18 on Mar 22,2021
+# vcom -reportprogress 300 -93 -work work D:/intelFPGA_lite/Workspace/ADC_test/output_files/Tx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Tx
+# -- Compiling architecture main of Tx
+# End time: 11:07:18 on Mar 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/intelFPGA_lite/Workspace/ADC_test/Rx.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:07:18 on Mar 22,2021
+# vcom -reportprogress 300 -93 -work work D:/intelFPGA_lite/Workspace/ADC_test/Rx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Rx
+# -- Compiling architecture main of Rx
+# End time: 11:07:19 on Mar 22,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.adc_test
+# vsim work.adc_test 
+# Start time: 11:07:26 on Mar 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.adc_test(logic)
+# Loading work.adc(logic)
+# Loading work.tx(main)
+# Loading work.rx(main)
+# Loading altera_lnsim.altera_lnsim_components
+# Loading work.pll(rtl)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_lnsim_functions
+# Loading altera_lnsim.altera_pll
+# Loading altera_lnsim.dps_extra_kick
+# Loading altera_lnsim.dprio_init
+# Loading altera_lnsim.altera_generic_pll_functions
+# Loading altera_lnsim.generic_pll
+add wave -position end  sim:/adc_test/SDI
+add wave -position end  sim:/adc_test/SDO
+add wave -position end  sim:/adc_test/SCK
+add wave -position end  sim:/adc_test/CONVST
+add wave -position end  sim:/adc_test/clock
+add wave -position end  sim:/adc_test/led_data
+add wave -position end  sim:/adc_test/led_nthing
+add wave -position end  sim:/adc_test/led_rx_pulse
+add wave -position end  sim:/adc_test/start
+add wave -position end  sim:/adc_test/reset_all
+add wave -position end  sim:/adc_test/UART_Tx
+add wave -position end  sim:/adc_test/UART_Rx
+add wave -position end  sim:/adc_test/cmd
+force -freeze sim:/adc_test/clock 1 0, 0 {10000 ps} -r 20000
+force -freeze sim:/adc_test/start 1 0
+force -freeze sim:/adc_test/reset_all 1 0
+run
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (adc_test.C3.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = adc_test.C3.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 40 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 12500.000000
+# Info: output_clock_low_period = 12500.000000
+add wave -position end  sim:/adc_test/Rx_data
+force -freeze sim:/adc_test/Rx_data 01010111 0
+run
+add wave -position end  sim:/adc_test/Tx_busy
+force -freeze sim:/adc_test/Tx_busy 0 0
+run
+add wave -position end  sim:/adc_test/ready
+force -freeze sim:/adc_test/ready 1 0
+run
+add wave -position end  sim:/adc_test/reset
+run
+add wave -position end  sim:/adc_test/tx_count
+add wave -position end  sim:/adc_test/rx_pulse
+run
+force -freeze sim:/adc_test/rx_pulse 1 0
+run
+# End time: 11:13:13 on Mar 22,2021, Elapsed time: 0:05:47
+# Errors: 0, Warnings: 0

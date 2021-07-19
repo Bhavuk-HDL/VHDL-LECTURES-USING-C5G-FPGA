@@ -1,0 +1,169 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+# Date created = 14:41:45  February 17, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		SRAM_test_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CGXFC5C6F27C7
+set_global_assignment -name TOP_LEVEL_ENTITY SRAM_test
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.1.2
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:41:45  FEBRUARY 17, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name VHDL_FILE Tx.vhd
+set_global_assignment -name VHDL_FILE Rx.vhd
+set_global_assignment -name VHDL_FILE SRAM_test.vhd
+set_global_assignment -name VHDL_FILE sram_cntrl.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_G25 -to we
+set_location_assignment PIN_M25 -to ub
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to we
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to ub
+set_location_assignment PIN_AB24 -to rst_all
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to rst_all
+set_location_assignment PIN_M22 -to oe
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to oe
+set_location_assignment PIN_H25 -to lb
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to lb
+set_location_assignment PIN_H12 -to clock
+set_location_assignment PIN_N23 -to ce
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to ce
+set_location_assignment PIN_L9 -to UART_Tx
+set_location_assignment PIN_M9 -to UART_Rx
+set_location_assignment PIN_B25 -to adr[0]
+set_location_assignment PIN_B26 -to adr[1]
+set_location_assignment PIN_H19 -to adr[2]
+set_location_assignment PIN_H20 -to adr[3]
+set_location_assignment PIN_D25 -to adr[4]
+set_location_assignment PIN_C25 -to adr[5]
+set_location_assignment PIN_J20 -to adr[6]
+set_location_assignment PIN_J21 -to adr[7]
+set_location_assignment PIN_D22 -to adr[8]
+set_location_assignment PIN_E23 -to adr[9]
+set_location_assignment PIN_G20 -to adr[10]
+set_location_assignment PIN_F21 -to adr[11]
+set_location_assignment PIN_E21 -to adr[12]
+set_location_assignment PIN_F22 -to adr[13]
+set_location_assignment PIN_J25 -to adr[14]
+set_location_assignment PIN_J26 -to adr[15]
+set_location_assignment PIN_N24 -to adr[16]
+set_location_assignment PIN_M24 -to adr[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to adr[17]
+set_location_assignment PIN_E24 -to dq[0]
+set_location_assignment PIN_E25 -to dq[1]
+set_location_assignment PIN_K24 -to dq[2]
+set_location_assignment PIN_K23 -to dq[3]
+set_location_assignment PIN_F24 -to dq[4]
+set_location_assignment PIN_G24 -to dq[5]
+set_location_assignment PIN_L23 -to dq[6]
+set_location_assignment PIN_L24 -to dq[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[7]
+set_location_assignment PIN_H23 -to dq[8]
+set_location_assignment PIN_H24 -to dq[9]
+set_location_assignment PIN_H22 -to dq[10]
+set_location_assignment PIN_J23 -to dq[11]
+set_location_assignment PIN_F23 -to dq[12]
+set_location_assignment PIN_G22 -to dq[13]
+set_location_assignment PIN_L22 -to dq[14]
+set_location_assignment PIN_K21 -to dq[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dq[15]
+set_location_assignment PIN_AC9 -to sw_addr
+set_location_assignment PIN_AE10 -to sw_data
+set_location_assignment PIN_AD13 -to sw_read
+set_location_assignment PIN_AC8 -to sw_write
+set_location_assignment PIN_W11 -to sw_snd
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw_addr
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw_data
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw_read
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw_snd
+set_instance_assignment -name IO_STANDARD "1.2 V" -to sw_write
+set_location_assignment PIN_L7 -to led_adr[0]
+set_location_assignment PIN_K6 -to led_adr[1]
+set_location_assignment PIN_D8 -to led_adr[2]
+set_location_assignment PIN_E9 -to led_adr[3]
+set_location_assignment PIN_A5 -to led_adr[4]
+set_location_assignment PIN_B6 -to led_adr[5]
+set_location_assignment PIN_H8 -to led_adr[6]
+set_location_assignment PIN_H9 -to led_adr[7]
+set_location_assignment PIN_F7 -to led_rx[0]
+set_location_assignment PIN_F6 -to led_rx[1]
+set_location_assignment PIN_G6 -to led_rx[2]
+set_location_assignment PIN_G7 -to led_rx[3]
+set_location_assignment PIN_J8 -to led_rx[4]
+set_location_assignment PIN_J7 -to led_rx[5]
+set_location_assignment PIN_K10 -to led_rx[6]
+set_location_assignment PIN_K8 -to led_rx[7]
+set_location_assignment PIN_J10 -to led_rst
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

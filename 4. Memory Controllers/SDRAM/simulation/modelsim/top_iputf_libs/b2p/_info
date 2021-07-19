@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/Workspace/SDRAM/simulation/modelsim
+valtera_avalon_st_bytes_to_packets
+!s110 1616748507
+!i10b 1
+!s100 ;<iYFY8LSk5SY9lfnK0]32
+IKl?HzG4l29cF_n1d[Z@d62
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1614854400
+8D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_bytes_to_packets.v
+FD:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_bytes_to_packets.v
+L0 19
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1616748507.000000
+!s107 D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_bytes_to_packets.v|
+!s90 -reportprogress|300|D:/intelFPGA_lite/Workspace/SDRAM/LPDDR2_sim/LPDDR2/altera_avalon_st_bytes_to_packets.v|-work|b2p|
+!i113 1
+o-work b2p
+tCvgOpt 0
